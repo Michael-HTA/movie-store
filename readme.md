@@ -20,4 +20,8 @@ A simple project to explore, manage, and share movies. This repository contains 
 
 1. Clone the repository:
    ```bash
-   clone this repository.
+   git clone url
+
+Figma Link 
+
+https://www.figma.com/design/SXd4DDF0K8EPnVFR7IZI6L/Untitled?node-id=0-1&t=Suc5xGMZQQex2xpu-1
