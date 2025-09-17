@@ -9,17 +9,17 @@
 }
 
 .form-control::placeholder {
-  color: #e9471e; /* Bootstrap warning color */
+  color: #ff0000; /* Bootstrap warning color */
 }
 
 /* color setting for hamburger toggle */
 .hamburger {
-  color: #e9471e;
+  color: #ff0000;
 }
 
 /* color setting for search button background */
 .search-btn {
-  background-color: #e9471e; /* set background */
+  background-color: #ff0000; /* set background */
   border: none; /* remove Bootstrap border if you don’t want it */
 }
 
@@ -32,7 +32,7 @@
 }
 
 .navbar-toggler {
-  border: 2px solid #e9471e; /* Bootstrap warning color */
+  border: 2px solid #ff0000; /* Bootstrap warning color */
   border-radius: 5px; /* optional rounded corners */
   box-shadow: none !important;
 }
@@ -51,17 +51,17 @@
   left: 65%;
 }
 .bi-play{
-  color: #E9471E;
+  color: #ff0000;
 }
 .bi-detail{
   color: white;
 }
 .btn-play{
   background-color: white;
-  color: #E9471E;
+  color: #ff0000;
 }
 .btn-detail{
-  background-color: #E9471E;
+  background-color: #ff0000;
   color: white;
 }
 
@@ -142,14 +142,14 @@ h3 {
   left: 65%;
 }
 .bi-play {
-  color: #e9471e;
+  color: #ff0000;
 }
 .bi-detail {
   color: white;
 }
 .btn-play {
   background-color: white;
-  color: #e9471e;
+  color: #ff0000;
 }
 
 /* Setting for footer */
@@ -160,7 +160,7 @@ h3 {
 }
 
 .footer {
-  color: #e9471e;
+  color: #ff0000;
 }
 
 .bi-facebook {
@@ -175,6 +175,6 @@ h3 {
   color: red;
 }
 .btn-detail {
-  background-color: #e9471e;
+  background-color: #ff0000;
   color: white;
 }
