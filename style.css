@@ -37,3 +37,30 @@
     border-radius: 5px; /* optional rounded corners */
     box-shadow: none !important;
 }
+
+
+
+
+/* Setting for footer */
+
+.footer, .navbar-background{
+    background-color: rgba(54, 54, 54, 0.5); /* 50% transparent gray */
+}
+
+.footer {
+    color: #E9471E;
+}
+
+.bi-facebook{
+    color: #1877F2;
+}
+
+.bi-twitter-x{
+    color: white;
+}
+
+
+.bi-youtube{
+    color: red;
+}
+
