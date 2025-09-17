@@ -98,6 +98,21 @@
 }
 .carousel_text {
   display: inline-block;
+  height: 500px;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+.carousel-btn {
+  left: 65%;
+}
+.bi-play {
+  color: #e9471e;
+}
+.bi-detail {
+  color: white;
+}
+.btn-play {
+  background-color: white;
+  color: #e9471e;
 }
 
 /* Setting for footer */
@@ -121,4 +136,8 @@
 
 .bi-youtube {
   color: red;
+}
+.btn-detail {
+  background-color: #e9471e;
+  color: white;
 }
