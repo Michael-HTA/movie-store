@@ -37,3 +37,17 @@
     border-radius: 5px; /* optional rounded corners */
     box-shadow: none !important;
 }
+
+.ad-img {
+  position: absolute;
+  z-index: -1;
+  /* opacity: 0.8;  */
+}
+
+.carousel_item {
+    height: 500px;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+} 
+.carousel_text{
+  display: inline-block;
+}

@@ -24,59 +24,106 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+<style>
+
+</style>
 
 <body class="bg-dark">
     <div class="container-fluid">
-
         <!-- Navbar -->
         <div class="row">
 
             <!-- hamburger toggle menu -->
-            <div class="col-6">
+            <div class="col-7">
                 <nav class="navbar">
-                    <button class="navbar-toggler">
+                    <button class="navbar-toggler mx-4">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                 </nav>
             </div>
 
             <!-- Search box & search button -->
-            <div class="col-6 mt-2">
+            <div class="col-5 mt-2">
                 <div class="row">
-                    <div class="col-10">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2 rounded-pill text-white" type="search" placeholder="Search for movies"
-                                aria-label="Search for movies">
-                            <button class="btn search-btn rounded-pill w-25" type="submit"><i class="bi bi-search text-white"></i></i></button>
-                        </form>
-                    </div>
+
+                    <form class="d-flex" role="search">
+                        <div class="col-8 mx-5">
+                            <input class="form-control me-2 rounded-pill text-white" type="search"
+                                placeholder="Search for movies" aria-label="Search for movies">
+                        </div>
+                        <div class="col-4">
+                            <button class="btn search-btn rounded-pill w-25" type="submit"><i
+                                    class="bi bi-search text-white"></i></i></button>
+                        </div>
+
+                    </form>
+
                 </div>
             </div>
+            <div class="col-12 ad-img">
+                <div id="carouselMain" class="carousel slide">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="./images/etza/romance/Greatest-Love-Stories-Before-Sunrise.webp"
+                                class="d-block carousel_item w-100" alt="...">
+                            <div class="carousel-caption d-inline">
+                                <button class="btn search-btn rounded-pill w-30 d-inline">Watch Now</button>
+                            </div>
+                            <div class="carousel-caption">
+                                <button class="btn search-btn rounded-pill w-30">Detail</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/etza/romance/Greatest-Love-Stories-Before-Sunrise.webp"
+                                class="d-block w-100 carousel_item" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/etza/romance/Greatest-Love-Stories-Before-Sunrise.webp"
+                                class="d-block w-100 carousel_item" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselMain"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
         </div>
 
-
-
-        <!-- Main  -->
-        <main class="row bg-success">
-            <div class="col">
-                <div class="">hello</div>
-            </div>
-        </main>
-
-
-        <!-- Footer -->
-        <footer class="row bg-primary">
-            <div class="col">
-                <div class="">hello</div>
-            </div>
-        </footer>
     </div>
+
+
+
+
+
+
+
+    <!-- Main  -->
+    <main class="">
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="row bg-primary">
+        <div class="col">
+            <div class="">hello</div>
+        </div>
+    </footer>
 
 
     <!-- bootstrap js cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 
