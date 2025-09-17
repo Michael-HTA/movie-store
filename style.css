@@ -47,8 +47,22 @@
     height: 500px;
     object-fit: cover; /* Ensures the image covers the container without distortion */
 } 
-.carousel_text{
-  display: inline-block;
+.carousel-btn{
+  left: 65%;
+}
+.bi-play{
+  color: #E9471E;
+}
+.bi-detail{
+  color: white;
+}
+.btn-play{
+  background-color: white;
+  color: #E9471E;
+}
+.btn-detail{
+  background-color: #E9471E;
+  color: white;
 }
 
 
