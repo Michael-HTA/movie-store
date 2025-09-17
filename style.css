@@ -37,6 +37,14 @@
   box-shadow: none !important;
 }
 
+main .col {
+  margin-top: 500px;
+}
+
+h3 {
+  color: white;
+}
+
 /*Card Design */
 .movie-card {
   background-color: #222;
