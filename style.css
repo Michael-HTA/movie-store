@@ -9,8 +9,22 @@
 }
 
 .form-control::placeholder {
-  color: #ffc107;
-  /* Bootstrap warning color */
+  color: #e9471e; /* Bootstrap warning color */
+}
+
+/* color setting for hamburger toggle */
+.hamburger {
+  color: #e9471e;
+}
+
+/* color setting for search button background */
+.search-btn {
+  background-color: #e9471e; /* set background */
+  border: none; /* remove Bootstrap border if you don’t want it */
+}
+
+.search-btn:hover {
+  background-color: #c53a17; /* darker shade for hover effect */
 }
 
 .navbar-toggler-icon {
@@ -18,10 +32,8 @@
 }
 
 .navbar-toggler {
-  border: 2px solid #ffc107;
-  /* Bootstrap warning color */
-  border-radius: 5px;
-  /* optional rounded corners */
+  border: 2px solid #e9471e; /* Bootstrap warning color */
+  border-radius: 5px; /* optional rounded corners */
   box-shadow: none !important;
 }
 
@@ -73,6 +85,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.ad-img {
+  position: absolute;
+  z-index: -1;
+  /* opacity: 0.8;  */
+}
+
+.carousel_item {
+  height: 500px;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+}
+.carousel_text {
+  display: inline-block;
 }
 
 /* Setting for footer */
