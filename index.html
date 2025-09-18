@@ -125,22 +125,21 @@
             <div class="col">
                 <div class="container my-4">
                     <h3 class="mt-4 mb-4">Most Popular</h3>
-                    <div class="row justify-content-center g-3" id="mostPopularContainer">
+                    <div class="row justify-content-center g-3 ms-5" id="mostPopularContainer">
 
                     </div>
 
                     <h3 class="mt-4 mb-4">Comedy</h3>
-                    <div class="row justify-content-center g-3" id="comedyContainer">
+                    <div class="row justify-content-center g-3 ms-5" id="comedyContainer">
                     </div>
-
-                    <h3 class="mt-4 mb-4">Super Heroes</h3>
-                    <div class="row justify-content-center g-3" id="comedyContainer">
-                    </div>
+                    
+                    <!-- More Movies  -->
+                    
 
 
 
                 </div>
-            </div>
+            </div>  
         </main>
 
 
@@ -170,6 +169,20 @@
         </footer>
     </div>
 
+
+<div class="modal fade" id="moreMoviesModal" tabindex="-1" aria-labelledby="moreMoviesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header">
+        <h5 class="modal-title" id="moreMoviesModalLabel">More Movies</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row" id="moreMoviesContainer"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- bootstrap js cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

@@ -43,6 +43,62 @@ const mostPopularMovie = [
     year: 2019,
     img: "images/etza/romance/the_notebook.jpg",
   },
+
+  {
+    title: "Notebook",
+    genre: "Drama",
+    year: 2019,
+    img: "images/etza/romance/the_notebook.jpg",
+  },
+
+  {
+    title: "Notebook",
+    genre: "Drama",
+    year: 2019,
+    img: "images/etza/romance/the_notebook.jpg",
+  },
+
+  {
+    title: "Notebook",
+    genre: "Drama",
+    year: 2019,
+    img: "images/etza/romance/the_notebook.jpg",
+  },
+
+  {
+    title: "Notebook",
+    genre: "Drama",
+    year: 2019,
+    img: "images/etza/romance/the_notebook.jpg",
+  },
+
+  {
+    title: "Notebook",
+    genre: "Drama",
+    year: 2019,
+    img: "images/etza/romance/the_notebook.jpg",
+  },
+
+  {
+    title: "Notebook",
+    genre: "Drama",
+    year: 2019,
+    img: "images/etza/romance/the_notebook.jpg",
+  },
+
+  {
+    title: "Notebook",
+    genre: "Drama",
+    year: 2019,
+    img: "images/etza/romance/the_notebook.jpg",
+  },
+
+  {
+    title: "Notebook",
+    genre: "Drama",
+    year: 2019,
+    img: "images/etza/romance/the_notebook.jpg",
+  },
 ];
 
 const comedyMovie = [
@@ -84,66 +140,142 @@ const comedyMovie = [
     year: 2019,
     img: "images/psa/Comedy/Billy Madison (1995).jpg",
   },
+
   {
     title: "GameOfThrone",
     genre: "Drama",
     year: 2019,
-    img: "images/psa/Comedy/European Gigolo (2005) .jpg",
+    img: "images/psa/Comedy/Billy Madison (1995).jpg",
   },
 ];
 
+// ? This One Apply Movie Card and Flip Card on hover
+
+const moreMoviesContainer = document.getElementById("moreMoviesContainer");
+const modalTitle = document.getElementById("moreMoviesModalLabel");
+function renderExtraMovies(categoryName, movieList) {
+  moreMoviesContainer.innerHTML = "";
+  modalTitle.textContent = `${categoryName} Movies`;
+
+  movieList.slice(5).forEach((movie) => {
+    const col = document.createElement("div");
+    col.className = "col-auto mb-3";
+    col.innerHTML = `
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="front-image">
+              <img src="${movie.img}" alt="${movie.title}">
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <h5 class="card-title">${movie.title}</h5>
+            <p class="card-desc">${
+              movie.description || "No description available."
+            }</p>
+            <p class="card-text">${movie.genre} • ${movie.year}</p>
+          </div>
+        </div>
+      </div>
+    `;
+    moreMoviesContainer.appendChild(col);
+  });
+}
+
+// ? Declare div tag we want to apply
 const mostPopularContainer = document.getElementById("mostPopularContainer");
 
-mostPopularMovie.forEach((movie) => {
+mostPopularMovie.forEach((movie, index) => {
   const col = document.createElement("div");
   col.className = "col-auto mb-3";
 
   col.innerHTML = `
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <div class="front-image">
-          <img src="${movie.img}" alt="${movie.title}">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <div class="front-image">
+            <img src="${movie.img}" alt="${movie.title}">
+            </div>
         </div>
-      </div>
-      <div class="flip-card-back">
-        <h5 class="card-title">${movie.title}</h5>
-        <p class="card-desc">${
-          movie.description || "No description available."
-        }</p>
-        <p class="card-text">${movie.genre} • ${movie.year}</p>
-      </div>
+        <div class="flip-card-back">
+            <h5 class="card-title">${movie.title}</h5>
+            <p class="card-desc">${
+              movie.description || "No description available."
+            }</p>
+            <p class="card-text">${movie.genre} • ${movie.year}</p>
+        </div>
+        </div>
     </div>
-  </div>
-`;
-
-  mostPopularContainer.appendChild(col);
+    `;
+  // ! Change button onclick function's args to add more movies categories  ("Most Popular", mostPopularMovie)
+  if (index < 5) {
+    mostPopularContainer.appendChild(col);
+  } else if (index === 5) {
+    const seeMoreCol = document.createElement("div");
+    seeMoreCol.className = "col-auto m-auto";
+    seeMoreCol.innerHTML = `
+      <button class="border-0 bg-transparent text-white"
+              data-bs-toggle="modal"
+              data-bs-target="#moreMoviesModal"
+            onclick='renderExtraMovies("Most Popular", mostPopularMovie)'>   
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+        </svg>
+        <p>See More</p>
+      </button>
+    `;
+    mostPopularContainer.appendChild(seeMoreCol);
+  }
 });
+
+// ? Declare div tag we want to apply
 
 const comedyContainer = document.getElementById("comedyContainer");
-
-comedyMovie.forEach((movie) => {
+comedyMovie.forEach((movie, index) => {
   const col = document.createElement("div");
   col.className = "col-auto mb-3";
 
   col.innerHTML = `
-  <div class="flip-card">
-    <div class="flip-card-inner">
-      <div class="flip-card-front">
-        <div class="front-image">
-          <img src="${movie.img}" alt="${movie.title}">
+    <div class="flip-card">
+        <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <div class="front-image">
+            <img src="${movie.img}" alt="${movie.title}">
+            </div>
         </div>
-      </div>
-      <div class="flip-card-back">
-        <h5 class="card-title">${movie.title}</h5>
-        <p class="card-desc">${
-          movie.description || "No description available."
-        }</p>
-        <p class="card-text">${movie.genre} • ${movie.year}</p>
-      </div>
+        <div class="flip-card-back">
+            <h5 class="card-title">${movie.title}</h5>
+            <p class="card-desc">${
+              movie.description || "No description available."
+            }</p>
+            <p class="card-text">${movie.genre} • ${movie.year}</p>
+        </div>
+        </div>
     </div>
-  </div>
-`;
+    `;
+  // ! Change this onclick function's args to add more movies categories  ("Comedy", comedyMovie)
+  if (index < 5) {
+    comedyContainer.appendChild(col);
+  } else if (index === 5) {
+    const seeMoreCol = document.createElement("div");
+    seeMoreCol.className = "col-auto m-auto";
+    seeMoreCol.innerHTML = `
+      <button class="border-0 bg-transparent text-white"
+              data-bs-toggle="modal"
+              data-bs-target="#moreMoviesModal"
 
-  comedyContainer.appendChild(col);
+              onclick='renderExtraMovies("Comedy", comedyMovie)'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
+        </svg>
+        <p>See More</p>
+      </button>
+    `;
+    comedyContainer.appendChild(seeMoreCol);
+  }
 });
+
+// ? Declare div tag we want to apply
+const superHeroesContainer = document.getElementById("superHeroesContainer");
+
+//  * Now Implementation
