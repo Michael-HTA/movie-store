@@ -6,6 +6,7 @@ const closeSidebar = document.getElementById("closeSidebar");
 
 // Open sidebar
 hamburgerBtn.addEventListener("click", () => {
+<<<<<<< HEAD
   sidebar.classList.add("active");
   overlay.classList.add("active");
   hamburgerIcon.classList.add("rotate");
@@ -304,3 +305,23 @@ comedyMovie.forEach((movie, index) => {
 const superHeroesContainer = document.getElementById("superHeroesContainer");
 
 //  * Now Implementation
+=======
+    sidebar.classList.add("active");
+    overlay.classList.add("active");
+    hamburgerIcon.classList.add("rotate");
+    
+});
+
+
+closeSidebar.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+    overlay.classList.remove("active");
+    hamburgerIcon.classList.remove("rotate"); 
+});
+
+overlay.addEventListener("click", () => {
+    sidebar.classList.remove("active");
+    overlay.classList.remove("active");
+    hamburgerIcon.classList.remove("rotate"); 
+});
+>>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)

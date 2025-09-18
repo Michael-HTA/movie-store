@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Forrest Gump",
+    "genre": "Drama, Romance",
+    "year": 1994,
+    "img": "images/IMDb/ForrestGump(1994).jpg",
+    "description": "The story of a slow-witted but kind-hearted man who witnesses and influences key historical events."
+  },
+  {
+    "title": "Good Will Hunting",
+    "genre": "Drama",
+    "year": 1997,
+    "img": "images/IMDb/GoodWillHunting(1997).jpg",
+    "description": "A janitor at MIT is a self-taught math genius who seeks help from a therapist to find direction in life."
+  },
+  {
+    "title": "Life Is Beautiful",
+    "genre": "Comedy, Drama, Romance",
+    "year": 1997,
+    "img": "images/IMDb/LifeIsBeautiful(1997).jpg",
+    "description": "A father uses humor and imagination to protect his son during the horrors of a Nazi concentration camp."
+  },
+  {
+    "title": "The Godfather",
+    "genre": "Crime, Drama",
+    "year": 1972,
+    "img": "images/IMDb/The_Godfather_(1972).jpg",
+    "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+  },
+  {
+    "title": "The Dark Knight",
+    "genre": "Action, Crime, Drama",
+    "year": 2008,
+    "img": "images/IMDb/TheDarkKnight(2008).jpg",
+    "description": "Batman sets out to dismantle the remaining criminal organizations in Gotham but faces a rising threat in the Joker."
+  },
+  {
+    "title": "The Green Mile",
+    "genre": "Crime, Drama, Fantasy",
+    "year": 1999,
+    "img": "images/IMDb/TheGreenMile(1999).jpg",
+    "description": "A death row corrections officer discovers a condemned man has supernatural powers."
+  },
+  {
+    "title": "The Pianist",
+    "genre": "Biography, Drama, Music",
+    "year": 2002,
+    "img": "images/IMDb/ThePianist(2002).jpg",
+    "description": "A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto during World War II."
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "year": 1994,
+    "img": "images/IMDb/TheShawshankRedemption(1994).jpg",
+    "description": "Two imprisoned men bond over years, finding solace and eventual redemption through acts of common decency."
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "genre": "Biography, Crime, Drama",
+    "year": 2013,
+    "img": "images/IMDb/TheWolfofWallStreet(2013).jpg",
+    "description": "Based on the true story of Jordan Belfort, a stockbroker who rises to prominence through crime and corruption."
+  },
+  {
+    "title": "Titanic",
+    "genre": "Drama, Romance",
+    "year": 1997,
+    "img": "images/IMDb/Titanic(1997).jpg",
+    "description": "A young couple from different social classes fall in love aboard the ill-fated RMS Titanic."
+  }
+]

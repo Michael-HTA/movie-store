@@ -1,0 +1,142 @@
+[
+  {
+    "title": "50 First Dates",
+    "genre": "Comedy, Romance",
+    "year": 2004,
+    "img": "images/Comedy/50FirstDates(2004).jpg",
+    "description": "A man falls in love with a woman who has short-term memory loss, requiring him to win her over every day."
+  },
+  {
+    "title": "A Fish Called Wanda",
+    "genre": "Comedy, Crime",
+    "year": 1988,
+    "img": "images/Comedy/AFishCalledWanda(1988).jpg",
+    "description": "A con artist's scheme to steal a diamond goes awry when she falls for one of her accomplices."
+  },
+  {
+    "title": "Anger Management",
+    "genre": "Comedy",
+    "year": 2003,
+    "img": "images/Comedy/AngerManagement(2003).jpg",
+    "description": "A businessman is ordered to attend an anger management program after an incident on a flight."
+  },
+  {
+    "title": "Baby's Day Out",
+    "genre": "Comedy, Family",
+    "year": 1994,
+    "img": "images/Comedy/Baby'sDayOut(1994).jpg",
+    "description": "A baby is kidnapped by criminals but manages to escape and embarks on an adventurous day out."
+  },
+  {
+    "title": "Billy Madison",
+    "genre": "Comedy",
+    "year": 1995,
+    "img": "images/Comedy/BillyMadison (1995).jpg",
+    "description": "A spoiled man must repeat grades 1-12 to inherit his father's fortune."
+  },
+  {
+    "title": "European Gigolo",
+    "genre": "Comedy, Drama",
+    "year": 2005,
+    "img": "images/Comedy/EuropeanGigolo(2005) .jpg",
+    "description": "A charming gigolo's life takes a turn when he falls in love with one of his clients."
+  },
+  {
+    "title": "Happy Gilmore",
+    "genre": "Comedy, Sports",
+    "year": 1996,
+    "img": "images/Comedy/HappyGilmore(1996).jpg",
+    "description": "A rejected hockey player puts his skills to the golf course to save his grandmother's house."
+  },
+  {
+    "title": "Hitch",
+    "genre": "Comedy, Romance",
+    "year": 2005,
+    "img": "images/Comedy/Hitch(2005).jpg",
+    "description": "A professional dating consultant helps men woo women while facing his own romantic challenges."
+  },
+  {
+    "title": "Home Alone",
+    "genre": "Comedy, Family",
+    "year": 1990,
+    "img": "images/Comedy/HomeAlone(1990).jpg",
+    "description": "A young boy defends his home from burglars after his family accidentally leaves him behind on vacation."
+  },
+  {
+    "title": "Kicking & Screaming",
+    "genre": "Comedy, Family, Sports",
+    "year": 2005,
+    "img": "images/Comedy/Kicking&Screaming(2005).jpg",
+    "description": "A mild-mannered dad turns into a competitive soccer coach to win against his own father."
+  },
+  {
+    "title": "Kindergarten Cop",
+    "genre": "Comedy, Crime",
+    "year": 1990,
+    "img": "images/Comedy/KindergartenCop (1990).jpg",
+    "description": "A tough cop goes undercover as a kindergarten teacher to catch a criminal."
+  },
+  {
+    "title": "Kung Fu Hustle",
+    "genre": "Action, Comedy, Fantasy",
+    "year": 2004,
+    "img": "images/Comedy/KungFuHustle(2004).jpg",
+    "description": "A wannabe gangster aspires to join a notorious gang, only to discover his true kung fu potential."
+  },
+  {
+    "title": "Liar Liar",
+    "genre": "Comedy, Fantasy",
+    "year": 1997,
+    "img": "images/Comedy/LiarLiar(1997).jpg",
+    "description": "A lawyer who can't tell a lie for 24 hours after his son makes a wish on his birthday."
+  },
+  {
+    "title": "Mr. Deeds",
+    "genre": "Comedy, Romance",
+    "year": 2002,
+    "img": "images/Comedy/Mr.Deeds(2002).jpg",
+    "description": "A small-town man inherits a fortune and faces city life and corporate scheming."
+  },
+  {
+    "title": "Step Brothers",
+    "genre": "Comedy",
+    "year": 2008,
+    "img": "images/Comedy/StepBrothers(2008).jpg",
+    "description": "Two grown men become stepbrothers and struggle to get along under one roof."
+  },
+  {
+    "title": "The Animal",
+    "genre": "Comedy, Sci-Fi",
+    "year": 2001,
+    "img": "images/Comedy/The Animal (2001).jpg",
+    "description": "A man undergoes experimental surgery and gains animal-like abilities."
+  },
+  {
+    "title": "The Naked Gun",
+    "genre": "Comedy, Crime",
+    "year": 1988,
+    "img": "images/Comedy/The Naked Gun (1988).jpg",
+    "description": "An inept police detective tries to save the day with hilarious results."
+  },
+  {
+    "title": "The Truman Show",
+    "genre": "Comedy, Drama",
+    "year": 1998,
+    "img": "images/Comedy/The Truman Show (1998).jpg",
+    "description": "A man discovers his entire life is a reality TV show."
+  },
+  {
+    "title": "The 40-Year-Old Virgin",
+    "genre": "Comedy, Romance",
+    "year": 2005,
+    "img": "images/Comedy/The40-Year-OldVirgin(2005).jpg",
+    "description": "A middle-aged man tries to lose his virginity with the help of his friends."
+  },
+  {
+    "title": "White Chicks",
+    "genre": "Comedy, Crime",
+    "year": 2004,
+    "img": "images/Comedy/WhiteChicks(2004).jpg",
+    "description": "Two FBI agents go undercover as white socialite sisters."
+  }
+]
