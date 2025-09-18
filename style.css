@@ -9,18 +9,18 @@
 }
 
 .form-control::placeholder {
-    color: #e9471e;
+    color: white;
     /* Bootstrap warning color */
 }
 
 /* color setting for hamburger toggle */
 .hamburger {
-    color: #e9471e;
+    color: red;
 }
 
 /* color setting for search button background */
 .search-btn {
-    background-color: #e9471e;
+    background-color: red;
     /* set background */
     border: none;
     /* remove Bootstrap border if you don’t want it */
@@ -36,7 +36,7 @@
 }
 
 .navbar-toggler {
-    border: 2px solid #e9471e;
+    border: 2px solid red;
     /* Bootstrap warning color */
     border-radius: 5px;
     /* optional rounded corners */
@@ -48,22 +48,22 @@ h3 {
     color: white;
 }
 
-/*Card Design */
+/* Card Design */
 .movie-card {
     background-color: #222;
     border-radius: 6px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
-    max-width: 120px;
+    max-width: 200px;
     margin: auto;
 }
 
 .movie-card img {
-    width: 100%;
-    height: 160px;
+    width: 150px;
+    height: 170px;
     object-fit: cover;
-    transition: transform 0.3s ease;
+    transition: transform 1s ease;
 }
 
 .movie-card:hover {
@@ -74,29 +74,73 @@ h3 {
     transform: scale(1.03);
 }
 
-.card-body {
-    padding: 4px;
-    text-align: center;
-}
-
-.card-title {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #ffc107;
-    margin-bottom: 0;
-}
-
-.card-text {
-    font-size: 0.65rem;
-    color: #aaa;
-    margin: 0;
-}
 
 .movie-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* Flip Card Effect */
+.movie-card {
+    perspective: 1000px;
+    height: 250px;
+}
+
+.movie-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+}
+
+.movie-card:hover .movie-card-inner {
+    transform: rotateY(180deg);
+}
+
+.movie-card-front,
+.movie-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* Front (Full Image) */
+.movie-card-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Back (Details) */
+.movie-card-back {
+    background-color: #111;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.movie-card-back h5 {
+    color: red;
+    margin-bottom: 5px;
+}
+
+.movie-card-back p {
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+
 
 /* .ad-img {
     position: absolute;
@@ -122,7 +166,7 @@ h3 {
 }
 
 .bi-play {
-    color: #e9471e;
+    color: red;
 }
 
 .bi-detail {
@@ -131,7 +175,7 @@ h3 {
 
 .btn-play {
     background-color: white;
-    color: #e9471e;
+    color: red;
 }
 
 /* Setting for footer */
@@ -151,7 +195,9 @@ h3 {
 }
 
 .footer {
-    color: #e9471e;
+    color: red;
+    height: 50px;
+    padding-top: 15px;
 }
 
 .bi-facebook {
@@ -167,6 +213,6 @@ h3 {
 }
 
 .btn-detail {
-    background-color: #e9471e;
+    background-color: red;
     color: white;
 }

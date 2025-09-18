@@ -44,8 +44,8 @@
                 <form class="d-flex" role="search">
                     <input class="form-control me-2 rounded-pill text-white" type="search"
                         placeholder="Search for movies" aria-label="Search for movies">
-                    <button class="btn search-btn rounded-pill w-25" type="submit"><i
-                            class="bi bi-search text-white"></i></i></button>
+                    <button class="btn search-btn rounded-pill w-25" type="submit">
+                        <i class="bi bi-search text-white"></i></button>
                 </form>
             </div>
         </div>
@@ -116,198 +116,327 @@
             <!-- Movie Section -->
             <div class="col">
                 <div class="container my-4">
-                    <h3 class="mt-4 mb-4">Most Popular</h3>
+                    <!-- Most popular -->
+                    <div class="row">
+                        <div class="col-10">
+                            <h3 class="my-5">Most Popular</h3>
+                        </div>
+                        <!-- Pagination Buttons -->
+                        <div class="col-2 mt-5">
+                            <div class="d-flex justify-content-center mt-4">
+                                <button id="prevBtn" class="btn btn-outline-light me-2">Previous</button>
+                                <button id="nextBtn" class="btn btn-outline-light">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="movieContainer" class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3">
+                        <!-- Movie Card -->
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>The Dark Knight</h5>
+                                        <p>⭐ 9.0 IMDb</p>
+                                        <p>Director : Christopher Nolan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>The Dark Knight</h5>
+                                        <p>⭐ 9.0 IMDb</p>
+                                        <p>Director : Christopher Nolan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>The Dark Knight</h5>
+                                        <p>⭐ 9.0 IMDb</p>
+                                        <p>Director : Christopher Nolan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>The Dark Knight</h5>
+                                        <p>⭐ 9.0 IMDb</p>
+                                        <p>Director : Christopher Nolan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>The Dark Knight</h5>
+                                        <p>⭐ 9.0 IMDb</p>
+                                        <p>Director : Christopher Nolan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>The Dark Knight</h5>
+                                        <p>⭐ 9.0 IMDb</p>
+                                        <p>Director : Christopher Nolan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-                    <div class="row justify-content-center g-3">
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Action • 2025</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Action • 2025</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
 
 
                     </div>
-
-                    <h3 class="mt-4">Comedy</h3>
-                    <div class="row justify-content-center g-3">
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Action • 2025</p>
-                                </div>
+                    <!-- Comedy -->
+                    <div class="row">
+                        <div class="col-10">
+                            <h3 class="my-5">Comedy</h3>
+                        </div>
+                        <!-- Pagination Buttons -->
+                        <div class="col-2 mt-5">
+                            <div class="d-flex justify-content-center mt-4">
+                                <button id="prevBtn" class="btn btn-outline-light me-2">Previous</button>
+                                <button id="nextBtn" class="btn btn-outline-light">Next</button>
                             </div>
                         </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Action • 2025</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <div class="movie-card">
-                                <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                <div class="card-body">
-                                    <h5 class="card-title">Movie</h5>
-                                    <p class="card-text">Sci-Fi • 2024</p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
-
+                    <div id="movieContainer" class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3">
+                        <!-- Movie Card -->
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Home Alone</h5>
+                                        <p>⭐ 8.7 IMDb</p>
+                                        <p>Director : Chris Columbus</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Home Alone</h5>
+                                        <p>⭐ 8.7 IMDb</p>
+                                        <p>Director : Chris Columbus</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Home Alone</h5>
+                                        <p>⭐ 8.7 IMDb</p>
+                                        <p>Director : Chris Columbus</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Home Alone</h5>
+                                        <p>⭐ 8.7 IMDb</p>
+                                        <p>Director : Chris Columbus</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Home Alone</h5>
+                                        <p>⭐ 8.7 IMDb</p>
+                                        <p>Director : Chris Columbus</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Home Alone</h5>
+                                        <p>⭐ 8.7 IMDb</p>
+                                        <p>Director : Chris Columbus</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Horror -->
+                    <div class="row">
+                        <div class="col-10">
+                            <h3 class="my-5">Horror</h3>
+                        </div>
+                        <!-- Pagination Buttons -->
+                        <div class="col-2 mt-5">
+                            <div class="d-flex justify-content-center mt-4">
+                                <button id="prevBtn" class="btn btn-outline-light me-2">Previous</button>
+                                <button id="nextBtn" class="btn btn-outline-light">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="movieContainer" class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3">
+                        <!-- Movie Card -->
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Dead Silence</h5>
+                                        <p>⭐ 7.2 IMDb</p>
+                                        <p>Director : James Wan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Dead Silence</h5>
+                                        <p>⭐ 7.2 IMDb</p>
+                                        <p>Director : James Wan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Dead Silence</h5>
+                                        <p>⭐ 7.2 IMDb</p>
+                                        <p>Director : James Wan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Dead Silence</h5>
+                                        <p>⭐ 7.2 IMDb</p>
+                                        <p>Director : James Wan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Dead Silence</h5>
+                                        <p>⭐ 7.2 IMDb</p>
+                                        <p>Director : James Wan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col movie-card-wrapper">
+                            <div class="movie-card">
+                                <div class="movie-card-inner">
+                                    <div class="movie-card-front">
+                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
+                                    </div>
+                                    <div class="movie-card-back">
+                                        <h5>Dead Silence</h5>
+                                        <p>⭐ 7.2 IMDb</p>
+                                        <p>Director : James Wan</p>
+                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
