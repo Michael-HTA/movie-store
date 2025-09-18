@@ -146,12 +146,6 @@ h3 {
   align-items: center;
 }
 
-/* .ad-img {
-    position: absolute;
-    z-index: -1;
-    opacity: 0.8; 
-} */
-
 .carousel_item {
   height: 500px;
   object-fit: cover;
@@ -217,4 +211,77 @@ h3 {
 .btn-detail {
   background-color: #e9471e;
   color: white;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  z-index: 1050;
+  transition: left 0.3s ease;
+  overflow-y: auto;
+  background-color: rgba(108, 117, 125, 0.25);
+  backdrop-filter: blur(5px);
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Active sidebar */
+.sidebar.active {
+  left: 0;
+}
+
+/* Sidebar links */
+.sidebar ul li a,
+.close-text {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Icon spacing */
+.sidebar ul li a i {
+  font-size: 1rem;
+  color: red;
+}
+
+/* Hover effect */
+.sidebar ul li a:hover,
+.close-text:hover {
+  color: #ffc107 !important;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  z-index: 1040;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sidebar-hamburger-icon {
+  color: red;
+  transition: all 1s 0.2s;
+  transform-origin: center;
+}
+
+.rotate {
+  transform: rotate(90deg);
 }
