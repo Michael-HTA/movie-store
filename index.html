@@ -34,7 +34,7 @@
             <div class="col-7">
                 <nav class="navbar">
                     <button class="navbar-toggler mx-4">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="hamburger-icon bi bi-list"></i>
                     </button>
                 </nav>
             </div>
@@ -116,327 +116,20 @@
             <!-- Movie Section -->
             <div class="col">
                 <div class="container my-4">
-                    <!-- Most popular -->
-                    <div class="row">
-                        <div class="col-10">
-                            <h3 class="my-5">Most Popular</h3>
-                        </div>
-                        <!-- Pagination Buttons -->
-                        <div class="col-2 mt-5">
-                            <div class="d-flex justify-content-center mt-4">
-                                <button id="prevBtn" class="btn btn-outline-light me-2">Previous</button>
-                                <button id="nextBtn" class="btn btn-outline-light">Next</button>
-                            </div>
-                        </div>
+                    <h3 class="mt-4 mb-4">Most Popular</h3>
+                    <div class="row justify-content-center g-3 ms-5" id="mostPopularContainer">
+
                     </div>
-                    <div id="movieContainer" class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3">
-                        <!-- Movie Card -->
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>The Dark Knight</h5>
-                                        <p>⭐ 9.0 IMDb</p>
-                                        <p>Director : Christopher Nolan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>The Dark Knight</h5>
-                                        <p>⭐ 9.0 IMDb</p>
-                                        <p>Director : Christopher Nolan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>The Dark Knight</h5>
-                                        <p>⭐ 9.0 IMDb</p>
-                                        <p>Director : Christopher Nolan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>The Dark Knight</h5>
-                                        <p>⭐ 9.0 IMDb</p>
-                                        <p>Director : Christopher Nolan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>The Dark Knight</h5>
-                                        <p>⭐ 9.0 IMDb</p>
-                                        <p>Director : Christopher Nolan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/IMDb/The Dark Knight (2008).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>The Dark Knight</h5>
-                                        <p>⭐ 9.0 IMDb</p>
-                                        <p>Director : Christopher Nolan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                    <h3 class="mt-4 mb-4">Comedy</h3>
+                    <div class="row justify-content-center g-3 ms-5" id="comedyContainer">
+                    </div>
+
+                    <!-- More Movies  -->
 
 
 
-                    </div>
-                    <!-- Comedy -->
-                    <div class="row">
-                        <div class="col-10">
-                            <h3 class="my-5">Comedy</h3>
-                        </div>
-                        <!-- Pagination Buttons -->
-                        <div class="col-2 mt-5">
-                            <div class="d-flex justify-content-center mt-4">
-                                <button id="prevBtn" class="btn btn-outline-light me-2">Previous</button>
-                                <button id="nextBtn" class="btn btn-outline-light">Next</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="movieContainer" class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3">
-                        <!-- Movie Card -->
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Home Alone</h5>
-                                        <p>⭐ 8.7 IMDb</p>
-                                        <p>Director : Chris Columbus</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Home Alone</h5>
-                                        <p>⭐ 8.7 IMDb</p>
-                                        <p>Director : Chris Columbus</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Home Alone</h5>
-                                        <p>⭐ 8.7 IMDb</p>
-                                        <p>Director : Chris Columbus</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Home Alone</h5>
-                                        <p>⭐ 8.7 IMDb</p>
-                                        <p>Director : Chris Columbus</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Home Alone</h5>
-                                        <p>⭐ 8.7 IMDb</p>
-                                        <p>Director : Chris Columbus</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/psa/Comedy/Home Alone (1990).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Home Alone</h5>
-                                        <p>⭐ 8.7 IMDb</p>
-                                        <p>Director : Chris Columbus</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Horror -->
-                    <div class="row">
-                        <div class="col-10">
-                            <h3 class="my-5">Horror</h3>
-                        </div>
-                        <!-- Pagination Buttons -->
-                        <div class="col-2 mt-5">
-                            <div class="d-flex justify-content-center mt-4">
-                                <button id="prevBtn" class="btn btn-outline-light me-2">Previous</button>
-                                <button id="nextBtn" class="btn btn-outline-light">Next</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="movieContainer" class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-3">
-                        <!-- Movie Card -->
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Dead Silence</h5>
-                                        <p>⭐ 7.2 IMDb</p>
-                                        <p>Director : James Wan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Dead Silence</h5>
-                                        <p>⭐ 7.2 IMDb</p>
-                                        <p>Director : James Wan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Dead Silence</h5>
-                                        <p>⭐ 7.2 IMDb</p>
-                                        <p>Director : James Wan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Dead Silence</h5>
-                                        <p>⭐ 7.2 IMDb</p>
-                                        <p>Director : James Wan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Dead Silence</h5>
-                                        <p>⭐ 7.2 IMDb</p>
-                                        <p>Director : James Wan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col movie-card-wrapper">
-                            <div class="movie-card">
-                                <div class="movie-card-inner">
-                                    <div class="movie-card-front">
-                                        <img src="images/etza/horror/dead_silence(2007).jpg" alt="Movie">
-                                    </div>
-                                    <div class="movie-card-back">
-                                        <h5>Dead Silence</h5>
-                                        <p>⭐ 7.2 IMDb</p>
-                                        <p>Director : James Wan</p>
-                                        <button class="btn btn-sm btn-danger mt-3">Watch</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </main>
@@ -444,22 +137,22 @@
 
 
         <!-- Footer -->
-        <footer class="row footer">
+        <footer class="row footer p-1">
             <div class="col">
                 <div class="container">
                     <div class="row">
-                        <div class="col-10 d-flex align-items-center">
+                        <div class="col-8 col-md-10 d-flex align-items-center">
                             &copy;2025&trade;. All Rights Reserved.
                         </div>
-                        <div class="col-2 d-flex justify-content-between">
+                        <div class="col-4 col-md-2 d-flex justify-content-between">
                             <a href="#">
-                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-facebook fs-3"></i>
                             </a>
                             <a href="#" class="">
-                                <i class="bi bi-twitter-x"></i>
+                                <i class="bi bi-twitter-x fs-3"></i>
                             </a>
                             <a href="#" class="youtube">
-                                <i class="bi bi-youtube"></i>
+                                <i class="bi bi-youtube fs-3"></i>
                             </a>
                         </div>
                     </div>
@@ -468,6 +161,51 @@
         </footer>
     </div>
 
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <!-- Close text -->
+        <div id="closeSidebar" class="close-text p-3 "><i class="bi bi-list fs-3 me-2 sidebar-hamburger-icon"></i>Menu
+        </div>
+
+        <!-- Menu items -->
+        <ul class="p-3">
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-house-door-fill me-2 fs-3 "></i>Home</a>
+            </li>
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-star-fill me-2 fs-3"></i>Most Popular</a>
+            </li>
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-film me-2 fs-3"></i>Movies</a>
+            </li>
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-tv-fill me-2 fs-3"></i>Tv Series</a>
+            </li>
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-gift-fill me-2 fs-3"></i>Special</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
+
+    <div class="modal fade" id="moreMoviesModal" tabindex="-1" aria-labelledby="moreMoviesModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="moreMoviesModalLabel">More Movies</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" id="moreMoviesContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- bootstrap js cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
