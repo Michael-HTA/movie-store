@@ -9,7 +9,6 @@
 }
 
 .form-control::placeholder {
-<<<<<<< HEAD
   color: #e9471e;
   /* Bootstrap warning color */
 }
@@ -17,14 +16,10 @@
 /* color setting for hamburger toggle */
 .hamburger {
   color: #ff0000;
-=======
-    color: #e9471e;
->>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)
 }
 
 /* color setting for search button background */
 .search-btn {
-<<<<<<< HEAD
   background-color: #e9471e;
   /* set background */
   border: none;
@@ -54,83 +49,6 @@
   /* opacity: 0.8;  */
 }
 
-=======
-    background-color: #e9471e;
-    border: none;
- 
-}
-
-.search-btn:hover {
-    background-color: #c53a17;
-}
-
-
-.navbar-toggler {
-    border: 2px solid red;
-    border-radius: 5px;
-    box-shadow: none !important;
-}
-
-.hamburger-icon {
-    color: red;
-}
-
-
-h3 {
-    color: white;
-}
-
-/*Card Design */
-.movie-card {
-    background-color: #222;
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease;
-    max-width: 120px;
-    margin: auto;
-}
-
-.movie-card img {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.movie-card:hover {
-    transform: translateY(-3px);
-}
-
-.movie-card:hover img {
-    transform: scale(1.03);
-}
-
-.card-body {
-    padding: 4px;
-    text-align: center;
-}
-
-.card-title {
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: #ffc107;
-    margin-bottom: 0;
-}
-
-.card-text {
-    font-size: 0.65rem;
-    color: #aaa;
-    margin: 0;
-}
-
-.movie-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
->>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)
 .carousel_item {
   height: 500px;
   object-fit: cover;
@@ -158,7 +76,6 @@ h3 {
   background-color: #ff0000;
   color: white;
 }
-
 
 main .col {
   margin-top: 500px;
@@ -301,12 +218,8 @@ h3 {
 
 .footer,
 .navbar-background {
-<<<<<<< HEAD
   background-color: rgba(54, 54, 54, 0.5);
   /* 50% transparent gray */
-=======
-    background-color: rgba(54, 54, 54, 0.5);
->>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)
 }
 
 .navbar-background {
@@ -334,7 +247,6 @@ h3 {
 }
 
 .btn-detail {
-<<<<<<< HEAD
   background-color: #ff0000;
   color: white;
 }
@@ -352,84 +264,38 @@ h3 {
   background-color: rgba(108, 117, 125, 0.25);
   backdrop-filter: blur(5px);
   box-shadow: 2px 0 8px rgba(0, 0, 0, 0.5);
-=======
-    background-color: #e9471e;
-    color: white;
-}
-
-
-
-
-
-/* Sidebar */
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    z-index: 1050;
-    transition: left 0.3s ease;
-    overflow-y: auto;
-    background-color: rgba(108, 117, 125, 0.25);
-    backdrop-filter: blur(5px);
-    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.5);
->>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)
 }
 
 /* Active sidebar */
 .sidebar.active {
-<<<<<<< HEAD
   left: 0;
-=======
-    left: 0;
->>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)
 }
 
 /* Sidebar links */
 .sidebar ul li a,
 .close-text {
-<<<<<<< HEAD
   color: white !important;
   text-decoration: none !important;
   font-weight: 600;
   display: flex;
   align-items: center;
   cursor: pointer;
-=======
-    color: white !important;
-    text-decoration: none;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
->>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)
 }
 
 /* Icon spacing */
 .sidebar ul li a i {
-<<<<<<< HEAD
   font-size: 1rem;
   color: red;
-=======
-    font-size: 1rem;
-    color: red;
->>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)
 }
 
 /* Hover effect */
 .sidebar ul li a:hover,
 .close-text:hover {
-<<<<<<< HEAD
   color: #ffc107 !important;
-=======
-    color: #ffc107 !important;
->>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)
 }
 
 /* Overlay */
 .overlay {
-<<<<<<< HEAD
   position: fixed;
   top: 0;
   left: 0;
@@ -461,8 +327,8 @@ h3 {
 /* --- Main Content --- */
 body {
   background-color: #222;
-  color: #FFFFFF;
-  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -526,7 +392,7 @@ main {
 /* --- Modal Styles --- */
 .modal-content {
   background-color: #222;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .modal-header {
@@ -534,7 +400,7 @@ main {
 }
 
 .modal-title {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn-close {
@@ -547,32 +413,3 @@ main {
   gap: 1rem;
   justify-content: center;
 }
-=======
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.4);
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease;
-    z-index: 1040;
-}
-
-.overlay.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-.sidebar-hamburger-icon {
-    color: red;
-    transition: all 1s 0.2s;
-    transform-origin: center;
-}
-
-.rotate {
-    transform: rotate(90deg);
-}
->>>>>>> 9fb99fb (feat(side-navbar): add responsive side navigation menu)
