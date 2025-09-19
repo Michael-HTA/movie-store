@@ -9,18 +9,21 @@ hamburgerBtn.addEventListener("click", () => {
   sidebar.classList.add("active");
   overlay.classList.add("active");
   hamburgerIcon.classList.add("rotate");
+  console.log('hamburger btn')
 });
 
 closeSidebar.addEventListener("click", () => {
   sidebar.classList.remove("active");
   overlay.classList.remove("active");
   hamburgerIcon.classList.remove("rotate");
+  console.log('close side bar')
 });
 
 overlay.addEventListener("click", () => {
   sidebar.classList.remove("active");
   overlay.classList.remove("active");
   hamburgerIcon.classList.remove("rotate");
+  console.log('over lay')
 });
 
 const mostPopularMovie = [
