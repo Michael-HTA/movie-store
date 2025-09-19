@@ -11,7 +11,7 @@
     "genre": "Comedy, Crime",
     "year": 1988,
     "img": "images/Comedy/AFishCalledWanda(1988).jpg",
-    "description": "A con artist's scheme to steal a diamond goes awry when she falls for one of her accomplices."
+    "description": "A con artists scheme to steal a diamond goes awry when she falls for one of her accomplices."
   },
   {
     "title": "Anger Management",
@@ -21,32 +21,25 @@
     "description": "A businessman is ordered to attend an anger management program after an incident on a flight."
   },
   {
-    "title": "Baby's Day Out",
-    "genre": "Comedy, Family",
-    "year": 1994,
-    "img": "images/Comedy/Baby'sDayOut(1994).jpg",
-    "description": "A baby is kidnapped by criminals but manages to escape and embarks on an adventurous day out."
-  },
-  {
     "title": "Billy Madison",
     "genre": "Comedy",
     "year": 1995,
     "img": "images/Comedy/BillyMadison (1995).jpg",
-    "description": "A spoiled man must repeat grades 1-12 to inherit his father's fortune."
+    "description": "A spoiled man must repeat grades 1-12 to inherit his fathers fortune."
   },
   {
     "title": "European Gigolo",
     "genre": "Comedy, Drama",
     "year": 2005,
     "img": "images/Comedy/EuropeanGigolo(2005) .jpg",
-    "description": "A charming gigolo's life takes a turn when he falls in love with one of his clients."
+    "description": "A charming gigolos life takes a turn when he falls in love with one of his clients."
   },
   {
     "title": "Happy Gilmore",
     "genre": "Comedy, Sports",
     "year": 1996,
     "img": "images/Comedy/HappyGilmore(1996).jpg",
-    "description": "A rejected hockey player puts his skills to the golf course to save his grandmother's house."
+    "description": "A rejected hockey player puts his skills to the golf course to save his grandmothers house."
   },
   {
     "title": "Hitch",
@@ -88,7 +81,7 @@
     "genre": "Comedy, Fantasy",
     "year": 1997,
     "img": "images/Comedy/LiarLiar(1997).jpg",
-    "description": "A lawyer who can't tell a lie for 24 hours after his son makes a wish on his birthday."
+    "description": "A lawyer who cant tell a lie for 24 hours after his son makes a wish on his birthday."
   },
   {
     "title": "Mr. Deeds",
