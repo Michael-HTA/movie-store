@@ -77,7 +77,6 @@
   color: white;
 }
 
-
 main .col {
   margin-top: 500px;
 }
@@ -328,8 +327,8 @@ h3 {
 /* --- Main Content --- */
 body {
   background-color: #222;
-  color: #FFFFFF;
-  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -393,7 +392,7 @@ main {
 /* --- Modal Styles --- */
 .modal-content {
   background-color: #222;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .modal-header {
@@ -401,7 +400,7 @@ main {
 }
 
 .modal-title {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn-close {
@@ -414,5 +413,3 @@ main {
   gap: 1rem;
   justify-content: center;
 }
-
-/* special page */
