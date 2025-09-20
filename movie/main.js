@@ -49,23 +49,38 @@ function renderExtraMovies(categoryName, movieList) {
   });
 }
 
-function showMovieModal(movie) {
-  const modalTitle = document.getElementById("movieDetailModalLabel");
-  const modalImg = document.getElementById("modal-movie-img");
-  const modalDescription = document.getElementById("modal-movie-description");
-  const modalGenreYear = document.getElementById("modal-movie-genre-year");
+const movieDetailModalEl = document.getElementById("movieDetailModal");
+const movieDetailModal =
+  bootstrap.Modal.getOrCreateInstance(movieDetailModalEl);
 
-  modalTitle.textContent = movie.title;
+const moreMoviesModalEl = document.getElementById("moreMoviesModal");
+const moreMoviesModal = bootstrap.Modal.getOrCreateInstance(moreMoviesModalEl);
+
+movieDetailModalEl.addEventListener("hidden.bs.modal", () => {
+  const backdrops = document.querySelectorAll(".modal-backdrop");
+  backdrops.forEach((backdrop) => backdrop.remove());
+  document.body.classList.remove("modal-open");
+  document.body.style = "";
+});
+
+function showMovieModal(movie) {
+  if (moreMoviesModalEl.classList.contains("show")) {
+    moreMoviesModal.hide();
+  }
+
+  document.getElementById("movieDetailModalLabel").textContent = movie.title;
+  const modalImg = document.getElementById("modal-movie-img");
   modalImg.src = movie.img;
   modalImg.alt = movie.title;
-  modalDescription.textContent =
-    movie.description || "No description available.";
-  modalGenreYear.textContent = `${movie.genre} • ${movie.year}`;
 
-  const movieModal = new bootstrap.Modal(
-    document.getElementById("movieDetailModal")
-  );
-  movieModal.show();
+  document.getElementById("modal-movie-description").textContent =
+    movie.description || "No description available.";
+
+  document.getElementById(
+    "modal-movie-genre-year"
+  ).textContent = `${movie.genre} • ${movie.year}`;
+
+  movieDetailModal.show();
 }
 
 const actionMoviesContainer = document.getElementById("actionMoviesContainer");
@@ -82,7 +97,7 @@ fetch("/json/actionMovie.json")
       col.className = "col-2 mb-3";
       col.innerHTML = `
         <div class="movie-card" role="button">
-          <img src="../${movie.img}" alt="${movie.title}" class="img-fluid" />
+          <img src="../${movie.img}" alt="${movie.title}" class="img-thumbnail" />
           <h6 class="mt-2">${movie.title}</h6>
           <p class="small text-muted">${movie.genre} • ${movie.year}</p>
         </div>
@@ -201,8 +216,6 @@ document.getElementById("horrorSeeMore").addEventListener("click", () => {
 
   renderExtraMovies("Comedy", fixedData);
 });
-
-// romanceMovieContainer
 
 const romanceMovieContainer = document.getElementById("romanceMovieContainer");
 

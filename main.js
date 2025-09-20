@@ -161,6 +161,10 @@ fetch("/json/tvSeries.json")
         </div>
     </div>
     `;
+
+      col.querySelector(".flip-card").addEventListener("click", () => {
+        showMovieModal(movie);
+      });
       // ! Change this onclick function's args to add more movies categories  ("Comedy", comedyMovie)
       if (index < 5) {
         comedyContainer.appendChild(col);
