@@ -1,0 +1,290 @@
+<!-- 
+    @bootstrap version 5.3.x
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <!-- bootstrap css cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- boostrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="bg-dark">
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <div class="row">
+
+            <!-- hamburger toggle menu -->
+            <div class="col-7">
+                <nav class="navbar">
+                    <button class="navbar-toggler mx-4">
+                        <i class="hamburger-icon bi bi-list"></i>
+                    </button>
+                </nav>
+            </div>
+
+            <!-- Search box & search button -->
+            <div class="col-5 mt-2">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 rounded-pill text-white" type="search"
+                        placeholder="Search for movies" aria-label="Search for movies">
+                    <button class="btn search-btn rounded-pill w-25" type="submit">
+                        <i class="bi bi-search text-white"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Main  -->
+        <main class="row">
+            <!-- Back Button -->
+            <a href="#" class="back-link">&larr; Back</a>
+
+            <!-- Hero Section -->
+            <section class="hero-section">
+                <div class="hero-content text-white">
+                    <h1>Movie Title</h1>
+                    <p>Short tagline or movie description here.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-watch">▶ Watch Now</button>
+                        <button class="btn btn-info">More Info</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Movie Info -->
+            <div class="container mt-4 movie-info">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="mx-auto w-75">
+                            <h4>Description</h4>
+                            <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+                                amet tincidunt orci.Lorem ipsum has been the industry's standard dummy text ever since
+                                the 1500s.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet
+                                tincidunt orci.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-3">
+                        <div class="w-75 mx-auto">
+                            <p><strong class="text-white">Genres:</strong> <span style=" color: red;">Thriller</span>
+                            </p>
+                            <p><strong class="text-white">Rating:</strong> <span style=" color: red;">⭐⭐⭐⭐☆</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-10 offset-1">
+                        <h5 class="mt-4 mb-3" style="color: red;">More Like This</h5>
+                        <div class="d-flex">
+                            <div class="flip-card m-1">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="front-image">
+                                            <img src="../images/psa/IMDb/The Shawshank Redemption (1994).jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-desc">
+                                            Description</p>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nam quidem quibusdam alias ipsa sint provident sed magni, eius repudiandae
+                                            iste eum quis nobis dolore nesciunt enim a ea corporis laudantium.</p>
+                                        <button class="btn btn-danger mt-2">watch</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="flip-card m-1">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="front-image">
+                                            <img src="../images/psa/IMDb/The Shawshank Redemption (1994).jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-desc">
+                                            Description</p>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nam quidem quibusdam alias ipsa sint provident sed magni, eius repudiandae
+                                            iste eum quis nobis dolore nesciunt enim a ea corporis laudantium.</p>
+                                        <button class="btn btn-danger mt-2">watch</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="flip-card m-1">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="front-image">
+                                            <img src="../images/psa/IMDb/The Shawshank Redemption (1994).jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-desc">
+                                            Description</p>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nam quidem quibusdam alias ipsa sint provident sed magni, eius repudiandae
+                                            iste eum quis nobis dolore nesciunt enim a ea corporis laudantium.</p>
+                                        <button class="btn btn-danger mt-2">watch</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="flip-card m-1">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="front-image">
+                                            <img src="../images/psa/IMDb/The Shawshank Redemption (1994).jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-desc">
+                                            Description</p>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nam quidem quibusdam alias ipsa sint provident sed magni, eius repudiandae
+                                            iste eum quis nobis dolore nesciunt enim a ea corporis laudantium.</p>
+                                        <button class="btn btn-danger mt-2">watch</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="flip-card m-1">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="front-image">
+                                            <img src="../images/psa/IMDb/The Shawshank Redemption (1994).jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-desc">
+                                            Description</p>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nam quidem quibusdam alias ipsa sint provident sed magni, eius repudiandae
+                                            iste eum quis nobis dolore nesciunt enim a ea corporis laudantium.</p>
+                                        <button class="btn btn-danger mt-2">watch</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="flip-card m-1">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <div class="front-image">
+                                            <img src="../images/psa/IMDb/The Shawshank Redemption (1994).jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="flip-card-back">
+                                        <h5 class="card-title">Title</h5>
+                                        <p class="card-desc">
+                                            Description</p>
+                                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                            Nam quidem quibusdam alias ipsa sint provident sed magni, eius repudiandae
+                                            iste eum quis nobis dolore nesciunt enim a ea corporis laudantium.</p>
+                                        <button class="btn btn-danger mt-2">watch</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="row footer p-1">
+            <div class="col">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-8 col-md-10 d-flex align-items-center">
+                            &copy;2025&trade;. All Rights Reserved.
+                        </div>
+                        <div class="col-4 col-md-2 d-flex justify-content-between">
+                            <a href="#">
+                                <i class="bi bi-facebook fs-3"></i>
+                            </a>
+                            <a href="#" class="">
+                                <i class="bi bi-twitter-x fs-3"></i>
+                            </a>
+                            <a href="#" class="youtube">
+                                <i class="bi bi-youtube fs-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <!-- Close text -->
+        <div id="closeSidebar" class="close-text p-3 "><i class="bi bi-list fs-3 me-2 sidebar-hamburger-icon"></i>Menu
+        </div>
+
+        <!-- Menu items -->
+        <ul class="p-3">
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-house-door-fill me-2 fs-3 "></i>Home</a>
+            </li>
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-star-fill me-2 fs-3"></i>Most Popular</a>
+            </li>
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-film me-2 fs-3"></i>Movies</a>
+            </li>
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-tv-fill me-2 fs-3"></i>Tv Series</a>
+            </li>
+            <li class="mb-3">
+                <a href="#"><i class="bi bi-gift-fill me-2 fs-3"></i>Special</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
+
+    <div class="modal fade" id="moreMoviesModal" tabindex="-1" aria-labelledby="moreMoviesModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content bg-dark text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="moreMoviesModalLabel">More Movies</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" id="moreMoviesContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
