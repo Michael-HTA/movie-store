@@ -71,10 +71,12 @@ fetch("/json/tvSeries.json")
         `;
 
         col.querySelector(".movie-card").addEventListener("click", () => {
-          showMovieModal({
-            ...movie,
-            img: `../${movie.img}`,
-          });
+          // showMovieModal({
+          //   ...movie,
+          //   img: `../${movie.img}`,
+          // });
+          window.location.href =
+            "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
         });
 
         actionTvSeriesContainer.appendChild(col);
@@ -83,9 +85,6 @@ fetch("/json/tvSeries.json")
   })
   .catch((err) => {
     console.error("Failed to load action movies:", err);
-    // if (tvLoader) {
-    //   tvLoader.innerHTML = `<p class="text-white">Failed to load data. Please try again later.</p>`;
-    // }
   });
 
 const form = document.getElementById("movie-search-form");
@@ -129,9 +128,9 @@ form.addEventListener("submit", function (e) {
           `;
           item.addEventListener("click", function (e) {
             e.preventDefault();
-            showMovieModal(movie);
-            resultsContainer.style.display = "none";
-            searchOverlay.classList.remove("active");
+            // showMovieModal(movie);
+            window.location.href =
+              "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
           });
           resultsContainer.appendChild(item);
         });

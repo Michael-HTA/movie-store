@@ -25,60 +25,6 @@ overlay.addEventListener("click", () => {
 
 // ? This One Apply Movie Card and Flip Card on hover
 
-function renderExtraMovies(categoryName, movieList) {
-  const moreMoviesContainer = document.getElementById("moreMoviesContainer");
-  const modalTitle = document.getElementById("moreMoviesModalLabel");
-  moreMoviesContainer.innerHTML = "";
-  modalTitle.textContent = `${categoryName} Movies`;
-
-  movieList.slice(5).map((movie) => {
-    const col = document.createElement("div");
-    col.className = "col-auto mb-3";
-    col.innerHTML = `
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <div class="front-image">
-              <img src="${movie.img}" alt="${movie.title}">
-            </div>
-          </div>
-          <div class="flip-card-back">
-            <h5 class="card-title">${movie.title}</h5>
-            <p class="card-desc">${
-              movie.description || "No description available."
-            }</p>
-            <p class="card-text">${movie.genre} • ${movie.year}</p>
-          </div>
-        </div>
-      </div>
-    `;
-    col.querySelector(".flip-card").addEventListener("click", () => {
-      showMovieModal(movie);
-    });
-
-    moreMoviesContainer.appendChild(col);
-  });
-}
-
-function showMovieModal(movie) {
-  const modalTitle = document.getElementById("movieDetailModalLabel");
-  const modalImg = document.getElementById("modal-movie-img");
-  const modalDescription = document.getElementById("modal-movie-description");
-  const modalGenreYear = document.getElementById("modal-movie-genre-year");
-
-  modalTitle.textContent = movie.title;
-  modalImg.src = movie.img;
-  modalImg.alt = movie.title;
-  modalDescription.textContent =
-    movie.description || "No description available.";
-  modalGenreYear.textContent = `${movie.genre} • ${movie.year}`;
-
-  const movieModal = new bootstrap.Modal(
-    document.getElementById("movieDetailModal")
-  );
-  movieModal.show();
-}
-
 // ? Declare div tag we want to apply
 const mostPopularContainer = document.getElementById("mostPopularContainer");
 
@@ -93,7 +39,7 @@ fetch("/json/popularMovie.json")
   .then((PopularMovie) => {
     PopularMovie.map((movie, index) => {
       const col = document.createElement("div");
-      col.className = "col-2 mb-3";
+      col.className = "col-sm-4 col-md-3 col-lg-2 mb-3";
 
       col.innerHTML = `
         <div class="flip-card">
@@ -115,7 +61,8 @@ fetch("/json/popularMovie.json")
       `;
 
       col.querySelector(".flip-card").addEventListener("click", () => {
-        showMovieModal(movie);
+        window.location.href =
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
       });
 
       // ! Change this onclick function's args to add more movies categories  ("Most Popular", PopularMovie)
@@ -128,7 +75,7 @@ fetch("/json/popularMovie.json")
     console.error("Error loading comedy movies:", error);
   });
 
-// // ? Declare div tag we want to apply
+// ? Declare div tag we want to apply
 const comedyContainer = document.getElementById("comedyContainer");
 
 fetch("/json/tvSeries.json")
@@ -141,7 +88,7 @@ fetch("/json/tvSeries.json")
   .then((comedyMovie) => {
     comedyMovie.map((movie, index) => {
       const col = document.createElement("div");
-      col.className = "col-2 mb-3";
+      col.className = "col-sm-4 col-md-3 col-lg-2 mb-3";
 
       col.innerHTML = `
     <div class="flip-card">
@@ -163,7 +110,8 @@ fetch("/json/tvSeries.json")
     `;
 
       col.querySelector(".flip-card").addEventListener("click", () => {
-        showMovieModal(movie);
+        window.location.href =
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
       });
       // ! Change this onclick function's args to add more movies categories  ("Comedy", comedyMovie)
       if (index < 5) {
@@ -216,9 +164,8 @@ form.addEventListener("submit", function (e) {
           `;
           item.addEventListener("click", function (e) {
             e.preventDefault();
-            showMovieModal(movie);
-            resultsContainer.style.display = "none";
-            searchOverlay.classList.remove("active");
+            window.location.href =
+              "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
           });
 
           resultsContainer.appendChild(item);

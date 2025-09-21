@@ -43,17 +43,61 @@ function showMovieModal(movie) {
     moreMoviesModal.hide();
   }
 
-  document.getElementById("movieDetailModalLabel").textContent = movie.title;
+  document.getElementById("modal-movie-title").textContent = movie.title;
   const modalImg = document.getElementById("modal-movie-img");
   modalImg.src = movie.img;
   modalImg.alt = movie.title;
-
+  document.getElementById("movieDetailModalLabel").textContent = movie.title;
   document.getElementById("modal-movie-description").textContent =
     movie.description || "No description available.";
+  document.getElementById("modal-movie-genre").textContent =
+    movie.genre || "Unknown";
+  document.getElementById("modal-movie-year").textContent = movie.year || "—";
+  document.getElementById("modal-movie-rating").textContent =
+    movie.rating || "⭐️⭐️⭐️⭐️☆";
 
-  document.getElementById(
-    "modal-movie-genre-year"
-  ).textContent = `${movie.genre} • ${movie.year}`;
+  const moreLikeThis = document.getElementById("modal-more-like-this");
+  moreLikeThis.innerHTML = "";
+
+  fetch("/json/movies.json")
+    .then((res) => res.json())
+    .then((allMovies) => {
+      const fullMovie = allMovies.find((m) => m.title === movie.title);
+      const suggestions = fullMovie?.similar?.slice(0, 6) || [];
+
+      suggestions.forEach((sim) => {
+        const card = document.createElement("div");
+        card.className = "flip-card";
+        card.innerHTML = `
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="front-image">
+                <img src="${sim.img}" alt="${sim.title}" />
+              </div>
+            </div>
+            <div class="flip-card-back">
+              <h5 class="card-title">${sim.title}</h5>
+              <p class="card-desc">${sim.genre || ""}</p>
+              <p class="card-text">${sim.description || ""}</p>
+              <button class="btn btn-danger mt-2">Watch</button>
+            </div>
+          </div>`;
+
+        card.querySelector(".btn").addEventListener("click", () => {
+          showMovieModal(sim);
+        });
+
+        moreLikeThis.appendChild(card);
+        console.log(moreLikeThis);
+      });
+
+      console.log("Similar movies fetched and displayed.");
+    })
+    .catch((err) => {
+      console.error(" Error fetching similar movies:", err);
+      moreLikeThis.innerHTML =
+        "<p class='text-danger'>Failed to load similar movies.</p>";
+    });
 
   movieDetailModal.show();
 }
@@ -229,11 +273,8 @@ function createSearchResultItem(movie) {
   `;
   item.addEventListener("click", (e) => {
     e.preventDefault();
-    showMovieModal({
-      ...movie,
-      img: `../${movie.img}`,
-    });
-    closeSearchResults();
+    window.location.href =
+      "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
   });
 
   return item;

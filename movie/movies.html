@@ -80,9 +80,6 @@
           >
         </li>
         <li class="mb-3">
-          <a href="#"><i class="bi bi-star-fill me-2 fs-3"></i>Most Popular</a>
-        </li>
-        <li class="mb-3">
           <a href="movies.html"><i class="bi bi-film me-2 fs-3"></i>Movies</a>
         </li>
         <li class="mb-3">
@@ -205,7 +202,7 @@
     <div class="modal fade" id="movieDetailModal" tabindex="-1">
       <div class="modal-dialog modal-xl">
         <div class="modal-content bg-dark text-white">
-          <div class="modal-header">
+          <div class="modal-header border-0">
             <h5 class="modal-title" id="movieDetailModalLabel">Movie Title</h5>
             <button
               type="button"
@@ -213,10 +210,72 @@
               data-bs-dismiss="modal"
             ></button>
           </div>
-          <div class="modal-body">
-            <img id="modal-movie-img" src="" alt="" class="img-fluid mb-3" />
-            <p id="modal-movie-description"></p>
-            <p id="modal-movie-genre-year"></p>
+
+          <div class="modal-body p-0">
+            <!-- Hero Section -->
+            <section class="hero-section position-relative">
+              <img
+                id="modal-movie-img"
+                src=""
+                alt=""
+                class="w-100 hero-bg"
+                style="max-height: 400px; object-fit: contain"
+              />
+              <div
+                class="hero-content position-absolute bottom-0 start-0 p-4 text-white"
+              >
+                <h1 id="modal-movie-title">Movie Title</h1>
+                <p id="modal-movie-tagline">
+                  Short tagline or movie description
+                </p>
+                <div class="hero-buttons">
+                  <a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"
+                    class="btn btn-danger btn-watch"
+                    >▶ Watch Now</a
+                  >
+                  <button class="btn btn-outline-light btn-info">
+                    More Info
+                  </button>
+                </div>
+              </div>
+            </section>
+
+            <!-- Movie Info -->
+            <div class="container mt-4 movie-info">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="mx-auto w-75">
+                    <h4>Description</h4>
+                    <p class="text-white-50" id="modal-movie-description"></p>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                  <div class="w-75 mx-auto">
+                    <p>
+                      <strong class="text-white">Genres:</strong>
+                      <span id="modal-movie-genre" style="color: red"></span>
+                    </p>
+                    <p>
+                      <strong class="text-white">Year:</strong>
+                      <span id="modal-movie-year" style="color: red"></span>
+                    </p>
+                    <p>
+                      <strong class="text-white">Rating:</strong>
+                      <span id="modal-movie-rating" style="color: red"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- More Like This -->
+              <div class="row">
+                <div class="col-10 offset-1">
+                  <h5 class="mt-4 mb-3" style="color: red">More Like This</h5>
+                  <div class="d-flex flex-wrap" id="modal-more-like-this"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
