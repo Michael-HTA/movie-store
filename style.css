@@ -441,3 +441,17 @@ main {
 .search-overlay.active {
   display: block;
 }
+
+@media (max-width: 768px) {
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .movie-card img {
+    width: 160px;
+    height: 240px;
+  }
+}

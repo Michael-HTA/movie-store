@@ -4,7 +4,6 @@ const hamburgerBtn = document.querySelector(".navbar-toggler");
 const hamburgerIcon = document.querySelector(".sidebar-hamburger-icon");
 const closeSidebar = document.getElementById("closeSidebar");
 
-// Open sidebar
 hamburgerBtn.addEventListener("click", () => {
   sidebar.classList.add("active");
   overlay.classList.add("active");
@@ -24,30 +23,6 @@ overlay.addEventListener("click", () => {
   overlay.classList.remove("active");
   hamburgerIcon.classList.remove("rotate");
 });
-
-function renderExtraMovies(categoryName, movieList) {
-  const moreMoviesContainer = document.getElementById("moreMoviesContainer");
-  const modalTitle = document.getElementById("moreMoviesModalLabel");
-  moreMoviesContainer.innerHTML = "";
-  modalTitle.textContent = `${categoryName} Movies`;
-
-  movieList.slice(5).map((movie) => {
-    const col = document.createElement("div");
-    col.className = "col-2 mb-3";
-    col.innerHTML = `
-      <div class="movie-card" role="button">
-        <img src="${movie.img}" alt="${movie.title}" class="img-fluid" />
-        <h6 class="mt-2">${movie.title}</h6>
-        <p class="small text-muted">${movie.genre} • ${movie.year}</p>
-      </div>
-    `;
-    col.querySelector(".movie-card").addEventListener("click", () => {
-      showMovieModal(movie);
-    });
-
-    moreMoviesContainer.appendChild(col);
-  });
-}
 
 const movieDetailModalEl = document.getElementById("movieDetailModal");
 const movieDetailModal =
@@ -83,253 +58,203 @@ function showMovieModal(movie) {
   movieDetailModal.show();
 }
 
-const actionMoviesContainer = document.getElementById("actionMoviesContainer");
+const movieDataStore = {};
 
-let actionMovieData = [];
+function renderExtraMovies(categoryName, movieList) {
+  const moreMoviesContainer = document.getElementById("moreMoviesContainer");
+  const modalTitle = document.getElementById("moreMoviesModalLabel");
+  moreMoviesContainer.innerHTML = "";
+  modalTitle.textContent = `${categoryName} Movies`;
 
-fetch("/json/actionMovie.json")
-  .then((res) => res.json())
-  .then((ActionMovie) => {
-    actionMovieData = ActionMovie;
-
-    ActionMovie.map((movie, index) => {
-      const col = document.createElement("div");
-      col.className = "col-2 mb-3";
-      col.innerHTML = `
-        <div class="movie-card" role="button">
-          <img src="../${movie.img}" alt="${movie.title}" class="img-thumbnail" />
-          <h6 class="mt-2">${movie.title}</h6>
-          <p class="small text-muted">${movie.genre} • ${movie.year}</p>
-        </div>
-      `;
-      col.querySelector(".movie-card").addEventListener("click", () => {
-        showMovieModal({
-          ...movie,
-          img: `../${movie.img}`,
-        });
-      });
-
-      if (index < 5) {
-        actionMoviesContainer.appendChild(col);
-      }
+  movieList.slice(5).map((movie) => {
+    const col = document.createElement("div");
+    col.className = "col-6 col-sm-4 col-md-3 col-lg-2 mb-3";
+    col.innerHTML = `
+      <div class="movie-card" role="button">
+        <img src="${movie.img}" alt="${movie.title}" class="img-fluid" />
+        <h6 class="mt-2">${movie.title}</h6>
+        <p class="small text-muted">${movie.genre} • ${movie.year}</p>
+      </div>`;
+    col.querySelector(".movie-card").addEventListener("click", () => {
+      showMovieModal(movie);
     });
-  })
-  .catch((err) => {
-    console.error("Failed to load action movies:", err);
+    moreMoviesContainer.appendChild(col);
   });
+}
 
-document.getElementById("actionSeeMore").addEventListener("click", () => {
-  const fixedData = actionMovieData.map((movie) => ({
+function loadMovies({ url, container, limit = 5, genre, seeMoreButtonId }) {
+  fetch(url)
+    .then((res) => res.json())
+    .then((movies) => {
+      movieDataStore[genre] = movies;
+      movies.slice(0, limit).forEach((movie) => {
+        const col = document.createElement("div");
+        col.className = "col-6 col-sm-4 col-md-3 col-lg-2 mb-3";
+        col.innerHTML = `
+          <div class="movie-card" role="button">
+            <img src="../${movie.img}" alt="${movie.title}" class="img-fluid" />
+            <h6 class="mt-2">${movie.title}</h6>
+            <p class="small text-muted">${movie.genre} • ${movie.year}</p>
+          </div>`;
+        col.querySelector(".movie-card").addEventListener("click", () => {
+          showMovieModal({ ...movie, img: `../${movie.img}` });
+        });
+        container.appendChild(col);
+      });
+      if (seeMoreButtonId) {
+        document
+          .getElementById(seeMoreButtonId)
+          .addEventListener("click", () => handleSeeMoreClick(genre));
+      }
+    })
+    .catch((err) => console.error(`Error loading ${genre} movies:`, err));
+}
+
+function handleSeeMoreClick(genre) {
+  const movies = movieDataStore[genre];
+  if (!movies) {
+    console.warn(`No data found for genre: ${genre}`);
+    return;
+  }
+
+  const fixedData = movies.map((movie) => ({
     ...movie,
     img: `../${movie.img}`,
   }));
 
-  renderExtraMovies("Action and Adventure", fixedData);
+  renderExtraMovies(genre, fixedData);
+}
+
+loadMovies({
+  url: "/json/actionMovie.json",
+  container: actionMoviesContainer,
+  limit: 5,
+  genre: "Action",
+  seeMoreButtonId: "actionSeeMore",
 });
 
-const comedyMoviesContainer = document.getElementById("comedyMoviesContainer");
-
-let comedyMovieData = [];
-
-fetch("/json/comedyMovie.json")
-  .then((res) => res.json())
-  .then((comedyMovie) => {
-    comedyMovieData = comedyMovie;
-    console.log(comedyMovie);
-
-    comedyMovie.map((movie, index) => {
-      const col = document.createElement("div");
-      col.className = "col-2 mb-3";
-      col.innerHTML = `
-        <div class="movie-card" role="button">
-          <img src="../${movie.img}" alt="${movie.title}" class="img-fluid" />
-          <h6 class="mt-2">${movie.title}</h6>
-          <p class="small text-muted">${movie.genre} • ${movie.year}</p>
-        </div>
-      `;
-      col.querySelector(".movie-card").addEventListener("click", () => {
-        showMovieModal({
-          ...movie,
-          img: `../${movie.img}`,
-        });
-      });
-
-      if (index < 5) {
-        comedyMoviesContainer.appendChild(col);
-      }
-    });
-  })
-  .catch((err) => {
-    console.error("Failed to load action movies:", err);
-  });
-
-document.getElementById("comedySeeMore").addEventListener("click", () => {
-  const fixedData = comedyMovieData.map((movie) => ({
-    ...movie,
-    img: `../${movie.img}`,
-  }));
-
-  renderExtraMovies("Comedy", fixedData);
+loadMovies({
+  url: "/json/comedyMovie.json",
+  container: comedyMoviesContainer,
+  limit: 5,
+  genre: "Comedy",
+  seeMoreButtonId: "comedySeeMore",
 });
 
-const horrorMovieContainer = document.getElementById("horrorMovieContainer");
-
-let horrorMovieData = [];
-
-fetch("/json/horrorMovie.json")
-  .then((res) => res.json())
-  .then((horrorMovie) => {
-    horrorMovieData = horrorMovie;
-    console.log(horrorMovie);
-
-    horrorMovie.map((movie, index) => {
-      const col = document.createElement("div");
-      col.className = "col-2 mb-3";
-      col.innerHTML = `
-        <div class="movie-card" role="button">
-          <img src="../${movie.img}" alt="${movie.title}" class="img-fluid" />
-          <h6 class="mt-2">${movie.title}</h6>
-          <p class="small text-muted">${movie.genre} • ${movie.year}</p>
-        </div>
-      `;
-      col.querySelector(".movie-card").addEventListener("click", () => {
-        showMovieModal({
-          ...movie,
-          img: `../${movie.img}`,
-        });
-      });
-
-      if (index < 5) {
-        horrorMovieContainer.appendChild(col);
-      }
-    });
-  })
-  .catch((err) => {
-    console.error("Failed to load action movies:", err);
-  });
-
-document.getElementById("horrorSeeMore").addEventListener("click", () => {
-  const fixedData = horrorMovieData.map((movie) => ({
-    ...movie,
-    img: `../${movie.img}`,
-  }));
-
-  renderExtraMovies("Comedy", fixedData);
+loadMovies({
+  url: "/json/horrorMovie.json",
+  container: horrorMovieContainer,
+  limit: 5,
+  genre: "Horror",
+  seeMoreButtonId: "horrorSeeMore",
 });
 
-const romanceMovieContainer = document.getElementById("romanceMovieContainer");
-
-let romanceMovieData = [];
-
-fetch("/json/romanceMovie.json")
-  .then((res) => res.json())
-  .then((romanceMovie) => {
-    romanceMovieData = romanceMovie;
-    console.log(romanceMovie);
-
-    romanceMovie.map((movie, index) => {
-      const col = document.createElement("div");
-      col.className = "col-2 mb-3";
-      col.innerHTML = `
-        <div class="movie-card" role="button">
-          <img src="../${movie.img}" alt="${movie.title}" class="img-fluid" />
-          <h6 class="mt-2">${movie.title}</h6>
-          <p class="small text-muted">${movie.genre} • ${movie.year}</p>
-        </div>
-      `;
-      col.querySelector(".movie-card").addEventListener("click", () => {
-        showMovieModal({
-          ...movie,
-          img: `../${movie.img}`,
-        });
-      });
-
-      if (index < 5) {
-        romanceMovieContainer.appendChild(col);
-      }
-    });
-  })
-  .catch((err) => {
-    console.error("Failed to load action movies:", err);
-  });
-
-document.getElementById("romanceSeeMore").addEventListener("click", () => {
-  const fixedData = romanceMovieData.map((movie) => ({
-    ...movie,
-    img: `../${movie.img}`,
-  }));
-
-  renderExtraMovies("Comedy", fixedData);
+loadMovies({
+  url: "/json/romanceMovie.json",
+  container: romanceMovieContainer,
+  limit: 5,
+  genre: "Romance",
+  seeMoreButtonId: "romanceSeeMore",
 });
 
+// DOM Elements
 const form = document.getElementById("movie-search-form");
 const input = document.getElementById("search-input");
 const resultsContainer = document.getElementById("search-results");
 const searchOverlay = document.getElementById("search-overlay");
 
-form.addEventListener("submit", function (e) {
+form.addEventListener("submit", handleSearchSubmit);
+document.addEventListener("keydown", handleEscapeKey);
+searchOverlay.addEventListener("click", closeSearchResults);
+
+function handleSearchSubmit(e) {
   e.preventDefault();
 
   const query = input.value.trim().toLowerCase();
   resultsContainer.innerHTML = "";
 
   if (query.length === 0) {
-    resultsContainer.style.display = "none";
-    searchOverlay.classList.remove("active");
+    closeSearchResults();
     return;
   }
 
+  performSearch(query);
+}
+
+function performSearch(query) {
   fetch("/json/movies.json")
-    .then((response) => response.json())
+    .then((res) => res.json())
     .then((movies) => {
-      const filtered = movies.filter((movie) =>
-        movie.title.toLowerCase().includes(query)
-      );
-
-      if (filtered.length === 0) {
-        resultsContainer.innerHTML = `<div class="list-group-item">No results found</div>`;
-      } else {
-        filtered.forEach((movie) => {
-          const item = document.createElement("a");
-          item.className =
-            "list-group-item list-group-item-action d-flex align-items-start gap-3";
-          item.href = "#";
-          item.innerHTML = `
-            <img src="../${movie.img}" alt="${movie.title}" class="search-thumb">
-            <div>
-              <div class="fw-bold">${movie.title}</div>
-              <small class="text-muted">${movie.genre} | ${movie.year}</small>
-            </div>
-          `;
-          item.addEventListener("click", function (e) {
-            e.preventDefault();
-            showMovieModal(movie);
-            resultsContainer.style.display = "none";
-            searchOverlay.classList.remove("active");
-          });
-          resultsContainer.appendChild(item);
-        });
-      }
-
-      resultsContainer.style.display = "block";
-      searchOverlay.classList.add("active");
+      const results = filterMovies(movies, query);
+      displaySearchResults(results);
     })
-    .catch((error) => {
-      console.error("Error fetching movies:", error);
-      resultsContainer.innerHTML = `<div class="list-group-item text-danger">Error loading data</div>`;
-      resultsContainer.style.display = "block";
-      searchOverlay.classList.add("active");
+    .catch((err) => {
+      console.error("Error fetching movies:", err);
+      showError("Error loading data");
     });
-});
+}
 
-document.addEventListener("keydown", (e) => {
-  if (e.key === "Escape") {
-    resultsContainer.style.display = "none";
-    searchOverlay.classList.remove("active");
+function filterMovies(movies, query) {
+  return movies.filter((movie) => movie.title.toLowerCase().includes(query));
+}
+
+function displaySearchResults(movies) {
+  resultsContainer.innerHTML = "";
+
+  if (movies.length === 0) {
+    resultsContainer.innerHTML = `<div class="list-group-item">No results found</div>`;
+  } else {
+    movies.map((movie) => {
+      const item = createSearchResultItem(movie);
+      resultsContainer.appendChild(item);
+    });
   }
-});
 
-searchOverlay.addEventListener("click", () => {
+  resultsContainer.style.display = "block";
+  searchOverlay.classList.add("active");
+}
+
+// Create individual search result element
+function createSearchResultItem(movie) {
+  const item = document.createElement("a");
+  item.className =
+    "list-group-item list-group-item-action d-flex align-items-start gap-3";
+  item.href = "#";
+  item.innerHTML = `
+    <img src="../${movie.img}" alt="${movie.title}" class="search-thumb">
+    <div>
+      <div class="fw-bold">${movie.title}</div>
+      <small class="text-muted">${movie.genre} | ${movie.year}</small>
+    </div>
+  `;
+  item.addEventListener("click", (e) => {
+    e.preventDefault();
+    showMovieModal({
+      ...movie,
+      img: `../${movie.img}`,
+    });
+    closeSearchResults();
+  });
+
+  return item;
+}
+
+// Handle Escape key to close overlay
+function handleEscapeKey(e) {
+  if (e.key === "Escape") {
+    closeSearchResults();
+  }
+}
+
+// Close search results and overlay
+function closeSearchResults() {
   resultsContainer.style.display = "none";
   searchOverlay.classList.remove("active");
-});
+}
+
+// Show error message
+function showError(message) {
+  resultsContainer.innerHTML = `<div class="list-group-item text-danger">${message}</div>`;
+  resultsContainer.style.display = "block";
+  searchOverlay.classList.add("active");
+}
