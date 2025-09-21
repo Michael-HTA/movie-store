@@ -3,37 +3,37 @@
     "title": "50 First Dates",
     "genre": "Comedy, Romance",
     "year": 2004,
-    "img": "../images/movies/50FirstDates(2004).jpg",
+    "img": "../../images/movies/50FirstDates(2004).jpg",
     "description": "A man falls in love with a woman who has short-term memory loss, requiring him to win her over every day.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
       {
-        "title": "The Notebook",
-        "year": 2004,
-        "genre": "Romance, Drama",
-        "img": "../images/movies/the_notebook.jpg",
-        "description": "A love story spanning decades, chronicling enduring romance."
+        "title": "A Fish Called Wanda",
+        "genre": "Comedy, Crime",
+        "year": 1988,
+        "img": "../images/Comedy/AFishCalledWanda(1988).jpg",
+        "description": "A con artists scheme to steal a diamond goes awry when she falls for one of her accomplices."
       },
       {
-        "title": "Me Before You",
-        "year": 2016,
-        "genre": "Romance, Drama",
-        "img": "../images/movies/me_before_you.jpg",
-        "description": "A young woman becomes a caregiver for a paralyzed man and they develop a deep bond."
+        "title": "Anger Management",
+        "genre": "Comedy",
+        "year": 2003,
+        "img": "../images/Comedy/AngerManagement(2003).jpg",
+        "description": "A businessman is ordered to attend an anger management program after an incident on a flight."
       },
       {
-        "title": "Crazy Rich Asians",
-        "year": 2018,
-        "genre": "Comedy, Romance",
-        "img": "../images/movies/crazy_rich_asians.jpg",
-        "description": "A woman discovers her boyfriend is from an ultra-wealthy family in Singapore."
+        "title": "Billy Madison",
+        "genre": "Comedy",
+        "year": 1995,
+        "img": "../images/Comedy/BillyMadison (1995).jpg",
+        "description": "A spoiled man must repeat grades 1-12 to inherit his fathers fortune."
       },
       {
-        "title": "La La Land",
-        "year": 2016,
-        "genre": "Romance, Drama, Music",
-        "img": "../images/movies/la_la_land.jpg",
-        "description": "A jazz musician and an aspiring actress fall in love in Los Angeles."
+        "title": "European Gigolo",
+        "genre": "Comedy, Drama",
+        "year": 2005,
+        "img": "../images/Comedy/EuropeanGigolo(2005) .jpg",
+        "description": "A charming gigolos life takes a turn when he falls in love with one of his clients."
       }
     ]
   },
@@ -41,44 +41,37 @@
     "title": "A Fish Called Wanda",
     "genre": "Comedy, Crime",
     "year": 1988,
-    "img": "../images/movies/AFishCalledWanda(1988).jpg",
-    "description": "A con artist's scheme to steal a diamond goes awry when she falls for one of her accomplices.",
-    "rating": "⭐⭐⭐",
+    "img": "../../images/movies/AFishCalledWanda(1988).jpg",
+    "description": "A con artists scheme to steal a diamond goes awry when she falls for one of her accomplices.",
+    "rating": "⭐⭐⭐⭐",
     "similar": [
       {
-        "title": "The Naked Gun",
-        "year": 1988,
-        "genre": "Comedy",
-        "img": "../images/movies/The Naked Gun (1988).jpg",
-        "description": "A bumbling detective tries to foil an assassination plot."
+        "title": "Kung Fu Hustle",
+        "genre": "Action, Comedy, Fantasy",
+        "year": 2004,
+        "img": "../images/Comedy/KungFuHustle(2004).jpg",
+        "description": "A wannabe gangster aspires to join a notorious gang, only to discover his true kung fu potential."
+      },
+      {
+        "title": "Liar Liar",
+        "genre": "Comedy, Fantasy",
+        "year": 1997,
+        "img": "../images/Comedy/LiarLiar(1997).jpg",
+        "description": "A lawyer who cant tell a lie for 24 hours after his son makes a wish on his birthday."
+      },
+      {
+        "title": "Mr. Deeds",
+        "genre": "Comedy, Romance",
+        "year": 2002,
+        "img": "../images/Comedy/Mr.Deeds(2002).jpg",
+        "description": "A small-town man inherits a fortune and faces city life and corporate scheming."
       },
       {
         "title": "Step Brothers",
-        "year": 2008,
         "genre": "Comedy",
-        "img": "../images/movies/StepBrothers(2008).jpg",
-        "description": "Two middle-aged men become stepbrothers and struggle to live together."
-      },
-      {
-        "title": "Hot Fuzz",
-        "year": 2007,
-        "genre": "Comedy, Action",
-        "img": "../images/movies/hot_fuzz.jpg",
-        "description": "A top London cop is reassigned to a quiet village with dark secrets."
-      },
-      {
-        "title": "O Brother, Where Art Thou?",
-        "year": 2000,
-        "genre": "Comedy, Adventure",
-        "img": "../images/movies/o_brother.jpg",
-        "description": "Three convicts escape prison and search for hidden treasure."
-      },
-      {
-        "title": "Johnny English",
-        "year": 2003,
-        "genre": "Comedy, Spy",
-        "img": "../images/movies/johnny_english.jpg",
-        "description": "A clumsy spy tries to save Britain from disaster."
+        "year": 2008,
+        "img": "../images/Comedy/StepBrothers(2008).jpg",
+        "description": "Two grown men become stepbrothers and struggle to get along under one roof."
       }
     ]
   },
@@ -86,44 +79,3305 @@
     "title": "All the Bright Places",
     "genre": "Drama, Romance",
     "year": 2020,
-    "img": "../images/movies/all_the_bright_places.jpg",
+    "img": "../../images/movies/all_the_bright_places.jpg",
     "description": "Two teenagers with emotional scars help each other heal and find hope in their lives.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
       {
-        "title": "Call Me by Your Name",
-        "year": 2017,
-        "genre": "Drama, Romance",
-        "img": "../images/movies/call_me_by_your_name.jpg",
-        "description": "A romantic relationship blossoms between a teenager and an older man in 1980s Italy."
-      },
-      {
-        "title": "It Ends With Us",
-        "year": 2022,
+        "title": "Bad Influence",
         "genre": "Romance, Drama",
-        "img": "../images/movies/it_ends_with_us.jpg",
-        "description": "A heartfelt romance exploring love and difficult choices."
+        "year": 2025,
+        "img": "../images/romance/bad_influence.jpg",
+        "description": "A wealthy teenager under the protection of her bodyguard starts developing forbidden feelings for him as they navigate danger from a mysterious stalker."
       },
       {
-        "title": "To All the Boys I've Loved Before",
-        "year": 2018,
+        "title": "Before Sunrise",
+        "genre": "Romance, Drama",
+        "year": 1995,
+        "img": "../images/romance/before_sunrise.jpg",
+        "description": "On his way to Vienna, American Jesse meets Céline, a French student returning to Paris. They spend one evening together in Vienna walking, talking, and connecting—and always knowing their time is limited."
+      },
+      {
+        "title": "Call Me by Your Name",
+        "genre": "Romance, Drama",
+        "year": 2017,
+        "img": "../images/romance/call_me_by_your_name.jpg",
+        "description": "In the summer of 1983 in northern Italy, 17yearold Elio forms a deep bond with Oliver, a doctoral student staying with his family—leading to an unforgettable first love. :contentReference[oaicite:0]{index=0}"
+      },
+      {
+        "title": "Cinderella",
+        "genre": "Romance, Fantasy",
+        "year": 2022,
+        "img": "../images/romance/cinderella.jpg",
+        "description": "A classic fairy tale in which a young woman, mistreated by her stepfamily, is magically helped to attend a royal ball and meets the prince—only for time and obstacles to force them apart."
+      }
+    ]
+  },
+  {
+    "title": "Anger Management",
+    "genre": "Comedy",
+    "year": 2003,
+    "img": "../../images/movies/AngerManagement(2003).jpg",
+    "description": "A businessman is ordered to attend an anger management program after an incident on a flight.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "The Animal",
+        "genre": "Comedy, Sci-Fi",
+        "year": 2001,
+        "img": "../images/Comedy/The Animal (2001).jpg",
+        "description": "A man undergoes experimental surgery and gains animal-like abilities."
+      },
+      {
+        "title": "The Naked Gun",
+        "genre": "Comedy, Crime",
+        "year": 1988,
+        "img": "../images/Comedy/The Naked Gun (1988).jpg",
+        "description": "An inept police detective tries to save the day with hilarious results."
+      },
+      {
+        "title": "The Truman Show",
+        "genre": "Comedy, Drama",
+        "year": 1998,
+        "img": "../images/Comedy/The Truman Show (1998).jpg",
+        "description": "A man discovers his entire life is a reality TV show."
+      },
+      {
+        "title": "The 40-Year-Old Virgin",
+        "genre": "Comedy, Romance",
+        "year": 2005,
+        "img": "../images/Comedy/The40-Year-OldVirgin(2005).jpg",
+        "description": "A middle-aged man tries to lose his virginity with the help of his friends."
+      }
+    ]
+  },
+  {
+    "title": "Anyone But You",
+    "genre": "Romance, Comedy",
+    "year": 2023,
+    "img": "../../images/movies/anyone_but_you.jpg",
+    "description": "Two people who dislike each other are forced to spend time together and develop a romantic relationship.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "Cinderella",
+        "genre": "Romance, Fantasy",
+        "year": 2022,
+        "img": "../images/romance/cinderella.jpg",
+        "description": "A classic fairy tale in which a young woman, mistreated by her stepfamily, is magically helped to attend a royal ball and meets the prince—only for time and obstacles to force them apart."
+      },
+      {
+        "title": "50 First Dates",
+        "genre": "Comedy, Romance",
+        "year": 2004,
+        "img": "../images/Comedy/50FirstDates(2004).jpg",
+        "description": "A man falls in love with a woman who has short-term memory loss, requiring him to win her over every day."
+      },
+      {
+        "title": "European Gigolo",
+        "genre": "Comedy, Drama",
+        "year": 2005,
+        "img": "../images/Comedy/EuropeanGigolo(2005) .jpg",
+        "description": "A charming gigolos life takes a turn when he falls in love with one of his clients."
+      },
+      {
+        "title": "Happy Gilmore",
+        "genre": "Comedy, Sports",
+        "year": 1996,
+        "img": "../images/Comedy/HappyGilmore(1996).jpg",
+        "description": "A rejected hockey player puts his skills to the golf course to save his grandmothers house."
+      }
+    ]
+  },
+  {
+    "title": "Baby s Day Out",
+    "genre": "Comedy, Family",
+    "year": 1994,
+    "img": "../../images/movies/Baby sDayOut(1994).jpg",
+    "description": "A baby is kidnapped by criminals but manages to escape and embarks on an adventurous day out.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "Happy Gilmore",
+        "genre": "Comedy, Sports",
+        "year": 1996,
+        "img": "../images/Comedy/HappyGilmore(1996).jpg",
+        "description": "A rejected hockey player puts his skills to the golf course to save his grandmothers house."
+      },
+      {
+        "title": "Hitch",
+        "genre": "Comedy, Romance",
+        "year": 2005,
+        "img": "../images/Comedy/Hitch(2005).jpg",
+        "description": "A professional dating consultant helps men woo women while facing his own romantic challenges."
+      },
+      {
+        "title": "Home Alone",
+        "genre": "Comedy, Family",
+        "year": 1990,
+        "img": "../images/Comedy/HomeAlone(1990).jpg",
+        "description": "A young boy defends his home from burglars after his family accidentally leaves him behind on vacation."
+      },
+      {
+        "title": "Kicking & Screaming",
+        "genre": "Comedy, Family, Sports",
+        "year": 2005,
+        "img": "../images/Comedy/Kicking&Screaming(2005).jpg",
+        "description": "A mild-mannered dad turns into a competitive soccer coach to win against his own father."
+      }
+    ]
+  },
+  {
+    "title": "Bad Influence",
+    "genre": "Thriller, Romance",
+    "year": 1990,
+    "img": "../../images/movies/bad_influence.jpg",
+    "description": "A mild-mannered man becomes involved with a charismatic stranger who leads him down a dangerous path.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "Anyone But You",
         "genre": "Romance, Comedy",
-        "img": "../images/movies/to_all_the_boys.jpg",
-        "description": "A teenage girl's secret love letters are exposed, turning her life upside down."
+        "year": 2023,
+        "img": "../images/romance/anyone_but_you.jpg",
+        "description": "After a great first date, Bea and Bens attraction turns cold—until they unexpectedly reunite at a destination wedding in Australia and pretend to be a couple."
       },
       {
-        "title": "Five Feet Apart",
-        "year": 2019,
-        "genre": "Drama, Romance",
-        "img": "../images/movies/five_feet_apart.jpg",
-        "description": "Two teens with cystic fibrosis fall in love but must remain physically distant."
+        "title": "Bad Influence",
+        "genre": "Romance, Drama",
+        "year": 2025,
+        "img": "../images/romance/bad_influence.jpg",
+        "description": "A wealthy teenager under the protection of her bodyguard starts developing forbidden feelings for him as they navigate danger from a mysterious stalker."
       },
       {
-        "title": "The Fault in Our Stars",
-        "year": 2014,
-        "genre": "Drama, Romance",
-        "img": "../images/movies/fault_in_our_stars.jpg",
-        "description": "Two cancer patients find love and meaning while facing their illness."
+        "title": "Before Sunrise",
+        "genre": "Romance, Drama",
+        "year": 1995,
+        "img": "../images/romance/before_sunrise.jpg",
+        "description": "On his way to Vienna, American Jesse meets Céline, a French student returning to Paris. They spend one evening together in Vienna walking, talking, and connecting—and always knowing their time is limited."
+      },
+      {
+        "title": "Call Me by Your Name",
+        "genre": "Romance, Drama",
+        "year": 2017,
+        "img": "../images/romance/call_me_by_your_name.jpg",
+        "description": "In the summer of 1983 in northern Italy, 17yearold Elio forms a deep bond with Oliver, a doctoral student staying with his family—leading to an unforgettable first love. :contentReference[oaicite:0]{index=0}"
+      }
+    ]
+  },
+  {
+    "title": "Before Sunrise",
+    "genre": "Romance, Drama",
+    "year": 1995,
+    "img": "../../images/movies/before_sunrise.jpg",
+    "description": "Two strangers meet on a train and spend a night walking around Vienna, forming a deep connection.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "Anyone But You",
+        "genre": "Romance, Comedy",
+        "year": 2023,
+        "img": "../images/romance/anyone_but_you.jpg",
+        "description": "After a great first date, Bea and Bens attraction turns cold—until they unexpectedly reunite at a destination wedding in Australia and pretend to be a couple."
+      },
+      {
+        "title": "Bad Influence",
+        "genre": "Romance, Drama",
+        "year": 2025,
+        "img": "../images/romance/bad_influence.jpg",
+        "description": "A wealthy teenager under the protection of her bodyguard starts developing forbidden feelings for him as they navigate danger from a mysterious stalker."
+      },
+      {
+        "title": "Before Sunrise",
+        "genre": "Romance, Drama",
+        "year": 1995,
+        "img": "../images/romance/before_sunrise.jpg",
+        "description": "On his way to Vienna, American Jesse meets Céline, a French student returning to Paris. They spend one evening together in Vienna walking, talking, and connecting—and always knowing their time is limited."
+      },
+      {
+        "title": "Call Me by Your Name",
+        "genre": "Romance, Drama",
+        "year": 2017,
+        "img": "../images/romance/call_me_by_your_name.jpg",
+        "description": "In the summer of 1983 in northern Italy, 17yearold Elio forms a deep bond with Oliver, a doctoral student staying with his family—leading to an unforgettable first love. :contentReference[oaicite:0]{index=0}"
+      }
+    ]
+  },
+  {
+    "title": "Billy Madison",
+    "genre": "Comedy",
+    "year": 1995,
+    "img": "../../images/movies/BillyMadison (1995).jpg",
+    "description": "A spoiled man must repeat grades 1-12 to inherit his father s fortune.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "Anyone But You",
+        "genre": "Romance, Comedy",
+        "year": 2023,
+        "img": "../images/romance/anyone_but_you.jpg",
+        "description": "After a great first date, Bea and Bens attraction turns cold—until they unexpectedly reunite at a destination wedding in Australia and pretend to be a couple."
+      },
+      {
+        "title": "Bad Influence",
+        "genre": "Romance, Drama",
+        "year": 2025,
+        "img": "../images/romance/bad_influence.jpg",
+        "description": "A wealthy teenager under the protection of her bodyguard starts developing forbidden feelings for him as they navigate danger from a mysterious stalker."
+      },
+      {
+        "title": "Before Sunrise",
+        "genre": "Romance, Drama",
+        "year": 1995,
+        "img": "../images/romance/before_sunrise.jpg",
+        "description": "On his way to Vienna, American Jesse meets Céline, a French student returning to Paris. They spend one evening together in Vienna walking, talking, and connecting—and always knowing their time is limited."
+      },
+      {
+        "title": "Call Me by Your Name",
+        "genre": "Romance, Drama",
+        "year": 2017,
+        "img": "../images/romance/call_me_by_your_name.jpg",
+        "description": "In the summer of 1983 in northern Italy, 17yearold Elio forms a deep bond with Oliver, a doctoral student staying with his family—leading to an unforgettable first love. :contentReference[oaicite:0]{index=0}"
+      }
+    ]
+  },
+  {
+    "title": "Blade",
+    "genre": "Action, Horror",
+    "year": 1998,
+    "img": "../../images/movies/blade.jpg",
+    "description": "A half-vampire hunts vampires to protect humans from the undead.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "Blade II",
+        "genre": "Action, Horror",
+        "year": 2002,
+        "img": "../images/action/blade2.jpg",
+        "description": "Blade forms an uneasy alliance with vampire hunters to combat a new breed of mutant vampires."
+      },
+      {
+        "title": "Fight Club",
+        "genre": "Action, Drama",
+        "year": 1999,
+        "img": "../images/action/fight-club.jpg",
+        "description": "An insomniac office worker and a soap maker form an underground fight club with surprising consequences."
+      },
+      {
+        "title": "Mad Max",
+        "genre": "Action, Adventure",
+        "year": 1979,
+        "img": "../images/action/MadMax.jpg",
+        "description": "In a post-apocalyptic wasteland, a vengeful cop sets out to stop a violent motorcycle gang."
+      },
+      {
+        "title": "Oppenheimer",
+        "genre": "Action, Drama, Biography",
+        "year": 2023,
+        "img": "../images/action/Oppenheimer.jpg",
+        "description": "The story of J. Robert Oppenheimer and his role in the development of the atomic bomb."
+      }
+    ]
+  },
+  {
+    "title": "Blade II",
+    "genre": "Action, Horror",
+    "year": 2002,
+    "img": "../../images/movies/blade2.jpg",
+    "description": "Blade teams up with vampire hunters to fight a new breed of super vampires.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "Blade",
+        "genre": "Action, Horror",
+        "year": 1998,
+        "img": "../images/action/blade.jpg",
+        "description": "A half-vampire, half-mortal man becomes a protector of humans against vampires."
+      },
+      {
+        "title": "Fight Club",
+        "genre": "Action, Drama",
+        "year": 1999,
+        "img": "../images/action/fight-club.jpg",
+        "description": "An insomniac office worker and a soap maker form an underground fight club with surprising consequences."
+      },
+      {
+        "title": "Mad Max",
+        "genre": "Action, Adventure",
+        "year": 1979,
+        "img": "../images/action/MadMax.jpg",
+        "description": "In a post-apocalyptic wasteland, a vengeful cop sets out to stop a violent motorcycle gang."
+      },
+      {
+        "title": "Oppenheimer",
+        "genre": "Action, Drama, Biography",
+        "year": 2023,
+        "img": "../images/action/Oppenheimer.jpg",
+        "description": "The story of J. Robert Oppenheimer and his role in the development of the atomic bomb."
+      }
+    ]
+  },
+  {
+    "title": "Call Me by Your Name",
+    "genre": "Drama, Romance",
+    "year": 2017,
+    "img": "../../images/movies/call_me_by_your_name.jpg",
+    "description": "A romantic relationship blossoms between a teenager and an older man in 1980s Italy.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "Blade",
+        "genre": "Action, Horror",
+        "year": 1998,
+        "img": "../images/action/blade.jpg",
+        "description": "A half-vampire, half-mortal man becomes a protector of humans against vampires."
+      },
+      {
+        "title": "Fight Club",
+        "genre": "Action, Drama",
+        "year": 1999,
+        "img": "../images/action/fight-club.jpg",
+        "description": "An insomniac office worker and a soap maker form an underground fight club with surprising consequences."
+      },
+      {
+        "title": "Mad Max",
+        "genre": "Action, Adventure",
+        "year": 1979,
+        "img": "../images/action/MadMax.jpg",
+        "description": "In a post-apocalyptic wasteland, a vengeful cop sets out to stop a violent motorcycle gang."
+      },
+      {
+        "title": "Oppenheimer",
+        "genre": "Action, Drama, Biography",
+        "year": 2023,
+        "img": "../images/action/Oppenheimer.jpg",
+        "description": "The story of J. Robert Oppenheimer and his role in the development of the atomic bomb."
+      }
+    ]
+  },
+  {
+    "title": "Cinderella",
+    "genre": "Romance, Fantasy",
+    "year": 2015,
+    "img": "../../images/movies/cinderella.jpg",
+    "description": "A live-action retelling of the classic fairy tale about a young woman and her magical transformation.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Dead Silence",
+    "genre": "Horror, Thriller",
+    "year": 2007,
+    "img": "../../images/movies/dead_silence(2007).jpg",
+    "description": "A man investigates the murder of his wife and the legend of a ventriloquist s doll.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "Evil Dead Rise",
+        "genre": "Horror, Supernatural",
+        "year": 2023,
+        "img": "../images/horror/evil_dead_rise(2023).jpg",
+        "description": "Two estranged sisters reunite in a cramped Los Angeles apartment building, only for a demonic threat to emerge. Discovery of an ancient book unleashes a plague of flesh‑possessing demons, forcing them and their family to fight for survival in a terrifying, blood‑soaked ordeal."
+      },
+      {
+        "title": "Goodnight Mommy",
+        "genre": "Horror, Psychological Thriller",
+        "year": 2022,
+        "img": "../images/horror/goodnight_mommy(2022).jpg",
+        "description": "Twin brothers Elias and Lukas return to their mothers home after her cosmetic surgery, only to find her behavior strange, her face full of bandages, and rules that feel off. They begin to suspect that the woman in their home may not be their real mother."
+      },
+      {
+        "title": "Hereditary",
+        "genre": "Horror, Drama, Supernatural",
+        "year": 2018,
+        "img": "../images/horror/hereditary(2018).png",
+        "description": "After the death of the family matriarch, a grieving family starts to unravel cryptic and terrifying secrets about their ancestry. Supernatural forces begin to encroach, and the very meaning of family and heritage becomes a horrifying curse."
+      },
+      {
+        "title": "His House",
+        "genre": "Horror, Thriller",
+        "year": 2020,
+        "img": "../images/horror/his_house(2020).jpg",
+        "description": "A refugee couple fleeing war in South Sudan resettle in a seemingly safe English town—but they carry unresolved guilt and secrets, and discover that their new house harbors a sinister presence linked to their past."
+      }
+    ]
+  },
+  {
+    "title": "European Gigolo",
+    "genre": "Drama",
+    "year": 2005,
+    "img": "../../images/movies/EuropeanGigolo(2005).jpg",
+    "description": "A story exploring the life and challenges of a European male escort.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Evil Dead Rise",
+    "genre": "Horror",
+    "year": 2023,
+    "img": "../../images/movies/evil_dead_rise(2023).jpg",
+    "description": "A terrifying battle against demonic forces in a modern-day urban setting.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Ex Machina",
+    "genre": "Sci-Fi, Thriller",
+    "year": 2014,
+    "img": "../../images/movies/ex_machina.jpg",
+    "description": "A young programmer is invited to administer the Turing test to an intelligent humanoid robot.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Fight Club",
+    "genre": "Drama",
+    "year": 1999,
+    "img": "../../images/movies/fight-club.jpg",
+    "description": "An insomniac and a soap maker form an underground fight club that spirals out of control.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Forrest Gump",
+    "genre": "Drama, Romance",
+    "year": 1994,
+    "img": "../../images/movies/ForrestGump(1994).jpg",
+    "description": "The life journey of a man with low IQ but good intentions through pivotal moments in history.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Goodnight Mommy",
+    "genre": "Horror, Thriller",
+    "year": 2022,
+    "img": "../../images/movies/goodnight_mommy(2022).jpg",
+    "description": "Twin boys suspect their mother, returning from surgery, is an impostor.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Good Will Hunting",
+    "genre": "Drama",
+    "year": 1997,
+    "img": "../../images/movies/GoodWillHunting(1997).jpg",
+    "description": "A janitor at MIT has a gift for mathematics but needs help from a therapist to find direction.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Greatest Love Stories Before Sunrise",
+    "genre": "Romance, Drama",
+    "year": 1995,
+    "img": "../../images/movies/Greatest-Love-Stories-Before-Sunrise.webp",
+    "description": "A collection of love stories inspired by the iconic film Before Sunrise.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Happy Gilmore",
+    "genre": "Comedy, Sports",
+    "year": 1996,
+    "img": "../../images/movies/HappyGilmore(1996).jpg",
+    "description": "An unsuccessful hockey player discovers a talent for golf to save his grandmother s house.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Hereditary",
+    "genre": "Horror, Drama",
+    "year": 2018,
+    "img": "../../images/movies/hereditary(2018).png",
+    "description": "After their grandmother passes, a family faces terrifying secrets and tragic events.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "His House",
+    "genre": "Horror, Drama",
+    "year": 2020,
+    "img": "../../images/movies/his_house(2020).jpg",
+    "description": "Refugees struggle to adjust to life in England while haunted by sinister forces.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Hitch",
+    "genre": "Romantic Comedy",
+    "year": 2005,
+    "img": "../../images/movies/Hitch(2005).jpg",
+    "description": "A professional dating consultant helps men win over the women of their dreams.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Home Alone",
+    "genre": "Comedy, Family",
+    "year": 1990,
+    "img": "../../images/movies/HomeAlone(1990).jpg",
+    "description": "A young boy defends his home from burglars after being accidentally left behind by his family.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "I Am the Pretty Things That Lives in the House",
+    "genre": "Horror, Thriller",
+    "year": 2016,
+    "img": "../../images/movies/i_am_the_pretty_things_that_lives_in_the_house(2016).jpg",
+    "description": "A nurse cares for an elderly woman in a haunted house with a dark past.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Insidious",
+    "genre": "Horror, Thriller",
+    "year": 2010,
+    "img": "../../images/movies/insidious(2010).jpg",
+    "description": "A family tries to prevent evil spirits from trapping their comatose child in a realm called The Further.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "It Ends With Us",
+    "genre": "Romance, Drama",
+    "year": 2022,
+    "img": "../../images/movies/it_ends_with_us.jpg",
+    "description": "A heartfelt romance exploring love and difficult choices.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "It",
+    "genre": "Horror",
+    "year": 2017,
+    "img": "../../images/movies/it(2017).jpg",
+    "description": "A group of kids face their fears as they confront an ancient evil clown terrorizing their town.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Jaws",
+    "genre": "Thriller, Horror",
+    "year": 1975,
+    "img": "../../images/movies/jaws(1975).jpg",
+    "description": "A giant man-eating great white shark attacks beachgoers, prompting a hunt to stop it.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Kicking & Screaming",
+    "genre": "Comedy, Family",
+    "year": 2005,
+    "img": "../../images/movies/Kicking&Screaming(2005).jpg",
+    "description": "A dad reluctantly coaches his son s soccer team and faces off against his own competitive father.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Kindergarten Cop",
+    "genre": "Comedy, Action",
+    "year": 1990,
+    "img": "../../images/movies/KindergartenCop (1990).jpg",
+    "description": "An undercover cop goes back to school to catch a criminal.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Kung Fu Hustle",
+    "genre": "Action, Comedy",
+    "year": 2004,
+    "img": "../../images/movies/KungFuHustle(2004).jpg",
+    "description": "A wannabe gangster gets caught in the middle of a conflict between a notorious gang and residents with kung fu skills.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Late Night with the Devil",
+    "genre": "Horror",
+    "year": 2023,
+    "img": "../../images/movies/late_night_with_the_devil(2023).jpg",
+    "description": "A chilling tale of possession and a TV show trying to capture supernatural phenomena.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Liar Liar",
+    "genre": "Comedy",
+    "year": 1997,
+    "img": "../../images/movies/LiarLiar(1997).jpg",
+    "description": "A lawyer is forced to tell the truth for 24 hours after his son makes a birthday wish.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Life Is Beautiful",
+    "genre": "Drama, Comedy, Romance",
+    "year": 1997,
+    "img": "../../images/movies/LifeIsBeautiful(1997).jpg",
+    "description": "During World War II, a father uses humor and imagination to protect his son from the horrors of a concentration camp.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Love Untangled",
+    "genre": "Romance",
+    "year": 2019,
+    "img": "../../images/movies/love_untangled.jpg",
+    "description": "A woman reconnects with her past through social media, rediscovering lost love.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Mad Max",
+    "genre": "Action, Adventure",
+    "year": 1979,
+    "img": "../../images/movies/MadMax.jpg",
+    "description": "In a dystopian future, a police officer sets out to stop a violent motorcycle gang.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Me Before You",
+    "genre": "Romance, Drama",
+    "year": 2016,
+    "img": "../../images/movies/me_before_you.jpg",
+    "description": "A young woman becomes a caregiver for a paralyzed man and they develop a deep bond.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Mr. Deeds",
+    "genre": "Comedy, Romance",
+    "year": 2002,
+    "img": "../../images/movies/Mr.Deeds(2002).jpg",
+    "description": "A small-town man inherits a huge fortune and moves to the big city, encountering new challenges and love.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "My Fault",
+    "genre": "Romance",
+    "year": 2023,
+    "img": "../../images/movies/my_fault.jpg",
+    "description": "A passionate and emotional romance between two complex characters.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "My Future You",
+    "genre": "Romance",
+    "year": 2023,
+    "img": "../../images/movies/my_future_you.jpg",
+    "description": "A romantic journey of self-discovery and finding love in unexpected places.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "My Love",
+    "genre": "Romance",
+    "year": 2022,
+    "img": "../../images/movies/my_love.jpg",
+    "description": "A heartfelt tale of overcoming challenges to be with the one you love.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "My Oxford Year",
+    "genre": "Romance, Drama",
+    "year": 2022,
+    "img": "../../images/movies/my_oxford_year.jpg",
+    "description": "A young woman spends a year at Oxford and discovers love and friendship.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Oppenheimer",
+    "genre": "Biography, Drama, History",
+    "year": 2023,
+    "img": "../../images/movies/Oppenheimer.jpg",
+    "description": "The story of J. Robert Oppenheimer and the development of the atomic bomb.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean: At World s End",
+    "genre": "Adventure, Fantasy",
+    "year": 2007,
+    "img": "../../images/movies/piratesCaribbeanAtWorldEnd.jpg",
+    "description": "Jack Sparrow and friends unite to face their greatest enemy in the final chapter of the trilogy.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean: Dead Man s Chest",
+    "genre": "Adventure, Fantasy",
+    "year": 2006,
+    "img": "../../images/movies/piratesCaribbeanDeadMansChest.jpg",
+    "description": "Jack Sparrow races to recover a legendary debt while facing supernatural threats.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean: On Stranger Tides",
+    "genre": "Adventure, Fantasy",
+    "year": 2011,
+    "img": "../../images/movies/piratesCaribbeanOnStrangerTides.jpg",
+    "description": "Jack Sparrow searches for the Fountain of Youth while dealing with pirates and the Spanish navy.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "genre": "Adventure, Fantasy",
+    "year": 2003,
+    "img": "../../images/movies/piratesCaribbeanTheCureseofTheBlackPearl.jpg",
+    "description": "Captain Jack Sparrow teams up with a blacksmith to rescue a kidnapped woman and break a pirate curse.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Purple Hearts",
+    "genre": "Romance, Drama",
+    "year": 2022,
+    "img": "../../images/movies/purple_hearts.webp",
+    "description": "A struggling musician and a Marine find unexpected love through a marriage of convenience.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Rambo",
+    "genre": "Action, Drama",
+    "year": 2008,
+    "img": "../../images/movies/rambo.jpg",
+    "description": "A former soldier goes on a rescue mission to save kidnapped missionaries in Burma.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Sinister",
+    "genre": "Horror, Mystery",
+    "year": 2012,
+    "img": "../../images/movies/sinister(2012).jpg",
+    "description": "A true-crime writer discovers disturbing home movies that put his family in danger.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Sky Captain and the World of Tomorrow",
+    "genre": "Action, Adventure, Sci-Fi",
+    "year": 2004,
+    "img": "../../images/movies/SkyCaptain.jpg",
+    "description": "A reporter and a pilot investigate the disappearance of scientists and fight giant robots.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Skyfall",
+    "genre": "Action, Thriller",
+    "year": 2012,
+    "img": "../../images/movies/SkyFall.jpg",
+    "description": "James Bond faces a rogue agent who threatens MI6.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Step Brothers",
+    "genre": "Comedy",
+    "year": 2008,
+    "img": "../../images/movies/StepBrothers(2008).jpg",
+    "description": "Two middle-aged men become stepbrothers and struggle to live together.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Talk to Me",
+    "genre": "Horror, Thriller",
+    "year": 2022,
+    "img": "../../images/movies/talk_to_me(2022).jpg",
+    "description": "A group of friends discover a way to communicate with the dead with terrifying consequences.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Tenet",
+    "genre": "Action, Sci-Fi",
+    "year": 2020,
+    "img": "../../images/movies/Tenet.jpg",
+    "description": "A secret agent embarks on a time-bending mission to prevent global catastrophe.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Terminator",
+    "genre": "Action, Sci-Fi",
+    "year": 1984,
+    "img": "../../images/movies/terminator.jpg",
+    "description": "A cyborg assassin is sent back in time to kill the mother of a future resistance leader.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Terminator 2: Judgment Day",
+    "genre": "Action, Sci-Fi",
+    "year": 1991,
+    "img": "../../images/movies/Terminator2.jpg",
+    "description": "A reprogrammed terminator protects a young boy who will lead humanity s future resistance.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Animal",
+    "genre": "Comedy",
+    "year": 2001,
+    "img": "../../images/movies/The Animal (2001).jpg",
+    "description": "A man undergoes animal organ transplants that cause hilarious transformations.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Naked Gun",
+    "genre": "Comedy",
+    "year": 1988,
+    "img": "../../images/movies/The Naked Gun (1988).jpg",
+    "description": "A bumbling detective tries to foil an assassination plot.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Truman Show",
+    "genre": "Drama, Sci-Fi",
+    "year": 1998,
+    "img": "../../images/movies/The Truman Show (1998).jpg",
+    "description": "A man discovers his entire life is a reality TV show.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Conjuring",
+    "genre": "Horror",
+    "year": 2013,
+    "img": "../../images/movies/the_conjuring(2013).jpg",
+    "description": "Paranormal investigators help a family terrorized by a dark presence in their farmhouse.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Deliverance",
+    "genre": "Horror",
+    "year": 2024,
+    "img": "../../images/movies/the_deliverance(2024).webp",
+    "description": "A suspenseful horror about survival and dark secrets.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Godfather",
+    "genre": "Crime, Drama",
+    "year": 1972,
+    "img": "../../images/movies/The_Godfather_(1972).jpg",
+    "description": "The powerful Italian-American crime family of Don Vito Corleone.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Idea of You",
+    "genre": "Romance, Drama",
+    "year": 2022,
+    "img": "../../images/movies/the_idea_of_you.jpg",
+    "description": "A romance between a woman and a young pop star that challenges societal expectations.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Invitation",
+    "genre": "Thriller, Horror",
+    "year": 2022,
+    "img": "../../images/movies/the_invitation(2022).jpg",
+    "description": "A man attends a dinner party that takes a sinister turn.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Mermaid",
+    "genre": "Romance, Fantasy",
+    "year": 2016,
+    "img": "../../images/movies/the_mermaid.jpg",
+    "description": "A mermaid is sent to assassinate a businessman but falls in love instead.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Notebook",
+    "genre": "Romance, Drama",
+    "year": 2004,
+    "img": "../../images/movies/the_notebook.jpg",
+    "description": "A love story spanning decades, chronicling enduring romance.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Nun",
+    "genre": "Horror, Mystery",
+    "year": 2018,
+    "img": "../../images/movies/the_nun(2018).jpg",
+    "description": "A priest and a nun investigate a mysterious death in a Romanian abbey.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Vow",
+    "genre": "Romance, Drama",
+    "year": 2012,
+    "img": "../../images/movies/the_vow.jpg",
+    "description": "A woman tries to regain her memory and love after a traumatic accident.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Witch",
+    "genre": "Horror, Mystery",
+    "year": 2015,
+    "img": "../../images/movies/the_witch(2015).png",
+    "description": "A Puritan family encounters dark forces in the 1630s New England wilderness.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The 40-Year-Old Virgin",
+    "genre": "Comedy",
+    "year": 2005,
+    "img": "../../images/movies/The40-Year-OldVirgin(2005).jpg",
+    "description": "A middle-aged man s friends try to help him lose his virginity.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Dark Knight",
+    "genre": "Action, Crime, Drama",
+    "year": 2008,
+    "img": "../../images/movies/TheDarkKnight(2008).jpg",
+    "description": "Batman battles the Joker in Gotham City.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Godfather",
+    "genre": "Crime, Drama",
+    "year": 1972,
+    "img": "../../images/movies/theGodFather.jpg",
+    "description": "The story of the Corleone crime family.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Green Mile",
+    "genre": "Crime, Drama, Fantasy",
+    "year": 1999,
+    "img": "../../images/movies/TheGreenMile(1999).jpg",
+    "description": "A death row corrections officer witnesses supernatural events.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Lion King",
+    "genre": "Animation, Adventure, Drama",
+    "year": 1994,
+    "img": "../../images/movies/TheLionKing.jpg",
+    "description": "A young lion prince flees his kingdom only to learn his true destiny.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Pianist",
+    "genre": "Biography, Drama, Music",
+    "year": 2002,
+    "img": "../../images/movies/ThePianist(2002).jpg",
+    "description": "A Polish Jewish musician struggles to survive WWII.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "genre": "Drama",
+    "year": 1994,
+    "img": "../../images/movies/TheShawshankRedemption(1994).jpg",
+    "description": "Two imprisoned men bond over years, finding solace and redemption.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "genre": "Biography, Crime, Drama",
+    "year": 2013,
+    "img": "../../images/movies/TheWolfofWallStreet(2013).jpg",
+    "description": "The rise and fall of a stockbroker living the high life.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Through My Windows",
+    "genre": "Romance, Thriller",
+    "year": 2022,
+    "img": "../../images/movies/through_my_windows.jpg",
+    "description": "A romantic thriller about obsession and secrets.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Titanic",
+    "genre": "Drama, Romance",
+    "year": 1997,
+    "img": "../../images/movies/Titanic(1997).jpg",
+    "description": "A romance blossoms aboard the ill-fated RMS Titanic.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Twilight",
+    "genre": "Romance, Fantasy",
+    "year": 2008,
+    "img": "../../images/movies/twilight.jpg",
+    "description": "A teenage girl falls in love with a vampire.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Until Dawn",
+    "genre": "Horror, Thriller",
+    "year": 2015,
+    "img": "../../images/movies/until_dawn(2015).jpg",
+    "description": "A group of friends must survive a night of terror.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Vampires vs. Bronx",
+    "genre": "Comedy, Horror",
+    "year": 2020,
+    "img": "../../images/movies/vampires_and_bronx(2020).jpg",
+    "description": "A neighborhood fights back against vampires trying to take over.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "Veronica",
+    "genre": "Horror, Thriller",
+    "year": 2017,
+    "img": "../../images/movies/veronica(2017).jpg",
+    "description": "A young girl battles supernatural forces after using a Ouija board.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+      }
+    ]
+  },
+  {
+    "title": "White Chicks",
+    "genre": "Comedy",
+    "year": 2004,
+    "img": "../../images/movies/WhiteChicks(2004).jpg",
+    "description": "Two FBI agents go undercover as white socialite sisters.",
+    "rating": "⭐⭐⭐⭐",
+    "similar": [
+      {
+        "title": "It Ends with Us",
+        "genre": "Romance, Drama",
+        "year": 2023,
+        "img": "../images/romance/it_ends_with_us.jpg",
+        "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+      },
+      {
+        "title": "Love Untangled",
+        "genre": "Romantic Comedy, Teen, Romance",
+        "year": 2025,
+        "img": "../images/romance/love_untangled.jpg",
+        "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+      },
+      {
+        "title": "Me Before You",
+        "genre": "Romance, Drama",
+        "year": 2016,
+        "img": "../images/romance/me_before_you.jpg",
+        "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+      },
+      {
+        "title": "My Fault",
+        "genre": "Romance, Drama",
+        "year": 2020,
+        "img": "../images/romance/my_fault.jpg",
+        "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
       }
     ]
   }
