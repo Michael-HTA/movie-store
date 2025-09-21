@@ -4,220 +4,300 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
 
     <!-- bootstrap css cdn link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <!-- boostrap icon link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <!-- CSS link -->
-    <link rel="stylesheet" href="style.css">
-
-    <style>
+    <link rel="stylesheet" href="style.css" />
 
 
-    </style>
+    <style></style>
+  </head>
 
-</head>
-<style>
 
-</style>
-
-<body class="bg-dark">
+  <body class="bg-dark">
     <div class="container-fluid">
-        <!-- Navbar -->
-        <div class="row navbar-background">
 
-            <!-- hamburger toggle menu -->
-            <div class="col-7">
-                <nav class="navbar">
-                    <button class="navbar-toggler mx-4">
-                        <i class="hamburger-icon bi bi-list"></i>
-                    </button>
-                </nav>
-            </div>
-
-            <!-- Search box & search button -->
-            <div class="col-5 mt-2">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 rounded-pill text-white" type="search"
-                        placeholder="Search for movies" aria-label="Search for movies">
-                    <button class="btn search-btn rounded-pill w-25" type="submit"><i
-                            class="bi bi-search text-white"></i></i></button>
-                </form>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col ad-img">
-                <div id="carouselMain" class="carousel slide carousel-fade">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./images/etza/romance/Greatest-Love-Stories-Before-Sunrise.webp"
-                                class="d-block carousel_item w-100" alt="...">
-                            <div class="carousel-caption carousel-btn">
-                                <button class="btn search-btn btn-play rounded-pill w-30 d-inline me-2 px-3">
-                                    <i class="bi bi-play-fill bi-play"></i>
-                                    Watch Now
-                                </button>
-                                <button class="btn search-btn btn-detail rounded-pill w-30 d-inline px-3">
-                                    <i class="bi bi-info-lg bi-detail"></i>
-                                    Details
-                                </button>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/etza/romance/image.png" class="d-block w-100 carousel_item" alt="...">
-                            <div class="carousel-caption carousel-btn">
-                                <button class="btn search-btn btn-play rounded-pill w-30 d-inline me-2 px-3">
-                                    <i class="bi bi-play-fill bi-play"></i>
-                                    Watch Now
-                                </button>
-                                <button class="btn search-btn btn-detail rounded-pill w-30 d-inline px-3">
-                                    <i class="bi bi-info-lg bi-detail"></i>
-                                    Details
-                                </button>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/etza/romance/Greatest-Love-Stories-Before-Sunrise.webp"
-                                class="d-block w-100 carousel_item" alt="...">
-                            <div class="carousel-caption carousel-btn">
-                                <button class="btn search-btn btn-play rounded-pill w-30 d-inline me-2 px-3">
-                                    <i class="bi bi-play-fill bi-play"></i>
-                                    Watch Now
-                                </button>
-                                <button class="btn search-btn btn-detail rounded-pill w-30 d-inline px-3">
-                                    <i class="bi bi-info-lg bi-detail"></i>
-                                    Details
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselMain"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
+      <!-- Navbar -->
+      <div class="row navbar-background">
+        <!-- hamburger toggle menu -->
+        <div class="col-7">
+          <nav class="navbar">
+            <button class="navbar-toggler mx-4">
+              <i class="hamburger-icon bi bi-list"></i>
+            </button>
+          </nav>
         </div>
 
+        <div class="col-5 mt-2 position-relative">
+          <form class="d-flex" role="search" id="movie-search-form">
+            <input
+              id="search-input"
+              class="form-control me-2 rounded-pill text-white"
+              type="search"
+              placeholder="Search for movies"
+              aria-label="Search for movies"
+              autocomplete="off"
+            />
+            <button class="btn search-btn rounded-pill w-25" type="submit">
+              <i class="bi bi-search text-white"></i>
+            </button>
+          </form>
 
-
-        <!-- Main  -->
-        <main class="row">
-            <!-- Movie Section -->
-            <div class="col">
-                <div class="container my-4">
-                    <h3 class="mt-4 mb-4">Most Popular</h3>
-                    <div class="row justify-content-center g-3 ms-5" id="mostPopularContainer">
-
-                    </div>
-
-                    <h3 class="mt-4 mb-4">Comedy</h3>
-                    <div class="row justify-content-center g-3 ms-5" id="comedyContainer">
-                    </div>
-                    
-                    <!-- More Movies  -->
-                    
-
-
+          <div
+            id="search-results"
+            class="list-group position-absolute w-100 z-3"
+            style="
+              top: 100%;
+              max-height: 250px;
+              overflow-y: auto;
+              display: none;
+            "
+          ></div>
+          <div id="search-overlay" class="search-overlay"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col ad-img">
+          <div id="carouselMain" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./images/romance/Greatest-Love-Stories-Before-Sunrise.webp"
+                  class="d-block carousel_item w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-flex justify-content-between">
+                  <div>
+                    <h5 class="fw-bold mb-2">Greatest Love</h5>
+                    <p class="mb-0 text-start">
+                      <i class="bi bi-film me-1"></i> 2025 &bull; Movie
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-center gap-2">
+                    <button
+                      class="btn search-btn btn-play rounded-pill col-auto px-3 d-flex align-items-center"
+                    >
+                      <i class="bi bi-play-fill fs-3"></i> Watch Now
+                    </button>
+                    <button
+                      class="btn search-btn btn-detail rounded-pill col-auto px-3 d-flex align-items-center"
+                    >
+                      <i class="bi bi-info-lg fs-3"></i> Details
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/etza/romance/image.png"
+                  class="d-block w-100 carousel_item"
+                  alt="..."
+                />
+                <div class="carousel-caption d-flex justify-content-between">
+                  <div>
+                    <h5 class="fw-bold mb-2">Greatest Love</h5>
+                    <p class="mb-0 text-start">
+                      <i class="bi bi-film me-1"></i> 2025 &bull; Movie
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-center gap-2">
+                    <button
+                      class="btn search-btn btn-play rounded-pill col-auto px-3 d-flex align-items-center"
+                    >
+                      <i class="bi bi-play-fill fs-3"></i> Watch Now
+                    </button>
+                    <button
+                      class="btn search-btn btn-detail rounded-pill col-auto px-3 d-flex align-items-center"
+                    >
+                      <i class="bi bi-info-lg fs-3"></i> Details
+                    </button>
+                  </div>
 
                 </div>
-            </div>  
-        </main>
-
-
-
-        <!-- Footer -->
-        <footer class="row footer p-1">
-            <div class="col">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-8 col-md-10 d-flex align-items-center">
-                            &copy;2025&trade;. All Rights Reserved.
-                        </div>
-                        <div class="col-4 col-md-2 d-flex justify-content-between">
-                            <a href="#">
-                                <i class="bi bi-facebook fs-3"></i>
-                            </a>
-                            <a href="#" class="">
-                                <i class="bi bi-twitter-x fs-3"></i>
-                            </a>
-                            <a href="#" class="youtube">
-                                <i class="bi bi-youtube fs-3"></i>
-                            </a>
-                        </div>
-                    </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/etza/romance/anyone_but_you.jpg"
+                  class="d-block w-100 carousel_item"
+                  alt="..."
+                />
+                <div class="carousel-caption d-flex justify-content-between">
+                  <div>
+                    <h5 class="fw-bold mb-2">Anyone But You</h5>
+                    <p class="mb-0 text-start">
+                      <i class="bi bi-film me-1"></i> 2025 &bull; Movie
+                    </p>
+                  </div>
+                  <div class="d-flex justify-content-center gap-2">
+                    <button
+                      class="btn search-btn btn-play rounded-pill col-auto px-3 d-flex align-items-center"
+                    >
+                      <i class="bi bi-play-fill fs-3"></i> Watch Now
+                    </button>
+                    <button
+                      class="btn search-btn btn-detail rounded-pill col-auto px-3 d-flex align-items-center"
+                    >
+                      <i class="bi bi-info-lg fs-3"></i> Details
+                    </button>
+                  </div>
                 </div>
+              </div>
             </div>
-        </footer>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main  -->
+      <main class="row">
+        <!-- Movie Section -->
+        <div class="col">
+          <div class="container my-4">
+            <h3 class="mt-4 mb-4">Most Popular</h3>
+            <div class="row g-3 ms-5" id="mostPopularContainer"></div>
+
+            <h3 class="mt-4 mb-4">Comedy</h3>
+            <div class="row g-3 ms-5" id="comedyContainer"></div>
+
+
+            <!-- More Movies  -->
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="row footer p-1">
+        <div class="col">
+          <div class="container">
+            <div class="row">
+              <div class="col-8 col-md-10 d-flex align-items-center">
+                &copy;2025&trade;. All Rights Reserved.
+              </div>
+              <div class="col-4 col-md-2 d-flex justify-content-between">
+                <a href="#">
+                  <i class="bi bi-facebook fs-3"></i>
+                </a>
+                <a href="#" class="">
+                  <i class="bi bi-twitter-x fs-3"></i>
+                </a>
+                <a href="#" class="youtube">
+                  <i class="bi bi-youtube fs-3"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
+
 
     <!-- Sidebar -->
     <div id="sidebar" class="sidebar">
-        <!-- Close text -->
-        <div id="closeSidebar" class="close-text p-3 "><i class="bi bi-list fs-3 me-2 sidebar-hamburger-icon"></i>Menu</div>
+      <!-- Close text -->
+      <div id="closeSidebar" class="close-text p-3">
+        <i class="bi bi-list fs-3 me-2 sidebar-hamburger-icon"></i>Menu
+      </div>
 
-        <!-- Menu items -->
-        <ul class="p-3">
-            <li class="mb-3">
-                <a href="#"><i class="bi bi-house-door-fill me-2 fs-3 "></i>Home</a>
-            </li>
-            <li class="mb-3">
-                <a href="#"><i class="bi bi-star-fill me-2 fs-3"></i>Most Popular</a>
-            </li>
-            <li class="mb-3">
-                <a href="#"><i class="bi bi-film me-2 fs-3"></i>Movies</a>
-            </li>
-            <li class="mb-3">
-                <a href="#"><i class="bi bi-tv-fill me-2 fs-3"></i>Tv Series</a>
-            </li>
-            <li class="mb-3">
-                <a href="#"><i class="bi bi-gift-fill me-2 fs-3"></i>Special</a>
-            </li>
-        </ul>
+
+      <!-- Menu items -->
+      <ul class="p-3 list-unstyled">
+        <li class="mb-3">
+          <a href="./index.html"
+            ><i class="bi bi-house-door-fill me-2 fs-3"></i>Home</a
+          >
+        </li>
+        <li class="mb-3">
+          <a href="./movie/movies.html"
+            ><i class="bi bi-film me-2 fs-3"></i>Movies</a
+          >
+        </li>
+        <li class="mb-3">
+          <a href="./tv-series/index.html"
+            ><i class="bi bi-tv-fill me-2 fs-3"></i>Tv Series</a
+          >
+        </li>
+        <li class="mb-3">
+          <a href="#"><i class="bi bi-gift-fill me-2 fs-3"></i>Special</a>
+        </li>
+      </ul>
     </div>
-
 
     <!-- Overlay -->
     <div id="overlay" class="overlay"></div>
 
-
-<div class="modal fade" id="moreMoviesModal" tabindex="-1" aria-labelledby="moreMoviesModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-fullscreen">
-    <div class="modal-content bg-dark text-white">
-      <div class="modal-header">
-        <h5 class="modal-title" id="moreMoviesModalLabel">More Movies</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="row" id="moreMoviesContainer"></div>
+    <div
+      class="modal fade"
+      id="moreMoviesModal"
+      tabindex="-1"
+      aria-labelledby="moreMoviesModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header">
+            <h5 class="modal-title" id="moreMoviesModalLabel">More Movies</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row" id="moreMoviesContainer"></div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
+
+    <div
+      class="modal fade"
+      id="movieDetailModal"
+      tabindex="-1"
+      aria-labelledby="movieDetailModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header">
+            <h5 class="modal-title" id="movieDetailModalLabel">Movie Title</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img id="modal-movie-img" src="" alt="" class="img-fluid mb-3" />
+            <p id="modal-movie-description"></p>
+            <p id="modal-movie-genre-year"></p>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- bootstrap js cdn link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-</body>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
 </html>

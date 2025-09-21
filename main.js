@@ -23,244 +23,76 @@ overlay.addEventListener("click", () => {
   hamburgerIcon.classList.remove("rotate");
 });
 
-const mostPopularMovie = [
-  {
-    title: "The Dark Knight",
-    genre: "Action",
-    year: 2008,
-    img: "images/psa/IMDb/The Dark Knight (2008).jpg",
-    description: "Batman faces the Joker, a criminal mastermind.",
-  },
-  {
-    title: "BetterCallSaul",
-    genre: "Sci-Fi",
-    year: 2010,
-    img: "images/hta/americanTvSeries/BetterCallSaul.jpg",
-    description:
-      "An elite FBI team profiles serial killers and solves complex crimes using psychological analysis.",
-  },
-  {
-    title: "CriminalMinds",
-    genre: "Sci-Fi",
-    year: 2014,
-    img: "images/hta/americanTvSeries/CriminalMinds.jpg",
-    description:
-      "Noble families vie for power in the Seven Kingdoms while an ancient threat rises beyond the Wall.",
-  },
-  {
-    title: "GameOfThrone",
-    genre: "Drama",
-    year: 2019,
-    img: "images/hta/americanTvSeries/GameOfThrone.jpg",
-    description:
-      "Rival houses clash over the Iron Throne as winter draws near and alliances are tested.",
-  },
-
-  {
-    title: "IT",
-    genre: "Horror",
-    year: 2019,
-    img: "images/etza/horror/it(2017).jpg",
-  },
-  {
-    title: "Notebook",
-    genre: "Drama",
-    year: 2019,
-    img: "images/etza/romance/the_notebook.jpg",
-  },
-
-  {
-    title: "Notebook",
-    genre: "Drama",
-    year: 2019,
-    img: "images/etza/romance/the_notebook.jpg",
-  },
-
-  {
-    title: "Notebook",
-    genre: "Drama",
-    year: 2019,
-    img: "images/etza/romance/the_notebook.jpg",
-  },
-
-  {
-    title: "Notebook",
-    genre: "Drama",
-    year: 2019,
-    img: "images/etza/romance/the_notebook.jpg",
-  },
-
-  {
-    title: "Notebook",
-    genre: "Drama",
-    year: 2019,
-    img: "images/etza/romance/the_notebook.jpg",
-  },
-
-  {
-    title: "Notebook",
-    genre: "Drama",
-    year: 2019,
-    img: "images/etza/romance/the_notebook.jpg",
-  },
-
-  {
-    title: "Notebook",
-    genre: "Drama",
-    year: 2019,
-    img: "images/etza/romance/the_notebook.jpg",
-  },
-
-  {
-    title: "Notebook",
-    genre: "Drama",
-    year: 2019,
-    img: "images/etza/romance/the_notebook.jpg",
-  },
-
-  {
-    title: "Notebook",
-    genre: "Drama",
-    year: 2019,
-    img: "images/etza/romance/the_notebook.jpg",
-  },
-];
-
-const comedyMovie = [
-  {
-    title: "The Dark Knight",
-    genre: "Comedy",
-    year: 2004,
-    img: "images/psa/Comedy/50 First Dates (2004).jpg",
-    description: "Batman faces the Joker, a criminal mastermind.",
-  },
-  {
-    title: "BetterCallSaul",
-    genre: "Sci-Fi",
-    year: 2010,
-    img: "images/psa/Comedy/European Gigolo (2005) .jpg",
-    description:
-      "An elite FBI team profiles serial killers and solves complex crimes using psychological analysis.",
-  },
-  {
-    title: "CriminalMinds",
-    genre: "Sci-Fi",
-    year: 2014,
-    img: "images/psa/Comedy/Anger Management (2003).jpg",
-    description:
-      "Noble families vie for power in the Seven Kingdoms while an ancient threat rises beyond the Wall.",
-  },
-  {
-    title: "GameOfThrone",
-    genre: "Drama",
-    year: 2019,
-    img: "images/psa/Comedy/Baby's Day Out (1994).jpg",
-    description:
-      "Rival houses clash over the Iron Throne as winter draws near and alliances are tested.",
-  },
-
-  {
-    title: "GameOfThrone",
-    genre: "Drama",
-    year: 2019,
-    img: "images/psa/Comedy/Billy Madison (1995).jpg",
-  },
-
-  {
-    title: "GameOfThrone",
-    genre: "Drama",
-    year: 2019,
-    img: "images/psa/Comedy/Billy Madison (1995).jpg",
-  },
-];
 
 // ? This One Apply Movie Card and Flip Card on hover
-
-const moreMoviesContainer = document.getElementById("moreMoviesContainer");
-const modalTitle = document.getElementById("moreMoviesModalLabel");
-function renderExtraMovies(categoryName, movieList) {
-  moreMoviesContainer.innerHTML = "";
-  modalTitle.textContent = `${categoryName} Movies`;
-
-  movieList.slice(5).forEach((movie) => {
-    const col = document.createElement("div");
-    col.className = "col-auto mb-3";
-    col.innerHTML = `
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <div class="front-image">
-              <img src="${movie.img}" alt="${movie.title}">
-            </div>
-          </div>
-          <div class="flip-card-back">
-            <h5 class="card-title">${movie.title}</h5>
-            <p class="card-desc">${
-              movie.description || "No description available."
-            }</p>
-            <p class="card-text">${movie.genre} • ${movie.year}</p>
-          </div>
-        </div>
-      </div>
-    `;
-    moreMoviesContainer.appendChild(col);
-  });
-}
 
 // ? Declare div tag we want to apply
 const mostPopularContainer = document.getElementById("mostPopularContainer");
 
-mostPopularMovie.forEach((movie, index) => {
-  const col = document.createElement("div");
-  col.className = "col-auto mb-3";
+// ? fetch data from json file
+fetch("/json/popularMovie.json")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Failed to fetch movie data");
+    }
+    return response.json();
+  })
+  .then((PopularMovie) => {
+    PopularMovie.map((movie, index) => {
+      const col = document.createElement("div");
+      col.className = "col-sm-4 col-md-3 col-lg-2 mb-3";
 
-  col.innerHTML = `
-    <div class="flip-card">
-        <div class="flip-card-inner">
-        <div class="flip-card-front">
-            <div class="front-image">
-            <img src="${movie.img}" alt="${movie.title}">
+      col.innerHTML = `
+        <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <div class="front-image">
+                <img src="${movie.img}" alt="${movie.title}">
+                </div>
+            </div>
+            <div class="flip-card-back">
+                <h5 class="card-title">${movie.title}</h5>
+                <p class="card-desc">${
+                  movie.description || "No description available."
+                }</p>
+                <p class="card-text">${movie.genre} • ${movie.year}</p>
+            </div>
             </div>
         </div>
-        <div class="flip-card-back">
-            <h5 class="card-title">${movie.title}</h5>
-            <p class="card-desc">${
-              movie.description || "No description available."
-            }</p>
-            <p class="card-text">${movie.genre} • ${movie.year}</p>
-        </div>
-        </div>
-    </div>
-    `;
-  // ! Change button onclick function's args to add more movies categories  ("Most Popular", mostPopularMovie)
-  if (index < 5) {
-    mostPopularContainer.appendChild(col);
-  } else if (index === 5) {
-    const seeMoreCol = document.createElement("div");
-    seeMoreCol.className = "col-auto m-auto";
-    seeMoreCol.innerHTML = `
-      <button class="border-0 bg-transparent text-white"
-              data-bs-toggle="modal"
-              data-bs-target="#moreMoviesModal"
-            onclick='renderExtraMovies("Most Popular", mostPopularMovie)'>   
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-        </svg>
-        <p>See More</p>
-      </button>
-    `;
-    mostPopularContainer.appendChild(seeMoreCol);
-  }
-});
+      `;
+
+      col.querySelector(".flip-card").addEventListener("click", () => {
+        window.location.href =
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
+      });
+
+      // ! Change this onclick function's args to add more movies categories  ("Most Popular", PopularMovie)
+      if (index < 5) {
+        mostPopularContainer.appendChild(col);
+      }
+    });
+  })
+  .catch((error) => {
+    console.error("Error loading comedy movies:", error);
+  });
 
 // ? Declare div tag we want to apply
-
 const comedyContainer = document.getElementById("comedyContainer");
-comedyMovie.forEach((movie, index) => {
-  const col = document.createElement("div");
-  col.className = "col-auto mb-3";
 
-  col.innerHTML = `
+fetch("/json/tvSeries.json")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Failed to fetch movie data");
+    }
+    return response.json();
+  })
+  .then((comedyMovie) => {
+    comedyMovie.map((movie, index) => {
+      const col = document.createElement("div");
+      col.className = "col-sm-4 col-md-3 col-lg-2 mb-3";
+
+      col.innerHTML = `
+
     <div class="flip-card">
         <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -278,29 +110,90 @@ comedyMovie.forEach((movie, index) => {
         </div>
     </div>
     `;
-  // ! Change this onclick function's args to add more movies categories  ("Comedy", comedyMovie)
-  if (index < 5) {
-    comedyContainer.appendChild(col);
-  } else if (index === 5) {
-    const seeMoreCol = document.createElement("div");
-    seeMoreCol.className = "col-auto m-auto";
-    seeMoreCol.innerHTML = `
-      <button class="border-0 bg-transparent text-white"
-              data-bs-toggle="modal"
-              data-bs-target="#moreMoviesModal"
 
-              onclick='renderExtraMovies("Comedy", comedyMovie)'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
-          <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-        </svg>
-        <p>See More</p>
-      </button>
-    `;
-    comedyContainer.appendChild(seeMoreCol);
+      col.querySelector(".flip-card").addEventListener("click", () => {
+        window.location.href =
+          "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
+      });
+      // ! Change this onclick function's args to add more movies categories  ("Comedy", comedyMovie)
+      if (index < 5) {
+        comedyContainer.appendChild(col);
+      }
+    });
+  })
+  .catch((error) => {
+    console.error("Error loading comedy movies:", error);
+  });
+
+const form = document.getElementById("movie-search-form");
+const input = document.getElementById("search-input");
+const resultsContainer = document.getElementById("search-results");
+const searchOverlay = document.getElementById("search-overlay");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const query = input.value.trim().toLowerCase();
+  resultsContainer.innerHTML = "";
+
+  if (query.length === 0) {
+    resultsContainer.style.display = "none";
+    searchOverlay.classList.remove("active");
+    return;
+  }
+
+  fetch("/json/movies.json")
+    .then((response) => response.json())
+    .then((movies) => {
+      const filtered = movies.filter((movie) =>
+        movie.title.toLowerCase().includes(query)
+      );
+
+      if (filtered.length === 0) {
+        resultsContainer.innerHTML = `<div class="list-group-item">No results found</div>`;
+      } else {
+        filtered.forEach((movie) => {
+          const item = document.createElement("a");
+          item.className =
+            "list-group-item list-group-item-action d-flex align-items-start gap-3";
+          item.href = "#";
+          item.innerHTML = `
+            <img src="${movie.img}" alt="${movie.title}" class="search-thumb">
+            <div>
+              <div class="fw-bold">${movie.title}</div>
+              <small class="text-muted">${movie.genre} | ${movie.year}</small>
+            </div>
+          `;
+          item.addEventListener("click", function (e) {
+            e.preventDefault();
+            window.location.href =
+              "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
+          });
+
+          resultsContainer.appendChild(item);
+        });
+      }
+
+      resultsContainer.style.display = "block";
+      searchOverlay.classList.add("active");
+    })
+    .catch((error) => {
+      console.error("Error fetching movies:", error);
+      resultsContainer.innerHTML = `<div class="list-group-item text-danger">Error loading data</div>`;
+      resultsContainer.style.display = "block";
+      searchOverlay.classList.add("active");
+    });
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
+    resultsContainer.style.display = "none";
+    searchOverlay.classList.remove("active");
   }
 });
 
-// ? Declare div tag we want to apply
-const superHeroesContainer = document.getElementById("superHeroesContainer");
+searchOverlay.addEventListener("click", () => {
+  resultsContainer.style.display = "none";
+  searchOverlay.classList.remove("active");
+});
 
-//  * Now Implementation

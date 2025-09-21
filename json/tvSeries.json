@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Better Call Saul",
+    "genre": "Crime, Drama",
+    "year": 2015,
+    "img": "images/americanTvSeries/BetterCallSaul.jpg",
+    "description": "The trials and tribulations of criminal lawyer Jimmy McGill before his fateful run-in with Walter White and Jesse Pinkman."
+  },
+  {
+    "title": "Chernobyl",
+    "genre": "Drama, History, Thriller",
+    "year": 2019,
+    "img": "images/americanTvSeries/Chernobyl.jpg",
+    "description": "A dramatization of the true story of the Chernobyl nuclear disaster and the cleanup efforts that followed."
+  },
+  {
+    "title": "Criminal Minds",
+    "genre": "Crime, Drama, Mystery",
+    "year": 2005,
+    "img": "images/americanTvSeries/CriminalMinds.jpg",
+    "description": "An elite team of FBI profilers analyzes the countrys most twisted criminal minds to anticipate their next moves."
+  },
+  {
+    "title": "Dexter",
+    "genre": "Crime, Drama, Mystery",
+    "year": 2006,
+    "img": "images/americanTvSeries/Dexter.jpg",
+    "description": "By day, Dexter is a forensic blood spatter expert. By night, he is a serial killer who targets other murderers."
+  },
+  {
+    "title": "Game of Thrones",
+    "genre": "Action, Adventure, Drama",
+    "year": 2011,
+    "img": "images/americanTvSeries/GameOfThrone.jpg",
+    "description": "Nine noble families fight for control over the lands of Westeros while an ancient enemy returns."
+  },
+  {
+    "title": "House M.D.",
+    "genre": "Drama, Mystery",
+    "year": 2004,
+    "img": "images/americanTvSeries/HouseM.D.jpg",
+    "description": "An antisocial maverick doctor who specializes in diagnostic medicine does whatever it takes to solve puzzling cases."
+  },
+  {
+    "title": "Law & Order",
+    "genre": "Crime, Drama, Mystery",
+    "year": 1990,
+    "img": "images/americanTvSeries/Law&Order.jpg",
+    "description": "Follows a crime, usually adapted from current headlines, from two separate vantage points — the police and the district attorneys."
+  },
+  {
+    "title": "Lucifer",
+    "genre": "Crime, Drama, Fantasy",
+    "year": 2016,
+    "img": "images/americanTvSeries/Lucifer.jpg",
+    "description": "Lucifer Morningstar, the Devil, relocates to Los Angeles and opens a nightclub while also consulting for the LAPD."
+  },
+  {
+    "title": "NCIS",
+    "genre": "Action, Crime, Drama",
+    "year": 2003,
+    "img": "images/americanTvSeries/NCIS.jpg",
+    "description": "Follows a team of special agents from the Naval Criminal Investigative Service investigating crimes involving the Navy and Marine Corps."
+  },
+  {
+    "title": "Peacemaker",
+    "genre": "Action, Comedy, Drama",
+    "year": 2022,
+    "img": "images/americanTvSeries/PeaceMaker.jpg",
+    "description": "Peacemaker returns home after recovering from his injuries and joins a mysterious organization to fight for peace at any cost."
+  },
+  {
+    "title": "Squid Game",
+    "genre": "Action, Drama, Thriller",
+    "year": 2021,
+    "img": "images/americanTvSeries/SiquidGame.jpg",
+    "description": "Hundreds of cash-strapped players accept a strange invitation to compete in deadly childrens games."
+  },
+  {
+    "title": "Stranger Things",
+    "genre": "Drama, Fantasy, Horror",
+    "year": 2016,
+    "img": "images/americanTvSeries/StrangerThings.jpg",
+    "description": "A group of kids uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl."
+  },
+  {
+    "title": "Supernatural",
+    "genre": "Drama, Fantasy, Horror",
+    "year": 2005,
+    "img": "images/americanTvSeries/Supernatural.jpg",
+    "description": "Two brothers follow in their fathers footsteps as hunters, fighting evil supernatural beings of many kinds."
+  },
+  {
+    "title": "The Flash",
+    "genre": "Action, Adventure, Drama",
+    "year": 2014,
+    "img": "images/americanTvSeries/TheFlash.jpg",
+    "description": "After a lightning strike, Barry Allen wakes up with super speed and becomes the Flash, fighting crime and other metahumans."
+  },
+  {
+    "title": "The Mentalist",
+    "genre": "Crime, Drama, Mystery",
+    "year": 2008,
+    "img": "images/americanTvSeries/TheMentalist.jpg",
+    "description": "Patrick Jane, a former psychic medium, uses his keen observation skills to help the CBI solve crimes."
+  },
+  {
+    "title": "The Rookie",
+    "genre": "Crime, Drama",
+    "year": 2018,
+    "img": "images/americanTvSeries/TheRookie.jpg",
+    "description": "A middle-aged man joins the LAPD as a rookie officer and navigates the dangerous, unpredictable world of law enforcement."
+  },
+  {
+    "title": "The Vampire Diaries",
+    "genre": "Drama, Fantasy, Horror",
+    "year": 2009,
+    "img": "images/americanTvSeries/TheVampireDiary.jpg",
+    "description": "A teenage girl is caught between two vampire brothers in a town full of supernatural beings and secrets."
+  },
+  {
+    "title": "The Walking Dead",
+    "genre": "Drama, Horror, Thriller",
+    "year": 2010,
+    "img": "images/americanTvSeries/TheWalkingDead.jpg",
+    "description": "Sheriff Rick Grimes wakes from a coma to find a post-apocalyptic world dominated by zombies and bands of survivors."
+  },
+  {
+    "title": "Wednesday",
+    "genre": "Comedy, Crime, Fantasy",
+    "year": 2022,
+    "img": "images/americanTvSeries/Wednesday.jpg",
+    "description": "Wednesday Addams investigates a series of murders at her school while discovering her psychic abilities."
+  },
+  {
+    "title": "Young Sheldon",
+    "genre": "Comedy, Drama, Family",
+    "year": 2017,
+    "img": "images/americanTvSeries/YoungSheldon.jpg",
+    "description": "Meet a young Sheldon Cooper, a child genius growing up in East Texas, trying to fit in with his family and classmates."
+  }
+]

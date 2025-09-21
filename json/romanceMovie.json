@@ -1,0 +1,149 @@
+[
+  {
+    "title": "All the Bright Places",
+    "genre": "Romance, Drama",
+    "year": 2020,
+    "img": "images/romance/all_the_bright_places.jpg",
+    "description": "After a freak accident, Theodore Finch and Violet Markey, two students about to graduate, find each other while discovering the emotional highs and lows of life."
+  },
+  {
+    "title": "Anyone But You",
+    "genre": "Romance, Comedy",
+    "year": 2023,
+    "img": "images/romance/anyone_but_you.jpg",
+    "description": "After a great first date, Bea and Bens attraction turns cold—until they unexpectedly reunite at a destination wedding in Australia and pretend to be a couple."
+  },
+  {
+    "title": "Bad Influence",
+    "genre": "Romance, Drama",
+    "year": 2025,
+    "img": "images/romance/bad_influence.jpg",
+    "description": "A wealthy teenager under the protection of her bodyguard starts developing forbidden feelings for him as they navigate danger from a mysterious stalker."
+  },
+  {
+    "title": "Before Sunrise",
+    "genre": "Romance, Drama",
+    "year": 1995,
+    "img": "images/romance/before_sunrise.jpg",
+    "description": "On his way to Vienna, American Jesse meets Céline, a French student returning to Paris. They spend one evening together in Vienna walking, talking, and connecting—and always knowing their time is limited."
+  },
+  {
+    "title": "Call Me by Your Name",
+    "genre": "Romance, Drama",
+    "year": 2017,
+    "img": "images/romance/call_me_by_your_name.jpg",
+    "description": "In the summer of 1983 in northern Italy, 17yearold Elio forms a deep bond with Oliver, a doctoral student staying with his family—leading to an unforgettable first love. :contentReference[oaicite:0]{index=0}"
+  },
+  {
+    "title": "Cinderella",
+    "genre": "Romance, Fantasy",
+    "year": 2022,
+    "img": "images/romance/cinderella.jpg",
+    "description": "A classic fairy tale in which a young woman, mistreated by her stepfamily, is magically helped to attend a royal ball and meets the prince—only for time and obstacles to force them apart."
+  },
+  {
+    "title": "Ex Machina",
+    "genre": "Science Fiction, Romance, Thriller",
+    "year": 2014,
+    "img": "images/romance/ex_machina.jpg",
+    "description": "A young programmer is selected to participate in a groundbreaking experiment by evaluating the human qualities of a highly advanced humanoid A.I., leading to unexpected emotional and ethical entanglements."
+  },
+  {
+    "title": "It Ends with Us",
+    "genre": "Romance, Drama",
+    "year": 2023,
+    "img": "images/romance/it_ends_with_us.jpg",
+    "description": "Based on the novel by Colleen Hoover, this story follows a young woman who builds a new life only to confront painful secrets from her past, testing love, strength, and forgiveness."
+  },
+  {
+    "title": "Love Untangled",
+    "genre": "Romantic Comedy, Teen, Romance",
+    "year": 2025,
+    "img": "images/romance/love_untangled.jpg",
+    "description": "Park Seri, frustrated by her curly hair, believes she must transform before confessing to her crush. A transfer student changes everything. :contentReference[oaicite:1]{index=1}"
+  },
+  {
+    "title": "Me Before You",
+    "genre": "Romance, Drama",
+    "year": 2016,
+    "img": "images/romance/me_before_you.jpg",
+    "description": "A smalltown woman becomes the caregiver for a wealthy young man left paralyzed in an accident. Their unlikely connection leads them both to question what brings real happiness."
+  },
+  {
+    "title": "My Fault",
+    "genre": "Romance, Drama",
+    "year": 2020,
+    "img": "images/romance/my_fault.jpg",
+    "description": "A passionate relationship between two people whose personal conflicts and pasts threaten to keep them apart."
+  },
+  {
+    "title": "My Future You",
+    "genre": "Romance",
+    "year": 2020,
+    "img": "images/romance/my_future_you.jpg",
+    "description": "A romance about meeting someone who represents what you hope for in the future—love, dreams, growth."
+  },
+  {
+    "title": "My Love",
+    "genre": "Romance, Drama",
+    "year": 2019,
+    "img": "images/romance/my_love.jpg",
+    "description": "A story about the trials, joys, and depth of love between two people, despite obstacles."
+  },
+  {
+    "title": "My Oxford Year",
+    "genre": "Romance, Drama",
+    "year": 2022,
+    "img": "images/romance/my_oxford_year.jpg",
+    "description": "A young woman gets a chance to spend a year in Oxford, where romance, friendship, and selfdiscovery intertwine against the backdrop of academic life."
+  },
+  {
+    "title": "Purple Hearts",
+    "genre": "Romance, Drama",
+    "year": 2022,
+    "img": "images/romance/purple_hearts.webp",
+    "description": "An aspiring musician and a military Marine enter into a marriage of convenience, but real emotions emerge as they face hardship, love, and sacrifice."
+  },
+  {
+    "title": "The Idea of You",
+    "genre": "Romance, Drama",
+    "year": 2022,
+    "img": "images/romance/the_idea_of_you.jpg",
+    "description": "A divorced mom risks bodily injury and public exposure when she begins a relationship with a younger pop star, exploring power, love, and identity."
+  },
+  {
+    "title": "The Mermaid",
+    "genre": "Fantasy, Romance",
+    "year": 2021,
+    "img": "images/romance/the_mermaid.jpg",
+    "description": "A romance involving a mermaid or mythical being crossing into human life, love, and challenges of identity or belonging."
+  },
+  {
+    "title": "The Notebook",
+    "genre": "Romance, Drama",
+    "year": 2004,
+    "img": "images/romance/the_notebook.jpg",
+    "description": "A poor but passionate young man falls in love with a wealthy young woman, but their social differences and time apart test the strength and bond of their love."
+  },
+  {
+    "title": "The Vow",
+    "genre": "Romance, Drama",
+    "year": 2012,
+    "img": "images/romance/the_vow.jpg",
+    "description": "After a car accident, a woman loses her memory and her husband must work to make her fall in love with him all over again."
+  },
+  {
+    "title": "Through My Window",
+    "genre": "Romance, Drama",
+    "year": 2022,
+    "img": "images/romance/through_my_windows.jpg",
+    "description": "Two people separated by vastly different personalities and conflicting emotions communicate through the window—testing whether love can bridge their divides."
+  },
+  {
+    "title": "Twilight",
+    "genre": "Romance, Fantasy",
+    "year": 2008,
+    "img": "images/romance/twilight.jpg",
+    "description": "A teenage girls life is changed when she falls in love with an immortal vampire, but their relationship brings danger from outsiders and internal conflict."
+  }
+]
