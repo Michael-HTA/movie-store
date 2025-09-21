@@ -23,6 +23,7 @@ overlay.addEventListener("click", () => {
   hamburgerIcon.classList.remove("rotate");
 });
 
+
 // ? This One Apply Movie Card and Flip Card on hover
 
 // ? Declare div tag we want to apply
@@ -91,6 +92,7 @@ fetch("/json/tvSeries.json")
       col.className = "col-sm-4 col-md-3 col-lg-2 mb-3";
 
       col.innerHTML = `
+
     <div class="flip-card">
         <div class="flip-card-inner">
         <div class="flip-card-front">
@@ -194,3 +196,4 @@ searchOverlay.addEventListener("click", () => {
   resultsContainer.style.display = "none";
   searchOverlay.classList.remove("active");
 });
+

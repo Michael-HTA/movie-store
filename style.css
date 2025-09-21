@@ -21,13 +21,16 @@ body {
 
 /* color setting for hamburger toggle */
 .hamburger {
-  color: #ff0000;
+
+  color: #e9471e;
+
 }
 
 /* color setting for search button background */
 .search-btn {
   background-color: #e9471e;
   border: none;
+
 }
 
 .search-btn:hover {
@@ -38,6 +41,7 @@ body {
   border: 2px solid red;
   border-radius: 5px;
   box-shadow: none !important;
+
 }
 
 .ad-img {
@@ -45,6 +49,7 @@ body {
   z-index: -1;
   /* opacity: 0.8;  */
 }
+
 
 .carousel_item {
   height: 500px;
@@ -76,6 +81,7 @@ body {
 
 main .col {
   margin-top: 500px;
+
 }
 
 h3 {
@@ -199,7 +205,9 @@ h3 {
 }
 
 .bi-play {
-  color: #ff0000;
+
+  color: #e9471e;
+
 }
 
 .bi-detail {
@@ -208,7 +216,7 @@ h3 {
 
 .btn-play {
   background-color: white;
-  color: #ff0000;
+  color: #e9471e;
 }
 
 /* Setting for footer */
@@ -227,7 +235,8 @@ h3 {
 }
 
 .footer {
-  color: #ff0000;
+
+  color: #e9471e;
 }
 
 .bi-facebook {
@@ -481,3 +490,4 @@ main {
   object-fit: cover;
   display: block;
 }
+
