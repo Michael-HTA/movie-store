@@ -60,7 +60,7 @@ function showMovieModal(movie) {
   const moreLikeThis = document.getElementById("modal-more-like-this");
   moreLikeThis.innerHTML = "";
 
-  fetch("/json/movies.json")
+  fetch("../json/movies.json")
     .then((res) => res.json())
     .then((allMovies) => {
       const fullMovie = allMovies.find((m) => m.title === movie.title);
@@ -230,7 +230,7 @@ function handleSearchSubmit(e) {
 }
 
 function performSearch(query) {
-  fetch("/json/movies.json")
+  fetch("../json/movies.json")
     .then((res) => res.json())
     .then((movies) => {
       const results = filterMovies(movies, query);
