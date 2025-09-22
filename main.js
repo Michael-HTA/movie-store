@@ -23,14 +23,13 @@ overlay.addEventListener("click", () => {
   hamburgerIcon.classList.remove("rotate");
 });
 
-
 // ? This One Apply Movie Card and Flip Card on hover
 
 // ? Declare div tag we want to apply
 const mostPopularContainer = document.getElementById("mostPopularContainer");
 
 // ? fetch data from json file
-fetch("/json/popularMovie.json")
+fetch("./json/popularMovie.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error("Failed to fetch movie data");
@@ -79,7 +78,7 @@ fetch("/json/popularMovie.json")
 // ? Declare div tag we want to apply
 const comedyContainer = document.getElementById("comedyContainer");
 
-fetch("/json/tvSeries.json")
+fetch("./json/tvSeries.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error("Failed to fetch movie data");
@@ -142,7 +141,7 @@ form.addEventListener("submit", function (e) {
     return;
   }
 
-  fetch("/json/movies.json")
+  fetch("./json/movies.json")
     .then((response) => response.json())
     .then((movies) => {
       const filtered = movies.filter((movie) =>
@@ -196,4 +195,3 @@ searchOverlay.addEventListener("click", () => {
   resultsContainer.style.display = "none";
   searchOverlay.classList.remove("active");
 });
-
