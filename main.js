@@ -132,7 +132,6 @@ const searchOverlay = document.getElementById("search-overlay");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
-
   const query = input.value.trim().toLowerCase();
   resultsContainer.innerHTML = "";
 
@@ -140,6 +139,7 @@ form.addEventListener("submit", function (e) {
     resultsContainer.style.display = "none";
     searchOverlay.classList.remove("active");
     return;
+
   }
 
   fetch("./json/movies.json")

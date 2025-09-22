@@ -51,7 +51,9 @@ const actionTvSeriesContainer = document.getElementById(
 
 let actionTvSeriesData = [];
 
-fetch("/json/tvSeries.json")
+
+fetch("../json/tvSeries.json")
+
   .then((res) => res.json())
   .then((TvSeries) => {
     actionTvSeriesData = TvSeries;
