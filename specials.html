@@ -35,14 +35,33 @@
             </div>
 
             <!-- Search box & search button -->
-            <div class="col-5 mt-2">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 rounded-pill text-white" type="search"
-                        placeholder="Search for movies" aria-label="Search for movies">
-                    <button class="btn search-btn rounded-pill w-25" type="submit"><i
-                            class="bi bi-search text-white"></i></i></button>
-                </form>
-            </div>
+        <div class="col-5 mt-2 position-relative">
+          <form class="d-flex" role="search" id="movie-search-form">
+            <input
+              id="search-input"
+              class="form-control me-2 rounded-pill text-white"
+              type="search"
+              placeholder="Search for movies"
+              aria-label="Search for movies"
+              autocomplete="off"
+            />
+            <button class="btn search-btn rounded-pill w-25" type="submit">
+              <i class="bi bi-search text-white"></i>
+            </button>
+          </form>
+
+          <div
+            id="search-results"
+            class="list-group position-absolute w-100 z-3"
+            style="
+              top: 100%;
+              max-height: 250px;
+              overflow-y: auto;
+              display: none;
+            "
+          ></div>
+          <div id="search-overlay" class="search-overlay"></div>
+        </div>
         </div>
 
     <!-- Main Content Area -->
@@ -52,14 +71,14 @@
                     <img src="./images/etza/detail_image/background.jpg" class="card-img" alt="background"
                         style="max-height: 450px; object-fit: cover; opacity: 60%;">
 
-                    <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
+                    <div class="position-absolute start-50 translate-middle text-center text-white" style="top : 30%;">
                         <h1 class="display-3 fw-bold text-center">Specials For This Weekend!</h1>
                         <p class="lead text-center">Explore the finest collection of movies and TV series.</p>
                     </div>
                 </div>
             </div>
             <div class="py-5 text-center">
-                <span class="h1 fw-bold">Ocar Winner</span>
+                <span class="h1 fw-bold hidden">Ocar Winner</span>
             </div>
 
             <div class="row align-items-center">
@@ -149,19 +168,16 @@
         <!-- Menu items -->
         <ul class="p-3 list-unstyled">
             <li class="mb-3">
-                <a href="index.html"><i class="bi bi-house-door-fill me-2 fs-3"></i>Home</a>
+                <a href="./index.html"><i class="bi bi-house-door-fill me-2 fs-3"></i>Home</a>
             </li>
             <li class="mb-3">
-                <a href="#"><i class="bi bi-star-fill me-2 fs-3"></i>Most Popular</a>
+                <a href="./movie/movies.html"><i class="bi bi-film me-2 fs-3"></i>Movies</a>
             </li>
             <li class="mb-3">
-                <a href="movies.html"><i class="bi bi-film me-2 fs-3"></i>Movies</a>
+                <a href="./tv-series/index.html"><i class="bi bi-tv-fill me-2 fs-3"></i>Tv Series</a>
             </li>
             <li class="mb-3">
-                <a href="#"><i class="bi bi-tv-fill me-2 fs-3"></i>Tv Series</a>
-            </li>
-            <li class="mb-3">
-                <a href="specials.html"><i class="bi bi-gift-fill me-2 fs-3"></i>Special</a>
+                <a href=""><i class="bi bi-gift-fill me-2 fs-3"></i>Special</a>
             </li>
         </ul>
     </div>

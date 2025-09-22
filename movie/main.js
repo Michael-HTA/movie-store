@@ -170,7 +170,7 @@ function handleSeeMoreClick(genre) {
 }
 
 loadMovies({
-  url: "/json/actionMovie.json",
+  url: "../json/actionMovie.json",
   container: actionMoviesContainer,
   limit: 5,
   genre: "Action",
@@ -178,7 +178,7 @@ loadMovies({
 });
 
 loadMovies({
-  url: "/json/comedyMovie.json",
+  url: "../json/comedyMovie.json",
   container: comedyMoviesContainer,
   limit: 5,
   genre: "Comedy",
@@ -186,7 +186,7 @@ loadMovies({
 });
 
 loadMovies({
-  url: "/json/horrorMovie.json",
+  url: "../json/horrorMovie.json",
   container: horrorMovieContainer,
   limit: 5,
   genre: "Horror",
@@ -194,7 +194,7 @@ loadMovies({
 });
 
 loadMovies({
-  url: "/json/romanceMovie.json",
+  url: "../json/romanceMovie.json",
   container: romanceMovieContainer,
   limit: 5,
   genre: "Romance",
