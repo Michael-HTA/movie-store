@@ -23,7 +23,6 @@ overlay.addEventListener("click", () => {
   hamburgerIcon.classList.remove("rotate");
 });
 
-
 // ? This One Apply Movie Card and Flip Card on hover
 
 // ? Declare div tag we want to apply
@@ -139,7 +138,6 @@ form.addEventListener("submit", function (e) {
     resultsContainer.style.display = "none";
     searchOverlay.classList.remove("active");
     return;
-
   }
 
   fetch("./json/movies.json")
@@ -158,7 +156,7 @@ form.addEventListener("submit", function (e) {
             "list-group-item list-group-item-action d-flex align-items-start gap-3";
           item.href = "#";
           item.innerHTML = `
-            <img src="${movie.img}" alt="${movie.title}" class="search-thumb">
+            <img src="../${movie.img}" alt="${movie.title}" class="search-thumb">
             <div>
               <div class="fw-bold">${movie.title}</div>
               <small class="text-muted">${movie.genre} | ${movie.year}</small>
@@ -196,4 +194,3 @@ searchOverlay.addEventListener("click", () => {
   resultsContainer.style.display = "none";
   searchOverlay.classList.remove("active");
 });
-

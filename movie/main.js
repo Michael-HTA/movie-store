@@ -56,7 +56,6 @@ function showMovieModal(movie) {
   document.getElementById("modal-movie-rating").textContent =
     movie.rating || "⭐️⭐️⭐️⭐️⭐️";
 
-
   const moreLikeThis = document.getElementById("modal-more-like-this");
   moreLikeThis.innerHTML = "";
 
@@ -269,7 +268,7 @@ function createSearchResultItem(movie) {
     "list-group-item list-group-item-action d-flex align-items-start gap-3";
   item.href = "#";
   item.innerHTML = `
-    <img src="../${movie.img}" alt="${movie.title}" class="search-thumb">
+    <img src="./${movie.img}" alt="${movie.title}" class="search-thumb">
     <div>
       <div class="fw-bold">${movie.title}</div>
       <small class="text-muted">${movie.genre} | ${movie.year}</small>

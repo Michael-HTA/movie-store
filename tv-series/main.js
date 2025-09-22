@@ -51,9 +51,7 @@ const actionTvSeriesContainer = document.getElementById(
 
 let actionTvSeriesData = [];
 
-
 fetch("../json/tvSeries.json")
-
   .then((res) => res.json())
   .then((TvSeries) => {
     actionTvSeriesData = TvSeries;
@@ -106,7 +104,7 @@ form.addEventListener("submit", function (e) {
     return;
   }
 
-  fetch("/json/movies.json")
+  fetch("./json/movies.json")
     .then((response) => response.json())
     .then((movies) => {
       const filtered = movies.filter((movie) =>
