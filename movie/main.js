@@ -56,6 +56,7 @@ function showMovieModal(movie) {
   document.getElementById("modal-movie-rating").textContent =
     movie.rating || "⭐️⭐️⭐️⭐️⭐️";
 
+
   const moreLikeThis = document.getElementById("modal-more-like-this");
   moreLikeThis.innerHTML = "";
 
@@ -179,6 +180,7 @@ loadMovies({
 
 loadMovies({
   url: "../json/comedyMovie.json",
+
   container: comedyMoviesContainer,
   limit: 5,
   genre: "Comedy",
@@ -187,6 +189,7 @@ loadMovies({
 
 loadMovies({
   url: "../json/horrorMovie.json",
+
   container: horrorMovieContainer,
   limit: 5,
   genre: "Horror",
@@ -195,6 +198,7 @@ loadMovies({
 
 loadMovies({
   url: "../json/romanceMovie.json",
+
   container: romanceMovieContainer,
   limit: 5,
   genre: "Romance",

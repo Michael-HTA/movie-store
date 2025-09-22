@@ -4,6 +4,7 @@
     "genre": "Comedy, Romance",
     "year": 2004,
     "img": "../images/movies/50FirstDates(2004).jpg",
+
     "description": "A man falls in love with a woman who has short-term memory loss, requiring him to win her over every day.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -41,7 +42,10 @@
     "title": "A Fish Called Wanda",
     "genre": "Comedy, Crime",
     "year": 1988,
+
     "img": "../images/movies/AFishCalledWanda(1988).jpg",
+
+
     "description": "A con artists scheme to steal a diamond goes awry when she falls for one of her accomplices.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -79,6 +83,7 @@
     "title": "All the Bright Places",
     "genre": "Drama, Romance",
     "year": 2020,
+
     "img": "../images/movies/all_the_bright_places.jpg",
     "description": "Two teenagers with emotional scars help each other heal and find hope in their lives.",
     "rating": "⭐⭐⭐⭐",
@@ -117,7 +122,9 @@
     "title": "Anger Management",
     "genre": "Comedy",
     "year": 2003,
+
     "img": "../images/movies/AngerManagement(2003).jpg",
+
     "description": "A businessman is ordered to attend an anger management program after an incident on a flight.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -270,6 +277,7 @@
     "genre": "Romance, Drama",
     "year": 1995,
     "img": "../images/movies/before_sunrise.jpg",
+
     "description": "Two strangers meet on a train and spend a night walking around Vienna, forming a deep connection.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -307,7 +315,9 @@
     "title": "Billy Madison",
     "genre": "Comedy",
     "year": 1995,
+
     "img": "../images/movies/BillyMadison (1995).jpg",
+
     "description": "A spoiled man must repeat grades 1-12 to inherit his father s fortune.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -573,7 +583,9 @@
     "title": "Evil Dead Rise",
     "genre": "Horror",
     "year": 2023,
+
     "img": "../images/movies/evil_dead_rise(2023).jpg",
+
     "description": "A terrifying battle against demonic forces in a modern-day urban setting.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -611,6 +623,7 @@
     "title": "Ex Machina",
     "genre": "Sci-Fi, Thriller",
     "year": 2014,
+
     "img": "../images/movies/ex_machina.jpg",
     "description": "A young programmer is invited to administer the Turing test to an intelligent humanoid robot.",
     "rating": "⭐⭐⭐⭐",
@@ -650,6 +663,7 @@
     "genre": "Drama",
     "year": 1999,
     "img": "../images/movies/fight-club.jpg",
+
     "description": "An insomniac and a soap maker form an underground fight club that spirals out of control.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -687,6 +701,7 @@
     "title": "Forrest Gump",
     "genre": "Drama, Romance",
     "year": 1994,
+
     "img": "../images/movies/ForrestGump(1994).jpg",
     "description": "The life journey of a man with low IQ but good intentions through pivotal moments in history.",
     "rating": "⭐⭐⭐⭐",
@@ -726,6 +741,7 @@
     "genre": "Horror, Thriller",
     "year": 2022,
     "img": "../images/movies/goodnight_mommy(2022).jpg",
+
     "description": "Twin boys suspect their mother, returning from surgery, is an impostor.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -802,6 +818,7 @@
     "genre": "Romance, Drama",
     "year": 1995,
     "img": "../images/movies/Greatest-Love-Stories-Before-Sunrise.webp",
+
     "description": "A collection of love stories inspired by the iconic film Before Sunrise.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -954,6 +971,7 @@
     "genre": "Romantic Comedy",
     "year": 2005,
     "img": "../images/movies/Hitch(2005).jpg",
+
     "description": "A professional dating consultant helps men win over the women of their dreams.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1105,6 +1123,7 @@
     "title": "It Ends With Us",
     "genre": "Romance, Drama",
     "year": 2022,
+
     "img": "../images/movies/it_ends_with_us.jpg",
     "description": "A heartfelt romance exploring love and difficult choices.",
     "rating": "⭐⭐⭐⭐",
@@ -1144,6 +1163,7 @@
     "genre": "Horror",
     "year": 2017,
     "img": "../images/movies/it(2017).jpg",
+
     "description": "A group of kids face their fears as they confront an ancient evil clown terrorizing their town.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1182,6 +1202,7 @@
     "genre": "Thriller, Horror",
     "year": 1975,
     "img": "../images/movies/jaws(1975).jpg",
+
     "description": "A giant man-eating great white shark attacks beachgoers, prompting a hunt to stop it.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1258,6 +1279,7 @@
     "genre": "Comedy, Action",
     "year": 1990,
     "img": "../images/movies/KindergartenCop (1990).jpg",
+
     "description": "An undercover cop goes back to school to catch a criminal.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1333,7 +1355,9 @@
     "title": "Late Night with the Devil",
     "genre": "Horror",
     "year": 2023,
+
     "img": "../images/movies/late_night_with_the_devil(2023).jpg",
+
     "description": "A chilling tale of possession and a TV show trying to capture supernatural phenomena.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1371,6 +1395,7 @@
     "title": "Liar Liar",
     "genre": "Comedy",
     "year": 1997,
+
     "img": "../images/movies/LiarLiar(1997).jpg",
     "description": "A lawyer is forced to tell the truth for 24 hours after his son makes a birthday wish.",
     "rating": "⭐⭐⭐⭐",
@@ -1448,6 +1473,7 @@
     "genre": "Romance",
     "year": 2019,
     "img": "../images/movies/love_untangled.jpg",
+
     "description": "A woman reconnects with her past through social media, rediscovering lost love.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1562,6 +1588,7 @@
     "genre": "Comedy, Romance",
     "year": 2002,
     "img": "../images/movies/Mr.Deeds(2002).jpg",
+
     "description": "A small-town man inherits a huge fortune and moves to the big city, encountering new challenges and love.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1600,6 +1627,7 @@
     "genre": "Romance",
     "year": 2023,
     "img": "../images/movies/my_fault.jpg",
+
     "description": "A passionate and emotional romance between two complex characters.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1637,6 +1665,7 @@
     "title": "My Future You",
     "genre": "Romance",
     "year": 2023,
+
     "img": "../images/movies/my_future_you.jpg",
     "description": "A romantic journey of self-discovery and finding love in unexpected places.",
     "rating": "⭐⭐⭐⭐",
@@ -1676,6 +1705,7 @@
     "genre": "Romance",
     "year": 2022,
     "img": "../images/movies/my_love.jpg",
+
     "description": "A heartfelt tale of overcoming challenges to be with the one you love.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1752,6 +1782,7 @@
     "genre": "Biography, Drama, History",
     "year": 2023,
     "img": "../images/movies/Oppenheimer.jpg",
+
     "description": "The story of J. Robert Oppenheimer and the development of the atomic bomb.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1828,6 +1859,7 @@
     "genre": "Adventure, Fantasy",
     "year": 2006,
     "img": "../images/movies/piratesCaribbeanDeadMansChest.jpg",
+
     "description": "Jack Sparrow races to recover a legendary debt while facing supernatural threats.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1903,6 +1935,7 @@
     "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "genre": "Adventure, Fantasy",
     "year": 2003,
+
     "img": "../images/movies/piratesCaribbeanTheCureseofTheBlackPearl.jpg",
     "description": "Captain Jack Sparrow teams up with a blacksmith to rescue a kidnapped woman and break a pirate curse.",
     "rating": "⭐⭐⭐⭐",
@@ -1942,6 +1975,7 @@
     "genre": "Romance, Drama",
     "year": 2022,
     "img": "../images/movies/purple_hearts.webp",
+
     "description": "A struggling musician and a Marine find unexpected love through a marriage of convenience.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -1979,6 +2013,7 @@
     "title": "Rambo",
     "genre": "Action, Drama",
     "year": 2008,
+
     "img": "../images/movies/rambo.jpg",
     "description": "A former soldier goes on a rescue mission to save kidnapped missionaries in Burma.",
     "rating": "⭐⭐⭐⭐",
@@ -2968,6 +3003,7 @@
     "genre": "Animation, Adventure, Drama",
     "year": 1994,
     "img": "../images/movies/TheLionKing.jpg",
+
     "description": "A young lion prince flees his kingdom only to learn his true destiny.",
     "rating": "⭐⭐⭐⭐",
     "similar": [
@@ -3006,6 +3042,7 @@
     "genre": "Biography, Drama, Music",
     "year": 2002,
     "img": "../images/movies/ThePianist(2002).jpg",
+
     "description": "A Polish Jewish musician struggles to survive WWII.",
     "rating": "⭐⭐⭐⭐",
     "similar": [

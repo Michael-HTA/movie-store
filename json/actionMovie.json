@@ -3,20 +3,25 @@
     "title": "Blade",
     "genre": "Action, Horror",
     "year": 1998,
+
     "img": "../images/action/blade.jpg",
+
     "description": "A half-vampire, half-mortal man becomes a protector of humans against vampires."
   },
   {
     "title": "Blade II",
     "genre": "Action, Horror",
     "year": 2002,
+
     "img": "../images/action/blade2.jpg",
+
     "description": "Blade forms an uneasy alliance with vampire hunters to combat a new breed of mutant vampires."
   },
   {
     "title": "Fight Club",
     "genre": "Action, Drama",
     "year": 1999,
+
     "img": "../images/action/fight-club.jpg",
     "description": "An insomniac office worker and a soap maker form an underground fight club with surprising consequences."
   },
@@ -24,56 +29,72 @@
     "title": "Mad Max",
     "genre": "Action, Adventure",
     "year": 1979,
+
     "img": "../images/action/MadMax.jpg",
+
     "description": "In a post-apocalyptic wasteland, a vengeful cop sets out to stop a violent motorcycle gang."
   },
   {
     "title": "Oppenheimer",
     "genre": "Action, Drama, Biography",
     "year": 2023,
+
     "img": "../images/action/Oppenheimer.jpg",
+
     "description": "The story of J. Robert Oppenheimer and his role in the development of the atomic bomb."
   },
   {
     "title": "Pirates of the Caribbean: At Worlds End",
     "genre": "Action, Adventure, Fantasy",
     "year": 2007,
+
     "img": "../images/action/piratesCaribbeanAtWorldEnd.jpg",
+
     "description": "Captain Jack Sparrow and his crew face their greatest challenges in a battle for freedom on the high seas."
   },
   {
     "title": "Pirates of the Caribbean: Dead Mans Chest",
     "genre": "Action, Adventure, Fantasy",
     "year": 2006,
+
     "img": "../images/action/piratesCaribbeanDeadMansChest.jpg",
+
     "description": "Jack Sparrow races to recover the heart of Davy Jones to avoid eternal servitude."
   },
   {
     "title": "Pirates of the Caribbean: On Stranger Tides",
     "genre": "Action, Adventure, Fantasy",
     "year": 2011,
+
     "img": "../images/action/piratesCaribbeanOnStrangerTides.jpg",
+
     "description": "Jack Sparrow searches for the legendary Fountain of Youth and confronts old enemies."
   },
   {
     "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
     "genre": "Action, Adventure, Fantasy",
     "year": 2003,
+
     "img": "../images/action/piratesCaribbeanTheCureseofTheBlackPearl.jpg",
+
     "description": "A blacksmith teams up with a pirate to save the governors daughter from cursed pirates."
   },
   {
     "title": "Rambo",
     "genre": "Action, Thriller",
     "year": 2008,
+
     "img": "../images/action/rambo.jpg",
+
     "description": "A former soldier must rescue a group of missionaries taken hostage in war-torn Burma."
   },
   {
     "title": "Sky Captain and the World of Tomorrow",
     "genre": "Action, Sci-Fi, Adventure",
     "year": 2004,
+
     "img": "../images/action/SkyCaptain.jpg",
+
     "description": "A reporter and a pilot team up to save the world from a mysterious robot invasion."
   },
   {
@@ -81,34 +102,43 @@
     "genre": "Action, Thriller",
     "year": 2012,
     "img": "/../images/action/SkyFall.jpg",
+
     "description": "James Bond investigates an attack on MI6 and confronts a mysterious villain from his past."
   },
   {
     "title": "Tenet",
     "genre": "Action, Sci-Fi, Thriller",
     "year": 2020,
+
     "img": "../images/action/Tenet.jpg",
+
     "description": "A secret agent manipulates time to prevent World War III."
   },
   {
     "title": "Terminator",
     "genre": "Action, Sci-Fi",
     "year": 1984,
+
     "img": "../images/action/terminator.jpg",
+
     "description": "A cyborg assassin is sent back in time to kill the mother of a future resistance leader."
   },
   {
     "title": "Terminator 2: Judgment Day",
     "genre": "Action, Sci-Fi",
     "year": 1991,
+
     "img": "../images/action/Terminator2.jpg",
+
     "description": "A reprogrammed terminator protects a young boy from a more advanced assassin."
   },
   {
     "title": "The Godfather",
     "genre": "Crime, Drama",
     "year": 1972,
+
     "img": "../images/action/theGodFather.jpg",
+
     "description": "The aging patriarch of an organized crime dynasty transfers control to his reluctant son."
   },
   {
@@ -116,13 +146,16 @@
     "genre": "Animation, Adventure, Drama",
     "year": 1994,
     "img": "../images/action/TheLionKing.jpg",
+
     "description": "A lion prince flees his kingdom only to learn the true meaning of responsibility and bravery."
   },
   {
     "title": "The Wolf of Wall Street",
     "genre": "Biography, Crime, Drama",
     "year": 2013,
+
     "img": "../images/action/TheWolfOfWallStreet.jpg",
+
     "description": "Based on the true story of Jordan Belfort, a stockbroker who rose to prominence through crime and corruption."
   }
 ]

@@ -4,6 +4,7 @@
     "genre": "Drama, Romance",
     "year": 1994,
     "img": "images/IMDb/ForrestGump(1994).jpg",
+
     "description": "The story of a slow-witted but kind-hearted man who witnesses and influences key historical events."
   },
   {
@@ -11,6 +12,7 @@
     "genre": "Drama",
     "year": 1997,
     "img": "images/IMDb/GoodWillHunting(1997).jpg",
+
     "description": "A jnitor at MIT is a self-taught math genius who seeks help from a therapist to find direction in life."
   },
   {
@@ -18,20 +20,25 @@
     "genre": "Comedy, Drama, Romance",
     "year": 1997,
     "img": "images/IMDb/LifeIsBeautiful(1997).jpg",
+
     "description": "A father uses humor and imagination to protect his son during the horrors of a Nazi concentration camp."
   },
   {
     "title": "The Godfather",
     "genre": "Crime, Drama",
     "year": 1972,
+
     "img": "images/IMDb/The_Godfather_(1972).jpg",
+
     "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
   },
   {
     "title": "The Dark Knight",
     "genre": "Action, Crime, Drama",
     "year": 2008,
+
     "img": "images/IMDb/TheDarkKnight(2008).jpg",
+
     "description": "Batman sets out to dismantle the remaining criminal organizations in Gotham but faces a rising threat in the Joker."
   },
   {
