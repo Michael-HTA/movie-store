@@ -131,7 +131,6 @@ const searchOverlay = document.getElementById("search-overlay");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
-
   const query = input.value.trim().toLowerCase();
   resultsContainer.innerHTML = "";
 
@@ -157,7 +156,7 @@ form.addEventListener("submit", function (e) {
             "list-group-item list-group-item-action d-flex align-items-start gap-3";
           item.href = "#";
           item.innerHTML = `
-            <img src="${movie.img}" alt="${movie.title}" class="search-thumb">
+            <img src="../${movie.img}" alt="${movie.title}" class="search-thumb">
             <div>
               <div class="fw-bold">${movie.title}</div>
               <small class="text-muted">${movie.genre} | ${movie.year}</small>

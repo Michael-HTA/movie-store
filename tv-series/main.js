@@ -104,7 +104,7 @@ form.addEventListener("submit", function (e) {
     return;
   }
 
-  fetch("/json/movies.json")
+  fetch("./json/movies.json")
     .then((response) => response.json())
     .then((movies) => {
       const filtered = movies.filter((movie) =>

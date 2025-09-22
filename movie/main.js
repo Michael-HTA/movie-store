@@ -59,7 +59,7 @@ function showMovieModal(movie) {
   const moreLikeThis = document.getElementById("modal-more-like-this");
   moreLikeThis.innerHTML = "";
 
-  fetch("/json/movies.json")
+  fetch("../json/movies.json")
     .then((res) => res.json())
     .then((allMovies) => {
       const fullMovie = allMovies.find((m) => m.title === movie.title);
@@ -179,6 +179,7 @@ loadMovies({
 
 loadMovies({
   url: "../json/comedyMovie.json",
+
   container: comedyMoviesContainer,
   limit: 5,
   genre: "Comedy",
@@ -187,6 +188,7 @@ loadMovies({
 
 loadMovies({
   url: "../json/horrorMovie.json",
+
   container: horrorMovieContainer,
   limit: 5,
   genre: "Horror",
@@ -195,6 +197,7 @@ loadMovies({
 
 loadMovies({
   url: "../json/romanceMovie.json",
+
   container: romanceMovieContainer,
   limit: 5,
   genre: "Romance",
@@ -226,7 +229,7 @@ function handleSearchSubmit(e) {
 }
 
 function performSearch(query) {
-  fetch("/json/movies.json")
+  fetch("../json/movies.json")
     .then((res) => res.json())
     .then((movies) => {
       const results = filterMovies(movies, query);
@@ -265,7 +268,7 @@ function createSearchResultItem(movie) {
     "list-group-item list-group-item-action d-flex align-items-start gap-3";
   item.href = "#";
   item.innerHTML = `
-    <img src="../${movie.img}" alt="${movie.title}" class="search-thumb">
+    <img src="./${movie.img}" alt="${movie.title}" class="search-thumb">
     <div>
       <div class="fw-bold">${movie.title}</div>
       <small class="text-muted">${movie.genre} | ${movie.year}</small>
