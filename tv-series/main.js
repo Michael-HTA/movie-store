@@ -9,12 +9,14 @@ hamburgerBtn.addEventListener("click", () => {
   sidebar.classList.add("active");
   overlay.classList.add("active");
   hamburgerIcon.classList.add("rotate");
+  console.log("clicked");
 });
 
 closeSidebar.addEventListener("click", () => {
   sidebar.classList.remove("active");
   overlay.classList.remove("active");
   hamburgerIcon.classList.remove("rotate");
+  console.log("clicked");
 });
 
 overlay.addEventListener("click", () => {
@@ -22,46 +24,6 @@ overlay.addEventListener("click", () => {
   overlay.classList.remove("active");
   hamburgerIcon.classList.remove("rotate");
 });
-
-
-
-
-// ? This One Apply Movie Card and Flip Card on hover
-
-function renderExtraMovies(categoryName, movieList) {
-  const moreMoviesContainer = document.getElementById("moreMoviesContainer");
-  const modalTitle = document.getElementById("moreMoviesModalLabel");
-  moreMoviesContainer.innerHTML = "";
-  modalTitle.textContent = `${categoryName} Movies`;
-
-  movieList.slice(5).map((movie) => {
-    const col = document.createElement("div");
-    col.className = "col-auto mb-3";
-    col.innerHTML = `
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <div class="front-image">
-              <img src="${movie.img}" alt="${movie.title}">
-            </div>
-          </div>
-          <div class="flip-card-back">
-            <h5 class="card-title">${movie.title}</h5>
-            <p class="card-desc">${
-              movie.description || "No description available."
-            }</p>
-            <p class="card-text">${movie.genre} • ${movie.year}</p>
-          </div>
-        </div>
-      </div>
-    `;
-    col.querySelector(".flip-card").addEventListener("click", () => {
-      showMovieModal(movie);
-    });
-
-    moreMoviesContainer.appendChild(col);
-  });
-}
 
 function showMovieModal(movie) {
   const modalTitle = document.getElementById("movieDetailModalLabel");
@@ -82,96 +44,39 @@ function showMovieModal(movie) {
   movieModal.show();
 }
 
-// ? Declare div tag we want to apply
-const mostPopularContainer = document.getElementById("mostPopularContainer");
+const actionTvSeriesContainer = document.getElementById(
+  "actionTvSeriesContainer"
+);
 
-// ? fetch data from json file
-fetch("/json/popularMovie.json")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error("Failed to fetch movie data");
-    }
-    return response.json();
-  })
-  .then((PopularMovie) => {
-    PopularMovie.map((movie, index) => {
-      const col = document.createElement("div");
-      col.className = "col-2 mb-3";
-
-      col.innerHTML = `
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <div class="front-image">
-                <img src="${movie.img}" alt="${movie.title}">
-                </div>
-            </div>
-            <div class="flip-card-back">
-                <h5 class="card-title">${movie.title}</h5>
-                <p class="card-desc">${
-                  movie.description || "No description available."
-                }</p>
-                <p class="card-text">${movie.genre} • ${movie.year}</p>
-            </div>
-            </div>
-        </div>
-      `;
-
-      col.querySelector(".flip-card").addEventListener("click", () => {
-        showMovieModal(movie);
-      });
-
-      // ! Change this onclick function's args to add more movies categories  ("Most Popular", PopularMovie)
-      if (index < 5) {
-        mostPopularContainer.appendChild(col);
-      }
-    });
-  })
-  .catch((error) => {
-    console.error("Error loading comedy movies:", error);
-  });
-
-// // ? Declare div tag we want to apply
-const comedyContainer = document.getElementById("comedyContainer");
+let actionTvSeriesData = [];
 
 fetch("/json/tvSeries.json")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error("Failed to fetch movie data");
-    }
-    return response.json();
-  })
-  .then((comedyMovie) => {
-    comedyMovie.map((movie, index) => {
+  .then((res) => res.json())
+  .then((TvSeries) => {
+    actionTvSeriesData = TvSeries;
+
+    TvSeries.map((movie, index) => {
       const col = document.createElement("div");
       col.className = "col-2 mb-3";
-
       col.innerHTML = `
-    <div class="flip-card">
-        <div class="flip-card-inner">
-        <div class="flip-card-front">
-            <div class="front-image">
-            <img src="${movie.img}" alt="${movie.title}">
-            </div>
+        <div class="movie-card" role="button">
+          <img src="../${movie.img}" alt="${movie.title}" class="img-fluid" />
+          <h6 class="mt-2">${movie.title}</h6>
+          <p class="small text-muted">${movie.genre} • ${movie.year}</p>
         </div>
-        <div class="flip-card-back">
-            <h5 class="card-title">${movie.title}</h5>
-            <p class="card-desc">${
-              movie.description || "No description available."
-            }</p>
-            <p class="card-text">${movie.genre} • ${movie.year}</p>
-        </div>
-        </div>
-    </div>
-    `;
-      // ! Change this onclick function's args to add more movies categories  ("Comedy", comedyMovie)
-      if (index < 5) {
-        comedyContainer.appendChild(col);
-      }
+      `;
+      col.querySelector(".movie-card").addEventListener("click", () => {
+        showMovieModal({
+          ...movie,
+          img: `../${movie.img}`,
+        });
+      });
+
+      actionTvSeriesContainer.appendChild(col);
     });
   })
-  .catch((error) => {
-    console.error("Error loading comedy movies:", error);
+  .catch((err) => {
+    console.error("Failed to load action movies:", err);
   });
 
 const form = document.getElementById("movie-search-form");
@@ -207,7 +112,7 @@ form.addEventListener("submit", function (e) {
             "list-group-item list-group-item-action d-flex align-items-start gap-3";
           item.href = "#";
           item.innerHTML = `
-            <img src="${movie.img}" alt="${movie.title}" class="search-thumb">
+            <img src="../${movie.img}" alt="${movie.title}" class="search-thumb">
             <div>
               <div class="fw-bold">${movie.title}</div>
               <small class="text-muted">${movie.genre} | ${movie.year}</small>
@@ -219,7 +124,6 @@ form.addEventListener("submit", function (e) {
             resultsContainer.style.display = "none";
             searchOverlay.classList.remove("active");
           });
-
           resultsContainer.appendChild(item);
         });
       }

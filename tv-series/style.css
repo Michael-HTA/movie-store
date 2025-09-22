@@ -16,12 +16,6 @@ body {
 
 .form-control::placeholder {
   color: #e9471e;
-  /* Bootstrap warning color */
-}
-
-/* color setting for hamburger toggle */
-.hamburger {
-  color: #ff0000;
 }
 
 /* color setting for search button background */
@@ -40,42 +34,8 @@ body {
   box-shadow: none !important;
 }
 
-.ad-img {
-  position: absolute;
-  z-index: -1;
-  /* opacity: 0.8;  */
-}
-
-.carousel_item {
-  height: 500px;
-  object-fit: cover;
-  /* Ensures the image covers the container without distortion */
-}
-
-.carousel-btn {
-  left: 65%;
-}
-
-.bi-play {
-  color: #ff0000;
-}
-
-.bi-detail {
-  color: white;
-}
-
-.btn-play {
-  background-color: white;
-  color: #ff0000;
-}
-
-.btn-detail {
-  background-color: #ff0000;
-  color: white;
-}
-
-main .col {
-  margin-top: 500px;
+.hamburger-icon {
+  color: red;
 }
 
 h3 {
@@ -199,7 +159,7 @@ h3 {
 }
 
 .bi-play {
-  color: #ff0000;
+  color: #e9471e;
 }
 
 .bi-detail {
@@ -208,7 +168,7 @@ h3 {
 
 .btn-play {
   background-color: white;
-  color: #ff0000;
+  color: #e9471e;
 }
 
 /* Setting for footer */
@@ -227,7 +187,7 @@ h3 {
 }
 
 .footer {
-  color: #ff0000;
+  color: #e9471e;
 }
 
 .bi-facebook {
@@ -271,7 +231,7 @@ h3 {
 .sidebar ul li a,
 .close-text {
   color: white !important;
-  text-decoration: none !important;
+  text-decoration: none;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -320,7 +280,6 @@ h3 {
   transform: rotate(90deg);
 }
 
-/* --- Main Content --- */
 body {
   background-color: #222;
   color: #ffffff;

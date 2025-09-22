@@ -35,14 +35,14 @@
     "description": "The story of J. Robert Oppenheimer and his role in the development of the atomic bomb."
   },
   {
-    "title": "Pirates of the Caribbean: At World's End",
+    "title": "Pirates of the Caribbean: At Worlds End",
     "genre": "Action, Adventure, Fantasy",
     "year": 2007,
     "img": "images/action/piratesCaribbeanAtWorldEnd.jpg",
     "description": "Captain Jack Sparrow and his crew face their greatest challenges in a battle for freedom on the high seas."
   },
   {
-    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "title": "Pirates of the Caribbean: Dead Mans Chest",
     "genre": "Action, Adventure, Fantasy",
     "year": 2006,
     "img": "images/action/piratesCaribbeanDeadMansChest.jpg",
@@ -60,7 +60,7 @@
     "genre": "Action, Adventure, Fantasy",
     "year": 2003,
     "img": "images/action/piratesCaribbeanTheCureseofTheBlackPearl.jpg",
-    "description": "A blacksmith teams up with a pirate to save the governor's daughter from cursed pirates."
+    "description": "A blacksmith teams up with a pirate to save the governors daughter from cursed pirates."
   },
   {
     "title": "Rambo",
@@ -80,7 +80,7 @@
     "title": "Skyfall",
     "genre": "Action, Thriller",
     "year": 2012,
-    "img": "images/action/SkyFall.jpg",
+    "img": "/images/action/SkyFall.jpg",
     "description": "James Bond investigates an attack on MI6 and confronts a mysterious villain from his past."
   },
   {

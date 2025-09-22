@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons (for main content) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body class="overflow-x-hidden">
+    <!-- Header Navigation -->
+    <header>
+      <div class="row">
+        <!-- hamburger toggle menu -->
+        <div class="col-7">
+          <nav class="navbar">
+            <button class="navbar-toggler mx-4">
+              <i class="hamburger-icon bi bi-list"></i>
+            </button>
+          </nav>
+        </div>
+
+        <!-- Search box & search button -->
+        <div class="col-5 mt-2 position-relative">
+          <form class="d-flex" role="search" id="movie-search-form">
+            <input
+              id="search-input"
+              class="form-control me-2 rounded-pill text-white"
+              type="search"
+              placeholder="Search for movies"
+              aria-label="Search for movies"
+              autocomplete="off"
+            />
+            <button class="btn search-btn rounded-pill w-25" type="submit">
+              <i class="bi bi-search text-white"></i>
+            </button>
+          </form>
+
+          <div
+            id="search-results"
+            class="list-group position-absolute w-100 z-3"
+            style="
+              top: 100%;
+              max-height: 250px;
+              overflow-y: auto;
+              display: none;
+            "
+          ></div>
+          <div id="search-overlay" class="search-overlay"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+      <!-- Close text -->
+      <div id="closeSidebar" class="close-text p-3">
+        <i class="bi bi-list fs-3 me-2 sidebar-hamburger-icon"></i>Menu
+      </div>
+
+      <!-- Menu items -->
+      <ul class="p-3 list-unstyled">
+        <li class="mb-3">
+          <a href="../index.html"
+            ><i class="bi bi-house-door-fill me-2 fs-3"></i>Home</a
+          >
+        </li>
+        <li class="mb-3">
+          <a href="#"><i class="bi bi-star-fill me-2 fs-3"></i>Most Popular</a>
+        </li>
+        <li class="mb-3">
+          <a href="movies.html"><i class="bi bi-film me-2 fs-3"></i>Movies</a>
+        </li>
+        <li class="mb-3">
+          <a href="../tv-series/index.html"
+            ><i class="bi bi-tv-fill me-2 fs-3"></i>Tv Series</a
+          >
+        </li>
+        <li class="mb-3">
+          <a href="#"><i class="bi bi-gift-fill me-2 fs-3"></i>Special</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+
+    <!-- Main Content Area -->
+    <main>
+      <h1 class="main-title">Movies</h1>
+
+      <section class="mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <h2 class="carousel-title">Action and Adventure Movies</h2>
+          <a
+            href="#"
+            class="see-more-link"
+            data-bs-toggle="modal"
+            data-bs-target="#moreMoviesModal"
+            id="actionSeeMore"
+            >See more <i class="fas fa-chevron-right fa-xs"></i
+          ></a>
+        </div>
+        <div class="row g-3" id="actionMoviesContainer"></div>
+      </section>
+
+      <section class="mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <h2 class="carousel-title">Comedy</h2>
+          <a
+            href="#"
+            class="see-more-link"
+            data-bs-toggle="modal"
+            data-bs-target="#moreMoviesModal"
+            id="comedySeeMore"
+            >See more <i class="fas fa-chevron-right fa-xs"></i
+          ></a>
+        </div>
+        <div class="row g-3" id="comedyMoviesContainer"></div>
+      </section>
+
+      <section class="mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <h2 class="carousel-title">Horror</h2>
+          <a
+            href="#"
+            class="see-more-link"
+            data-bs-toggle="modal"
+            data-bs-target="#moreMoviesModal"
+            id="horrorSeeMore"
+            >See more <i class="fas fa-chevron-right fa-xs"></i
+          ></a>
+        </div>
+        <div class="row g-3" id="horrorMovieContainer"></div>
+      </section>
+
+      <section class="mb-4">
+        <div class="d-flex justify-content-between align-items-center mb-2">
+          <h2 class="carousel-title">Romance</h2>
+          <a
+            href="#"
+            class="see-more-link"
+            data-bs-toggle="modal"
+            data-bs-target="#moreMoviesModal"
+            id="romanceSeeMore"
+            >See more <i class="fas fa-chevron-right fa-xs"></i
+          ></a>
+        </div>
+        <div class="row g-3" id="romanceMovieContainer"></div>
+      </section>
+    </main>
+    <footer class="row footer p-1">
+      <div class="col">
+        <div class="container">
+          <div class="row">
+            <div class="col-8 col-md-10 d-flex align-items-center">
+              &copy;2025&trade;. All Rights Reserved.
+            </div>
+            <div class="col-4 col-md-2 d-flex justify-content-between">
+              <a href="#">
+                <i class="bi bi-facebook fs-3"></i>
+              </a>
+              <a href="#" class="">
+                <i class="bi bi-twitter-x fs-3"></i>
+              </a>
+              <a href="#" class="youtube">
+                <i class="bi bi-youtube fs-3"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modals -->
+    <div
+      class="modal fade"
+      id="moreMoviesModal"
+      tabindex="-1"
+      aria-labelledby="moreMoviesModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header">
+            <h5 class="modal-title" id="moreMoviesModalLabel">More Movies</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row" id="moreMoviesContainer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="movieDetailModal"
+      tabindex="-1"
+      aria-labelledby="movieDetailModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content bg-dark text-white">
+          <div class="modal-header">
+            <h5 class="modal-title" id="movieDetailModalLabel">Movie Title</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img id="modal-movie-img" src="" alt="" class="img-fluid mb-3" />
+            <p id="modal-movie-description"></p>
+            <p id="modal-movie-genre-year"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- bootstrap js cdn link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
