@@ -14,14 +14,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
       rel="stylesheet"
     />
-    <!-- Font Awesome for Icons (for main content) -->
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
@@ -33,7 +31,6 @@
     <!-- Header Navigation -->
     <header>
       <div class="row">
-        <!-- hamburger toggle menu -->
         <div class="col-7">
           <nav class="navbar">
             <button class="navbar-toggler mx-4">
@@ -42,7 +39,6 @@
           </nav>
         </div>
 
-        <!-- Search box & search button -->
         <div class="col-5 mt-2 position-relative">
           <form class="d-flex" role="search" id="movie-search-form">
             <input
@@ -50,7 +46,6 @@
               class="form-control me-2 rounded-pill text-white"
               type="search"
               placeholder="Search for movies"
-              aria-label="Search for movies"
               autocomplete="off"
             />
             <button class="btn search-btn rounded-pill w-25" type="submit">
@@ -75,20 +70,14 @@
 
     <!-- Sidebar -->
     <div id="sidebar" class="sidebar">
-      <!-- Close text -->
       <div id="closeSidebar" class="close-text p-3">
         <i class="bi bi-list fs-3 me-2 sidebar-hamburger-icon"></i>Menu
       </div>
-
-      <!-- Menu items -->
       <ul class="p-3 list-unstyled">
         <li class="mb-3">
           <a href="../index.html"
             ><i class="bi bi-house-door-fill me-2 fs-3"></i>Home</a
           >
-        </li>
-        <li class="mb-3">
-          <a href="#"><i class="bi bi-star-fill me-2 fs-3"></i>Most Popular</a>
         </li>
         <li class="mb-3">
           <a href="movies.html"><i class="bi bi-film me-2 fs-3"></i>Movies</a>
@@ -103,14 +92,11 @@
         </li>
       </ul>
     </div>
-
-    <!-- Overlay -->
     <div id="overlay" class="overlay"></div>
 
-    <!-- Main Content Area -->
+    <!-- Main Content -->
     <main>
       <h1 class="main-title">Movies</h1>
-
       <section class="mb-4">
         <div class="d-flex justify-content-between align-items-center mb-2">
           <h2 class="carousel-title">Action and Adventure Movies</h2>
@@ -120,8 +106,9 @@
             data-bs-toggle="modal"
             data-bs-target="#moreMoviesModal"
             id="actionSeeMore"
-            >See more <i class="fas fa-chevron-right fa-xs"></i
-          ></a>
+          >
+            See more <i class="fas fa-chevron-right fa-xs"></i>
+          </a>
         </div>
         <div class="row g-3" id="actionMoviesContainer"></div>
       </section>
@@ -135,8 +122,9 @@
             data-bs-toggle="modal"
             data-bs-target="#moreMoviesModal"
             id="comedySeeMore"
-            >See more <i class="fas fa-chevron-right fa-xs"></i
-          ></a>
+          >
+            See more <i class="fas fa-chevron-right fa-xs"></i>
+          </a>
         </div>
         <div class="row g-3" id="comedyMoviesContainer"></div>
       </section>
@@ -150,8 +138,9 @@
             data-bs-toggle="modal"
             data-bs-target="#moreMoviesModal"
             id="horrorSeeMore"
-            >See more <i class="fas fa-chevron-right fa-xs"></i
-          ></a>
+          >
+            See more <i class="fas fa-chevron-right fa-xs"></i>
+          </a>
         </div>
         <div class="row g-3" id="horrorMovieContainer"></div>
       </section>
@@ -165,12 +154,15 @@
             data-bs-toggle="modal"
             data-bs-target="#moreMoviesModal"
             id="romanceSeeMore"
-            >See more <i class="fas fa-chevron-right fa-xs"></i
-          ></a>
+          >
+            See more <i class="fas fa-chevron-right fa-xs"></i>
+          </a>
         </div>
         <div class="row g-3" id="romanceMovieContainer"></div>
       </section>
     </main>
+
+    <!-- Footer -->
     <footer class="row footer p-1">
       <div class="col">
         <div class="container">
@@ -179,15 +171,9 @@
               &copy;2025&trade;. All Rights Reserved.
             </div>
             <div class="col-4 col-md-2 d-flex justify-content-between">
-              <a href="#">
-                <i class="bi bi-facebook fs-3"></i>
-              </a>
-              <a href="#" class="">
-                <i class="bi bi-twitter-x fs-3"></i>
-              </a>
-              <a href="#" class="youtube">
-                <i class="bi bi-youtube fs-3"></i>
-              </a>
+              <a href="#"><i class="bi bi-facebook fs-3"></i></a>
+              <a href="#"><i class="bi bi-twitter-x fs-3"></i></a>
+              <a href="#"><i class="bi bi-youtube fs-3"></i></a>
             </div>
           </div>
         </div>
@@ -195,13 +181,7 @@
     </footer>
 
     <!-- Modals -->
-    <div
-      class="modal fade"
-      id="moreMoviesModal"
-      tabindex="-1"
-      aria-labelledby="moreMoviesModalLabel"
-      aria-hidden="true"
-    >
+    <div class="modal fade" id="moreMoviesModal" tabindex="-1">
       <div class="modal-dialog modal-fullscreen">
         <div class="modal-content bg-dark text-white">
           <div class="modal-header">
@@ -210,7 +190,6 @@
               type="button"
               class="btn-close"
               data-bs-dismiss="modal"
-              aria-label="Close"
             ></button>
           </div>
           <div class="modal-body">
@@ -219,41 +198,91 @@
         </div>
       </div>
     </div>
-    <div
-      class="modal fade"
-      id="movieDetailModal"
-      tabindex="-1"
-      aria-labelledby="movieDetailModalLabel"
-      aria-hidden="true"
-    >
+
+    <div class="modal fade" id="movieDetailModal" tabindex="-1">
       <div class="modal-dialog modal-xl">
         <div class="modal-content bg-dark text-white">
-          <div class="modal-header">
+          <div class="modal-header border-0">
             <h5 class="modal-title" id="movieDetailModalLabel">Movie Title</h5>
             <button
               type="button"
               class="btn-close btn-close-white"
               data-bs-dismiss="modal"
-              aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
-            <img id="modal-movie-img" src="" alt="" class="img-fluid mb-3" />
-            <p id="modal-movie-description"></p>
-            <p id="modal-movie-genre-year"></p>
+
+          <div class="modal-body p-0">
+            <!-- Hero Section -->
+            <section class="hero-section position-relative">
+              <img
+                id="modal-movie-img"
+                src=""
+                alt=""
+                class="w-100 hero-bg"
+                style="max-height: 400px; object-fit: contain"
+              />
+              <div
+                class="hero-content position-absolute bottom-0 start-0 p-4 text-white"
+              >
+                <h1 id="modal-movie-title">Movie Title</h1>
+                <p id="modal-movie-tagline">
+                  Short tagline or movie description
+                </p>
+                <div class="hero-buttons">
+                  <a
+                    href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1"
+                    class="btn btn-danger btn-watch"
+                    >▶ Watch Now</a
+                  >
+                  <button class="btn btn-outline-light btn-info">
+                    More Info
+                  </button>
+                </div>
+              </div>
+            </section>
+
+            <!-- Movie Info -->
+            <div class="container mt-4 movie-info">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="mx-auto w-75">
+                    <h4>Description</h4>
+                    <p class="text-white-50" id="modal-movie-description"></p>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                  <div class="w-75 mx-auto">
+                    <p>
+                      <strong class="text-white">Genres:</strong>
+                      <span id="modal-movie-genre" style="color: red"></span>
+                    </p>
+                    <p>
+                      <strong class="text-white">Year:</strong>
+                      <span id="modal-movie-year" style="color: red"></span>
+                    </p>
+                    <p>
+                      <strong class="text-white">Rating:</strong>
+                      <span id="modal-movie-rating" style="color: red"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- More Like This -->
+              <div class="row">
+                <div class="col-10 offset-1">
+                  <h5 class="mt-4 mb-3" style="color: red">More Like This</h5>
+                  <div class="d-flex flex-wrap" id="modal-more-like-this"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- bootstrap js cdn link -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>

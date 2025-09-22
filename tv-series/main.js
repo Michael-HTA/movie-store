@@ -47,6 +47,7 @@ function showMovieModal(movie) {
 const actionTvSeriesContainer = document.getElementById(
   "actionTvSeriesContainer"
 );
+// const tvLoader = document.getElementById("tv-loader");
 
 let actionTvSeriesData = [];
 
@@ -55,24 +56,31 @@ fetch("/json/tvSeries.json")
   .then((TvSeries) => {
     actionTvSeriesData = TvSeries;
 
-    TvSeries.map((movie, index) => {
-      const col = document.createElement("div");
-      col.className = "col-2 mb-3";
-      col.innerHTML = `
-        <div class="movie-card" role="button">
-          <img src="../${movie.img}" alt="${movie.title}" class="img-fluid" />
-          <h6 class="mt-2">${movie.title}</h6>
-          <p class="small text-muted">${movie.genre} • ${movie.year}</p>
-        </div>
-      `;
-      col.querySelector(".movie-card").addEventListener("click", () => {
-        showMovieModal({
-          ...movie,
-          img: `../${movie.img}`,
-        });
-      });
+    setTimeout(() => {
+      // if (tvLoader) tvLoader.remove();
 
-      actionTvSeriesContainer.appendChild(col);
+      TvSeries.forEach((movie) => {
+        const col = document.createElement("div");
+        col.className = "col-6 col-md-3 col-lg-2 mb-3";
+        col.innerHTML = `
+          <div class="movie-card" role="button">
+            <img src="../${movie.img}" alt="${movie.title}" class="img-fluid" />
+            <h6 class="mt-2">${movie.title}</h6>
+            <p class="small text-muted">${movie.genre} • ${movie.year}</p>
+          </div>
+        `;
+
+        col.querySelector(".movie-card").addEventListener("click", () => {
+          // showMovieModal({
+          //   ...movie,
+          //   img: `../${movie.img}`,
+          // });
+          window.location.href =
+            "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
+        });
+
+        actionTvSeriesContainer.appendChild(col);
+      });
     });
   })
   .catch((err) => {
@@ -120,9 +128,9 @@ form.addEventListener("submit", function (e) {
           `;
           item.addEventListener("click", function (e) {
             e.preventDefault();
-            showMovieModal(movie);
-            resultsContainer.style.display = "none";
-            searchOverlay.classList.remove("active");
+            // showMovieModal(movie);
+            window.location.href =
+              "https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1";
           });
           resultsContainer.appendChild(item);
         });
